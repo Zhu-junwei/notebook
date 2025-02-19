@@ -112,7 +112,6 @@ sudo apt install tasksel
 sudo tasksel
 ```
 
-
 # 软件系统更新
 
 ## 换源
@@ -163,5 +162,34 @@ sudo apt purge package_name
 sudo apt autoremove
 ```
 
+# 防火墙
+
+> 在 Debian 上，常用的防火墙管理工具是 iptables 或 nftables。不过，从 Debian 10 (Buster) 开始，nftables 被作为默认的防火墙管理工具，逐渐取代了
+> iptables，因为 nftables 提供了更简洁的语法和更高效的性能。
+
+## 切换到iptables防火墙
+
+1. 关闭`nftables`防火墙
+
+```
+# 检查 nftables 的服务状态
+sudo systemctl status nftables
+# 如果看到该服务运行，你可以通过以下命令停止并禁用它
+sudo systemctl stop nftables
+sudo systemctl disable nftables
+```
+
+2. 安装 iptables
+
+```
+# 安装 iptables
+sudo apt update
+sudo apt install iptables
+# 查看当前的防火墙规则
+sudo iptables -L
+# 检查 iptables 模式
+sudo update-alternatives --config iptables
+
+```
 
 
