@@ -1,4 +1,4 @@
-# 原生系统
+# CentOS 7 安装 MySQL 
 
 ## 安装
 
@@ -302,6 +302,253 @@ sudo yum makecache
 ```
 重启系统：
 ```bash
+sudo reboot
+```
+
+# Debian 12 安装 MySQL
+
+> 在Debain系统通过apt安装MySQL
+
+## 安装
+
+### 安装mysql DEB软件包
+
+[官网位置](https://dev.mysql.com/downloads/repo/apt/)
+
+下载mysql deb包
+
+```
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.33-1_all.deb
+```
+
+安装`gnupg`依赖
+
+```
+sudo apt install gnupg
+```
+
+这里安装了`gnupg`，如果已安装请忽略。
+
+> `GnuPG`（GNU Privacy Guard，简称 `GPG`）是一个开源的加密软件，用于保护数据的隐私和完整性。它基于 OpenPGP
+> 标准，主要用于加密、解密、签名和验证数据。
+
+安装deb包
+
+````
+sudo dpkg -i mysql-apt-config_0.8.33-1_all.deb
+````
+
+按下方向`↓`键选中`OK`，然后回车。
+
+> 这里默认选中的是`MySQL Server & Cluster (Currently selected: mysql-8.4-lts)`，如果需要其他版本，可以自行选择。
+
+
+更新系统软件包列表
+
+```
+sudo apt update
+```
+
+搜索mysql相关包
+
+```
+sudo apt search --names-only mysql-server
+```
+
+### 安装mysql
+
+通过`apt install`命令安装`mysql-server`
+
+```
+sudo apt install mysql-server
+```
+
+中间可以设置`root`用户的密码。
+
+查看mysql的状态
+
+```
+sudo systemctl status mysql
+```
+
+如果看到`active (running)`，表示mysql服务正常运行。
+
+### 配置安全设置
+
+```
+sudo mysql_secure_installation
+```
+
+```
+zjw@debian:~$ sudo mysql_secure_installation
+
+Securing the MySQL server deployment.
+
+Enter password for user root: 
+
+VALIDATE PASSWORD COMPONENT can be used to test passwords
+and improve security. It checks the strength of password
+and allows the users to set only those passwords which are
+secure enough. Would you like to setup VALIDATE PASSWORD component?
+
+Press y|Y for Yes, any other key for No: 
+Using existing password for root.
+Change the password for root ? ((Press y|Y for Yes, any other key for No) : 
+
+ ... skipping.
+By default, a MySQL installation has an anonymous user,
+allowing anyone to log into MySQL without having to have
+a user account created for them. This is intended only for
+testing, and to make the installation go a bit smoother.
+You should remove them before moving into a production
+environment.
+
+Remove anonymous users? (Press y|Y for Yes, any other key for No) : y
+Success.
+
+
+Normally, root should only be allowed to connect from
+'localhost'. This ensures that someone cannot guess at
+the root password from the network.
+
+Disallow root login remotely? (Press y|Y for Yes, any other key for No) : 
+
+ ... skipping.
+By default, MySQL comes with a database named 'test' that
+anyone can access. This is also intended only for testing,
+and should be removed before moving into a production
+environment.
+
+
+Remove test database and access to it? (Press y|Y for Yes, any other key for No) : y
+ - Dropping test database...
+Success.
+
+ - Removing privileges on test database...
+Success.
+
+Reloading the privilege tables will ensure that all changes
+made so far will take effect immediately.
+
+Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y
+Success.
+
+All done!
+```
+
+工具会让我们选择设置：
+- 是否启用密码的安全性插件 VALIDATE PASSWORD COMPONENT `[回车，不启用]`
+- 是否使用已经存在的root密码，如果选择是则需要重新设置 `[直接回车，因为安装的时候设置了]`
+- 是否移除匿名用户 `[y，回车，移除]`
+- 是否禁止root用户远程访问 `[回车，不禁止]`
+- 是否移除test数据库 `[y，回车，移除]`
+- 是否立即加载权限表 `[y，回车，加载]`
+
+可以按照自己的需求进行设置。
+
+### 创建远程用户
+
+登录mysql
+
+```
+mysql -u root -p
+```
+
+创建远程用户
+
+```
+CREATE USER 'root'@'%' IDENTIFIED BY '123456';
+CREATE USER 'zjw'@'%' IDENTIFIED BY '123456';
+```
+
+> 这里创建了远程用户`root`和`zjw`，密码都为`123456`
+
+授权远程用户
+
+```
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'zjw'@'%' WITH GRANT OPTION;
+```
+
+查看用户
+
+```
+select user,host,plugin from mysql.user;
+```
+
+刷新权限
+
+```
+FLUSH PRIVILEGES;
+exit
+```
+
+## 卸载
+
+**停止 MySQL 服务**
+
+在卸载 MySQL 之前，首先需要停止 MySQL 服务：
+
+```
+sudo systemctl stop mysql
+```
+
+**卸载 MySQL 包**
+
+然后，您可以卸载 MySQL 相关的包。执行以下命令来卸载 MySQL 服务器和相关软件包：
+
+```
+sudo apt purge mysql-server mysql-client mysql-common mysql-server-core-* mysql-client-core-*
+```
+
+**删除 MySQL 配置文件和数据库文件**
+
+卸载 MySQL 后，还需要删除 MySQL 的配置文件和数据库文件，以确保完全清除 MySQL：
+
+```
+sudo rm -rf /etc/mysql /var/lib/mysql /var/log/mysql /var/log/mysql.*
+```
+
+**清理无用的依赖包**
+
+执行以下命令来删除与 MySQL 相关的所有不再需要的依赖包：
+
+```
+sudo apt autoremove
+```
+
+**删除用户和组（如果需要）**
+
+如果您希望完全删除 MySQL 用户和组（如 mysql），可以执行：
+
+```
+sudo deluser mysql
+sudo delgroup mysql
+```
+
+**清理包缓存（可选）**
+
+如果您想清理 APT 的缓存，可以执行：
+
+```
+sudo apt clean
+```
+
+**检查 MySQL 是否已完全删除**
+
+您可以使用以下命令确认 MySQL 是否完全卸载
+
+```
+dpkg -l | grep mysql
+```
+
+如果没有返回任何结果，表示 MySQL 已完全卸载。
+
+**重新启动服务器（可选）**
+
+在卸载完成后，您可以选择重新启动系统：
+
+```
 sudo reboot
 ```
 
