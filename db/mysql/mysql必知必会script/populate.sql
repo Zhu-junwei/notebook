@@ -1,182 +1,112 @@
-########################################
-# MySQL Crash Course
-# http://www.forta.com/books/0672327120/
-# Example table population scripts
-########################################
+-- -----------------------------------------------------
+-- Sams Teach Yourself SQL in 10 Minutes, 5th Edition
+-- http://forta.com/books/0135182794/
+-- Example table population scripts for MySQL & MariaDB
+-- -----------------------------------------------------
 
 
-##########################
-# Populate customers table
-##########################
-INSERT INTO customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact, cust_email)
-VALUES(10001, 'Coyote Inc.', '200 Maple Lane', 'Detroit', 'MI', '44444', 'USA', 'Y Lee', 'ylee@coyote.com');
-INSERT INTO customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact)
-VALUES(10002, 'Mouse House', '333 Fromage Lane', 'Columbus', 'OH', '43333', 'USA', 'Jerry Mouse');
-INSERT INTO customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact, cust_email)
-VALUES(10003, 'Wascals', '1 Sunny Place', 'Muncie', 'IN', '42222', 'USA', 'Jim Jones', 'rabbit@wascally.com');
-INSERT INTO customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact, cust_email)
-VALUES(10004, 'Yosemite Place', '829 Riverside Drive', 'Phoenix', 'AZ', '88888', 'USA', 'Y Sam', 'sam@yosemite.com');
-INSERT INTO customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact)
-VALUES(10005, 'E Fudd', '4545 53rd Street', 'Chicago', 'IL', '54545', 'USA', 'E Fudd');
+-- ------------------------
+-- Populate Customers table
+-- ------------------------
+INSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact, cust_email)
+VALUES('1000000001', 'Village Toys', '200 Maple Lane', 'Detroit', 'MI', '44444', 'USA', 'John Smith', 'sales@villagetoys.com');
+INSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact)
+VALUES('1000000002', 'Kids Place', '333 South Lake Drive', 'Columbus', 'OH', '43333', 'USA', 'Michelle Green');
+INSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact, cust_email)
+VALUES('1000000003', 'Fun4All', '1 Sunny Place', 'Muncie', 'IN', '42222', 'USA', 'Jim Jones', 'jjones@fun4all.com');
+INSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact, cust_email)
+VALUES('1000000004', 'Fun4All', '829 Riverside Drive', 'Phoenix', 'AZ', '88888', 'USA', 'Denise L. Stephens', 'dstephens@fun4all.com');
+INSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact)
+VALUES('1000000005', 'The Toy Store', '4545 53rd Street', 'Chicago', 'IL', '54545', 'USA', 'Kim Howard');
 
+-- ----------------------
+-- Populate Vendors table
+-- ----------------------
+INSERT INTO Vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)
+VALUES('BRS01','Bears R Us','123 Main Street','Bear Town','MI','44444', 'USA');
+INSERT INTO Vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)
+VALUES('BRE02','Bear Emporium','500 Park Street','Anytown','OH','44333', 'USA');
+INSERT INTO Vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)
+VALUES('DLL01','Doll House Inc.','555 High Street','Dollsville','CA','99999', 'USA');
+INSERT INTO Vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)
+VALUES('FRB01','Furball Inc.','1000 5th Avenue','New York','NY','11111', 'USA');
+INSERT INTO Vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)
+VALUES('FNG01','Fun and Games','42 Galaxy Road','London', NULL,'N16 6PS', 'England');
+INSERT INTO Vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)
+VALUES('JTS01','Jouets et ours','1 Rue Amusement','Paris', NULL,'45678', 'France');
 
-########################
-# Populate vendors table
-########################
-INSERT INTO vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)
-VALUES(1001,'Anvils R Us','123 Main Street','Southfield','MI','48075', 'USA');
-INSERT INTO vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)
-VALUES(1002,'LT Supplies','500 Park Street','Anytown','OH','44333', 'USA');
-INSERT INTO vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)
-VALUES(1003,'ACME','555 High Street','Los Angeles','CA','90046', 'USA');
-INSERT INTO vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)
-VALUES(1004,'Furball Inc.','1000 5th Avenue','New York','NY','11111', 'USA');
-INSERT INTO vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)
-VALUES(1005,'Jet Set','42 Galaxy Road','London', NULL,'N16 6PS', 'England');
-INSERT INTO vendors(vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country)
-VALUES(1006,'Jouets Et Ours','1 Rue Amusement','Paris', NULL,'45678', 'France');
+-- -----------------------
+-- Populate Products table
+-- -----------------------
+INSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)
+VALUES('BR01', 'BRS01', '8 inch teddy bear', 5.99, '8 inch teddy bear, comes with cap and jacket');
+INSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)
+VALUES('BR02', 'BRS01', '12 inch teddy bear', 8.99, '12 inch teddy bear, comes with cap and jacket');
+INSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)
+VALUES('BR03', 'BRS01', '18 inch teddy bear', 11.99, '18 inch teddy bear, comes with cap and jacket');
+INSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)
+VALUES('BNBG01', 'DLL01', 'Fish bean bag toy', 3.49, 'Fish bean bag toy, complete with bean bag worms with which to feed it');
+INSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)
+VALUES('BNBG02', 'DLL01', 'Bird bean bag toy', 3.49, 'Bird bean bag toy, eggs are not included');
+INSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)
+VALUES('BNBG03', 'DLL01', 'Rabbit bean bag toy', 3.49, 'Rabbit bean bag toy, comes with bean bag carrots');
+INSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)
+VALUES('RGAN01', 'DLL01', 'Raggedy Ann', 4.99, '18 inch Raggedy Ann doll');
+INSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)
+VALUES('RYL01', 'FNG01', 'King doll', 9.49, '12 inch king doll with royal garments and crown');
+INSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)
+VALUES('RYL02', 'FNG01', 'Queen doll', 9.49, '12 inch queen doll with royal garments and crown');
 
+-- ---------------------
+-- Populate Orders table
+-- ---------------------
+INSERT INTO Orders(order_num, order_date, cust_id)
+VALUES(20005, '2020-05-01', '1000000001');
+INSERT INTO Orders(order_num, order_date, cust_id)
+VALUES(20006, '2020-01-12', '1000000003');
+INSERT INTO Orders(order_num, order_date, cust_id)
+VALUES(20007, '2020-01-30', '1000000004');
+INSERT INTO Orders(order_num, order_date, cust_id)
+VALUES(20008, '2020-02-03', '1000000005');
+INSERT INTO Orders(order_num, order_date, cust_id)
+VALUES(20009, '2020-02-08', '1000000001');
 
-#########################
-# Populate products table
-#########################
-INSERT INTO products(prod_id, vend_id, prod_name, prod_price, prod_desc)
-VALUES('ANV01', 1001, '.5 ton anvil', 5.99, '.5 ton anvil, black, complete with handy hook');
-INSERT INTO products(prod_id, vend_id, prod_name, prod_price, prod_desc)
-VALUES('ANV02', 1001, '1 ton anvil', 9.99, '1 ton anvil, black, complete with handy hook and carrying case');
-INSERT INTO products(prod_id, vend_id, prod_name, prod_price, prod_desc)
-VALUES('ANV03', 1001, '2 ton anvil', 14.99, '2 ton anvil, black, complete with handy hook and carrying case');
-INSERT INTO products(prod_id, vend_id, prod_name, prod_price, prod_desc)
-VALUES('OL1', 1002, 'Oil can', 8.99, 'Oil can, red');
-INSERT INTO products(prod_id, vend_id, prod_name, prod_price, prod_desc)
-VALUES('FU1', 1002, 'Fuses', 3.42, '1 dozen, extra long');
-INSERT INTO products(prod_id, vend_id, prod_name, prod_price, prod_desc)
-VALUES('SLING', 1003, 'Sling', 4.49, 'Sling, one size fits all');
-INSERT INTO products(prod_id, vend_id, prod_name, prod_price, prod_desc)
-VALUES('TNT1', 1003, 'TNT (1 stick)', 2.50, 'TNT, red, single stick');
-INSERT INTO products(prod_id, vend_id, prod_name, prod_price, prod_desc)
-VALUES('TNT2', 1003, 'TNT (5 sticks)', 10, 'TNT, red, pack of 10 sticks');
-INSERT INTO products(prod_id, vend_id, prod_name, prod_price, prod_desc)
-VALUES('FB', 1003, 'Bird seed', 10, 'Large bag (suitable for road runners)');
-INSERT INTO products(prod_id, vend_id, prod_name, prod_price, prod_desc)
-VALUES('FC', 1003, 'Carrots', 2.50, 'Carrots (rabbit hunting season only)');
-INSERT INTO products(prod_id, vend_id, prod_name, prod_price, prod_desc)
-VALUES('SAFE', 1003, 'Safe', 50, 'Safe with combination lock');
-INSERT INTO products(prod_id, vend_id, prod_name, prod_price, prod_desc)
-VALUES('DTNTR', 1003, 'Detonator', 13, 'Detonator (plunger powered), fuses not included');
-INSERT INTO products(prod_id, vend_id, prod_name, prod_price, prod_desc)
-VALUES('JP1000', 1005, 'JetPack 1000', 35, 'JetPack 1000, intended for single use');
-INSERT INTO products(prod_id, vend_id, prod_name, prod_price, prod_desc)
-VALUES('JP2000', 1005, 'JetPack 2000', 55, 'JetPack 2000, multi-use');
-
-
-
-#######################
-# Populate orders table
-#######################
-INSERT INTO orders(order_num, order_date, cust_id)
-VALUES(20005, '2005-09-01', 10001);
-INSERT INTO orders(order_num, order_date, cust_id)
-VALUES(20006, '2005-09-12', 10003);
-INSERT INTO orders(order_num, order_date, cust_id)
-VALUES(20007, '2005-09-30', 10004);
-INSERT INTO orders(order_num, order_date, cust_id)
-VALUES(20008, '2005-10-03', 10005);
-INSERT INTO orders(order_num, order_date, cust_id)
-VALUES(20009, '2005-10-08', 10001);
-
-
-###########################
-# Populate orderitems table
-###########################
-INSERT INTO orderitems(order_num, order_item, prod_id, quantity, item_price)
-VALUES(20005, 1, 'ANV01', 10, 5.99);
-INSERT INTO orderitems(order_num, order_item, prod_id, quantity, item_price)
-VALUES(20005, 2, 'ANV02', 3, 9.99);
-INSERT INTO orderitems(order_num, order_item, prod_id, quantity, item_price)
-VALUES(20005, 3, 'TNT2', 5, 10);
-INSERT INTO orderitems(order_num, order_item, prod_id, quantity, item_price)
-VALUES(20005, 4, 'FB', 1, 10);
-INSERT INTO orderitems(order_num, order_item, prod_id, quantity, item_price)
-VALUES(20006, 1, 'JP2000', 1, 55);
-INSERT INTO orderitems(order_num, order_item, prod_id, quantity, item_price)
-VALUES(20007, 1, 'TNT2', 100, 10);
-INSERT INTO orderitems(order_num, order_item, prod_id, quantity, item_price)
-VALUES(20008, 1, 'FC', 50, 2.50);
-INSERT INTO orderitems(order_num, order_item, prod_id, quantity, item_price)
-VALUES(20009, 1, 'FB', 1, 10);
-INSERT INTO orderitems(order_num, order_item, prod_id, quantity, item_price)
-VALUES(20009, 2, 'OL1', 1, 8.99);
-INSERT INTO orderitems(order_num, order_item, prod_id, quantity, item_price)
-VALUES(20009, 3, 'SLING', 1, 4.49);
-INSERT INTO orderitems(order_num, order_item, prod_id, quantity, item_price)
-VALUES(20009, 4, 'ANV03', 1, 14.99);
-
-#############################
-# Populate productnotes table
-#############################
-INSERT INTO productnotes(note_id, prod_id, note_date, note_text)
-VALUES(101, 'TNT2', '2005-08-17',
-'Customer complaint:
-Sticks not individually wrapped, too easy to mistakenly detonate all at once.
-Recommend individual wrapping.'
-);
-INSERT INTO productnotes(note_id, prod_id, note_date, note_text)
-VALUES(102, 'OL1', '2005-08-18',
-'Can shipped full, refills not available.
-Need to order new can if refill needed.'
-);
-INSERT INTO productnotes(note_id, prod_id, note_date, note_text)
-VALUES(103, 'SAFE', '2005-08-18',
-'Safe is combination locked, combination not provided with safe.
-This is rarely a problem as safes are typically blown up or dropped by customers.'
-);
-INSERT INTO productnotes(note_id, prod_id, note_date, note_text)
-VALUES(104, 'FC', '2005-08-19',
-'Quantity varies, sold by the sack load.
-All guaranteed to be bright and orange, and suitable for use as rabbit bait.'
-);
-INSERT INTO productnotes(note_id, prod_id, note_date, note_text)
-VALUES(105, 'TNT2', '2005-08-20',
-'Included fuses are short and have been known to detonate too quickly for some customers.
-Longer fuses are available (item FU1) and should be recommended.'
-);
-INSERT INTO productnotes(note_id, prod_id, note_date, note_text)
-VALUES(106, 'TNT2', '2005-08-22',
-'Matches not included, recommend purchase of matches or detonator (item DTNTR).'
-);
-INSERT INTO productnotes(note_id, prod_id, note_date, note_text)
-VALUES(107, 'SAFE', '2005-08-23',
-'Please note that no returns will be accepted if safe opened using explosives.'
-);
-INSERT INTO productnotes(note_id, prod_id, note_date, note_text)
-VALUES(108, 'ANV01', '2005-08-25',
-'Multiple customer returns, anvils failing to drop fast enough or falling backwards on purchaser. Recommend that customer considers using heavier anvils.'
-);
-INSERT INTO productnotes(note_id, prod_id, note_date, note_text)
-VALUES(109, 'ANV03', '2005-09-01',
-'Item is extremely heavy. Designed for dropping, not recommended for use with slings, ropes, pulleys, or tightropes.'
-);
-INSERT INTO productnotes(note_id, prod_id, note_date, note_text)
-VALUES(110, 'FC', '2005-09-01',
-'Customer complaint: rabbit has been able to detect trap, food apparently less effective now.'
-);
-INSERT INTO productnotes(note_id, prod_id, note_date, note_text)
-VALUES(111, 'SLING', '2005-09-02',
-'Shipped unassembled, requires common tools (including oversized hammer).'
-);
-INSERT INTO productnotes(note_id, prod_id, note_date, note_text)
-VALUES(112, 'SAFE', '2005-09-02',
-'Customer complaint:
-Circular hole in safe floor can apparently be easily cut with handsaw.'
-);
-INSERT INTO productnotes(note_id, prod_id, note_date, note_text)
-VALUES(113, 'ANV01', '2005-09-05',
-'Customer complaint:
-Not heavy enough to generate flying stars around head of victim. If being purchased for dropping, recommend ANV02 or ANV03 instead.'
-);
-INSERT INTO productnotes(note_id, prod_id, note_date, note_text)
-VALUES(114, 'SAFE', '2005-09-07',
-'Call from individual trapped in safe plummeting to the ground, suggests an escape hatch be added.
-Comment forwarded to vendor.'
-);
+-- -------------------------
+-- Populate OrderItems table
+-- -------------------------
+INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
+VALUES(20005, 1, 'BR01', 100, 5.49);
+INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
+VALUES(20005, 2, 'BR03', 100, 10.99);
+INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
+VALUES(20006, 1, 'BR01', 20, 5.99);
+INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
+VALUES(20006, 2, 'BR02', 10, 8.99);
+INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
+VALUES(20006, 3, 'BR03', 10, 11.99);
+INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
+VALUES(20007, 1, 'BR03', 50, 11.49);
+INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
+VALUES(20007, 2, 'BNBG01', 100, 2.99);
+INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
+VALUES(20007, 3, 'BNBG02', 100, 2.99);
+INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
+VALUES(20007, 4, 'BNBG03', 100, 2.99);
+INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
+VALUES(20007, 5, 'RGAN01', 50, 4.49);
+INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
+VALUES(20008, 1, 'RGAN01', 5, 4.99);
+INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
+VALUES(20008, 2, 'BR03', 5, 11.99);
+INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
+VALUES(20008, 3, 'BNBG01', 10, 3.49);
+INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
+VALUES(20008, 4, 'BNBG02', 10, 3.49);
+INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
+VALUES(20008, 5, 'BNBG03', 10, 3.49);
+INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
+VALUES(20009, 1, 'BNBG01', 250, 2.49);
+INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
+VALUES(20009, 2, 'BNBG02', 250, 2.49);
+INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
+VALUES(20009, 3, 'BNBG03', 250, 2.49);
