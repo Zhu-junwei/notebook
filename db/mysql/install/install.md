@@ -307,7 +307,7 @@ sudo yum makecache
 sudo reboot
 ```
 
-# Debian 12 安装 MySQL
+# Debian 12 apt 安装 MySQL
 
 > 在Debain系统通过apt安装MySQL
 
@@ -553,6 +553,10 @@ dpkg -l | grep mysql
 ```
 sudo reboot
 ```
+
+# Debian 安装
+
+
 
 # docker
 
