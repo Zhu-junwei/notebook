@@ -33,27 +33,43 @@ scoop --version
 
 ### 🔄 自定义安装目录
 
-例如，如果希望 Scoop 安装到 `D:\scoop`，可以在 PowerShell 中运行：
-```powershell
-$env:SCOOP='D:\scoop'
-[Environment]::SetEnvironmentVariable('USERSCOOP', $env:SCOOP, 'User')
-
-这个需要管理员权限
-$env:SCOOP_GLOBAL='D:\scoop'
-[Environment]::SetEnvironmentVariable('SCOOP_GLOBAL', $env:SCOOP_GLOBAL, 'Machine')
-```
+例如，如果希望 Scoop 安装到 `D:\software\scoop`，最好采用手动安装：
 
 然后重新运行 Scoop 安装命令：
 ```
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/scoopinstaller/install/master/install.ps1" -OutFile "install.ps1"
+
+.\install.ps1 -ScoopDir 'D:\software\scoop' -ScoopGlobalDir 'D:\scoop_global' -NoProxy
+```
+
+## bucket管理
+
+>  bucket 是 Scoop 的一个概念，它允许用户添加额外的软件源，以便在 Scoop 中安装更多软件。
+
+```powershell
+# 列出已安装的 bucket
+scoop bucket list
+# 列出已知的 bucket
+scoop bucket known
+# 添加新的 bucket
+scoop bucket add java
+
+# 添加第三方的 bucket 根据需要添加删除自带的bucket，
+scoop config SCOOP_REPO "https://gitee.com/scoop-installer/scoop"
+scoop bucket add main https://gitee.com/cmontage/scoopbucket
+scoop bucket add dorado https://github.com/chawyehsu/dorado
+scoop bucket add dorado https://gitee.com/scoop-bucket/dorado
+scoop bucket add abgo_bucket https://gitee.com/abgox/abgo_bucket
+scoop bucket add third https://gitee.com/cmontage/scoopbucket-third
+
 ```
 
 ## 安装 🛠️ 和卸载 ❌ 软件
 
 ### 📦 搜索软件
 
-可以使用 `Scoop` 搜索软件，例如搜索 `7zip`：
+可以使用 `Scoop` 搜索软件，`例如搜索` `7zip`：
 ```powershell
 scoop search 7zip
 ```
@@ -72,20 +88,6 @@ scoop install 7zip
 scoop uninstall 7zip
 ```
 
-## bucket管理
-
->  bucket 是 Scoop 的一个概念，它允许用户添加额外的软件源，以便在 Scoop 中安装更多软件。
-
-```powershell
-# 列出已安装的 bucket
-scoop bucket list
-# 列出已知的 bucket
-scoop bucket known
-# 添加新的 bucket
-scoop bucket add java
-# 添加第三方的 bucket
-scoop bucket add dorado https://github.com/chawyehsu/dorado 
-```
 
 ## 卸载 🗑️ Scoop
 
@@ -100,15 +102,20 @@ scoop uninstall '*'
 
 找到 Scoop 安装目录（默认在 `C:\Users\你的用户名\scoop`），然后运行以下命令删除：
 ```powershell
-
 Remove-Item -Recurse -Force "C:\Users\$env:UserName\scoop"
+```
+
+或者通过 `$env:SCOOP` 变量删除：
+```powershell
+Remove-Item -Recurse -Force $env:SCOOP
 ```
 
 ### 🛠️ 删除环境变量
 
 在 PowerShell 中运行：
 ```powershell
-[System.Environment]::SetEnvironmentVariable('SCOOP', $null, 'User')
+[Environment]::SetEnvironmentVariable('SCOOP', $null, 'User')
+[Environment]::SetEnvironmentVariable('SCOOP_GLOBAL', $null, 'Machine')
 ```
 
 ### 🗑️ 删除 Scoop 相关的 PATH 变量
