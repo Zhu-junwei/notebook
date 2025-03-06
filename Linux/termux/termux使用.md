@@ -23,7 +23,7 @@ termux-change-repo
 
 ```shell
 sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-main stable main@' $PREFIX/etc/apt/sources.list
-apt update && apt upgrade
+pkg update && pkg upgrade
 ```
 
 ### 手动修改
@@ -41,7 +41,8 @@ deb https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-main stable main
 ## 安装常用软件
 
 ```shell
-pkg install aapt curl git jq lrzsz netcat-openbsd nmap nodejs openjdk-17 openssh proot python root-repo sl termux-api 
+pkg install aapt curl cronie git jq lrzsz netcat-openbsd nmap nodejs openjdk-17 openssh proot python root-repo sl 
+termux-api 
 termux-exec termux-services tree vim wget x11-repo -y
 ``` 
 
@@ -49,6 +50,7 @@ termux-exec termux-services tree vim wget x11-repo -y
 |-----------------|------------------------|
 | aapt            | Android 平台下的 APK 包管理工具 |
 | curl            | 用于发送 HTTP 请求           |
+| cronie          | 定时任务管理工具               |
 | git             | 版本控制工具                 |
 | jq              | 轻量级 JSON 解析器           |
 | lrzsz           | 终端文件传输工具               |
@@ -630,15 +632,14 @@ pkg install php curl unzip wget -y
 从 kodbox 官方网站或 GitHub 下载最新的安装包：
 
 ```
-mkdir ~/app/
-cd ~/app/
+mkdir ~/app/ && cd ~/app/
 wget https://github.com/kalcaddle/kodbox/archive/refs/heads/master.zip -O kodbox.zip
 ```
 
 解压安装包
 
 ```
-unzip kodbox.zip
+unzip kodbox.zip && rm kodbox.zip
 mv kodbox-main kodbox
 ```
 
@@ -658,7 +659,7 @@ php -S 0.0.0.0:9100
 
 在浏览器中访问你的 kodbox 服务器，如：http://localhost:9100 。第一次访问需要进行初始的配置。
 
-## wordpress
+## WordPress
 
 > **WordPress** 是一个开源的内容管理系统（Content Management System，简称
 > CMS），用于创建和管理网站。它最初是一个博客发布平台，但随着功能的不断扩展，如今已经成为全球最流行的网站构建工具之一，可以用来构建各种类型的网站，包括博客、企业网站、电子商务网站、论坛、作品展示网站等。
@@ -894,6 +895,39 @@ python lazymux.py
 
 lzmx > set_install 
 ```
+## cron
+
+> cron 是一个 Linux 系统上的一个定时任务调度工具，它允许用户在特定的时间间隔内运行特定的任务。cron 的主要用途是执行定期的后台任务，如备份、清理、日志记录等。
+
+### 安装cron
+
+```bash
+pkg install cronie
+```
+
+### 配置cron
+
+```
+# 查看 crontab
+crontab -l
+# 编辑 crontab
+crontab -e
+```
+
+### 示例
+
+```
+*/10 * * * * /path/to/script.sh
+```
+每10分钟执行一次 `/path/to/script.sh`
+
+### 启动cron
+
+```
+crond
+```
+
+**可以设置让crond开启自启，这要就能让脚本开启按照设置的时间间隔来执行了。**
 
 ## anacron
 
@@ -938,7 +972,7 @@ anacron -f ~/.anacron/anacrontab
 
 > android-tools 包含了一些与 Android 设备相关的命令行工具，通常用于与 Android 设备进行交互和管理。
 
-### 安装：
+### 安装
 ```
 pkg install android-tools
 ```
@@ -983,28 +1017,24 @@ List of devices attached
 
 ## 备份
 
-1. 确保有存储权限
-
+确保有存储权限
 ```shell
 termux-setup-storage
 ```
 
-2. 备份文件
-
+备份文件
 ```shell
 tar -zcf /sdcard/termux-backup.tar.gz -C /data/data/com.termux/files ./home ./usr
 ```
 
 ## 恢复
 
-1. 确保有存储权限
-
+确保有存储权限
 ```shell
 termux-setup-storage
 ```
 
-2. 恢复备份文件
-
+恢复备份文件
 ```shell
 tar -zxf /sdcard/termux-backup.tar.gz -C /data/data/com.termux/files --recursive-unlink --preserve-permissions
 ```
@@ -1913,6 +1943,199 @@ termux-wifi-enable true
 ```bash
 termux-wifi-scaninfo
 ```
+
+# Termux Boot
+
+> [Termux Boot](https://wiki.termux.com/wiki/Termux:Boot)插件将在设备启动后立即运行脚本。因此我们可以把Termux启动后需要执行的脚本放在这里这。
+
+
+# root
+
+> 本章教程是基于root权限的，所以需要手机root，并赋予权限。
+
+## WIFI
+
+```bash
+# 打开wifi
+su -c 'svc wifi enable'
+# 关闭wifi
+su -c 'svc wifi disable'
+# 获取WIFI状态
+su -c dumpsys wifi | grep 'Wi-Fi is'
+```
+
+## 蓝牙
+
+```bash
+# 打开蓝牙
+su -c 'svc bluetooth enable'
+# 关闭蓝牙
+su -c 'svc bluetooth disable'
+```
+
+## 定位
+
+```
+# 检查定位是非开启
+su -c 'cmd location is-location-enabled'
+# 开启定位
+su -c 'cmd location set-location-enabled true'
+# 关闭定位
+su -c 'cmd location set-location-enabled false'
+```
+
+## nfc
+
+```bash
+# 打开nfc
+su -c 'svc nfc enable'
+# 关闭nfc
+su -c 'svc nfc disable'
+```
+
+## power
+
+用法：
+```
+~ $ su -c svc power
+Control the power manager
+
+usage: svc power stayon [true|false|usb|ac|wireless|dock]
+         Set the 'keep awake while plugged in' setting.
+       svc power reboot [reason]
+         Perform a runtime shutdown and reboot device with specified reason.
+       svc power shutdown
+         Perform a runtime shutdown and power off the device.
+       svc power forcesuspend [t]
+         Force the system into suspend, ignoring all wakelocks.
+         t - Number of milliseconds to wait before issuing force-suspend.
+             Helps with devices that can't suspend while plugged in.
+             Defaults to 0.
+             When using a delay, you must use the nohup shell modifier:
+             'adb shell nohup svc power forcesuspend [time]'
+         Use caution; this is dangerous. It puts the device to sleep
+         immediately without giving apps or the system an opportunity to
+         save their state.
+```
+
+**保持设备唤醒**
+> 让设备在插入电源时不熄屏：
+```bash
+su -c "svc power stayon usb"       # 仅USB供电时保持唤醒
+su -c "svc power stayon ac"        # 仅插入交流电（充电器）时保持唤醒
+su -c "svc power stayon wireless"  # 仅无线充电时保持唤醒
+su -c "svc power stayon dock"      # 仅连接到底座时保持唤醒
+su -c "svc power stayon true"      # 永远保持唤醒（即使没插电）
+su -c "svc power stayon false"     # 关闭此功能（默认行为）
+```
+
+**让设备立即重启**
+> 你可以添加一个 reason 作为重启原因：
+
+```bash
+su -c "svc power reboot"
+su -c "svc power reboot recovery"  # 进入Recovery模式
+su -c "svc power reboot bootloader"  # 进入Bootloader模式
+```
+
+**让设备立即关机**
+
+```bash
+su -c "svc power shutdown"
+```
+
+**强制进入休眠**
+> 强制进入睡眠状态（危险操作，不建议频繁使用）：
+```bash
+su -c "svc power forcesuspend"
+# 如果某些设备无法在充电时进入休眠，你可以加一个延迟：
+su -c "nohup svc power forcesuspend 5000"
+```
+
+## data
+
+> 开启/关闭移动网络
+
+```
+# 开启移动网络
+su -c 'svc data enable'
+# 关闭移动网络
+su -c 'svc data disable'
+```
+
+## USB
+
+> 控制 USB 相关的功能和状态
+
+```
+~ $ su -c 'svc usb'
+Control Usb state
+
+usage: svc usb setFunctions [function]
+         Set the current usb function. If function is blank, sets to charging.
+       svc usb setScreenUnlockedFunctions [function]
+         Sets the functions which, if the device was charging,
+         become current on screen unlock.
+         If function is blank, turn off this feature.
+       svc usb getFunctions
+         Gets the list of currently enabled functions
+         possible values of [function] are any of 'mtp', 'ptp', 'rndis',
+         'midi', 'ncm (if supporting gadget hal v1.2)'
+       svc usb resetUsbGadget
+         Reset usb gadget
+       svc usb getUsbSpeed
+         Gets current USB speed
+         possible values of USB speed are any of 'low speed', 'full speed',
+         'high speed', 'super speed', 'super speed (10G)',
+         'super speed (20G)', or higher (future extension)
+       svc usb getGadgetHalVersion
+         Gets current Gadget Hal Version
+         possible values of Hal version are any of 'unknown', 'V1_0', 'V1_1',
+         'V1_2'
+       svc usb getUsbHalVersion
+         Gets current USB Hal Version
+         possible values of Hal version are any of 'unknown', 'V1_0', 'V1_1',
+         'V1_2', 'V1_3'
+       svc usb resetUsbPort [port number]
+         Reset the specified connected usb port
+         default: the first connected usb port
+```
+
+
+**设置当前 USB 功能**
+
+```bash
+# 获取当前的 USB 功能
+su -c svc usb setFunctions mtp
+# 获取当前的 USB 功能 'mtp', 'ptp', 'rndis', 'midi', 'ncm (if supporting gadget hal v1.2)'
+su -c svc usb setFunctions mtp
+# 设置设备在屏幕解锁时的 USB 功能。如果设备在充电状态下解锁屏幕，USB 功能会自动切换到指定的模式。
+su -c svc usb setScreenUnlockedFunctions mtp
+# 重置 USB Gadget（USB 外设模式）。这个命令通常用于修复 USB 功能异常或重新初始化 USB 连接。
+su -c svc usb resetUsbGadget
+# 获取当前 USB 速度
+su -c svc usb getUsbSpeed
+# 获取当前 USB Gadget Hal 的版本。Gadget Hal 是 Android 系统中用于管理 USB 外设模式的硬件抽象层。
+su -c svc usb getGadgetHalVersion
+# 获取当前 USB Hal 的版本。USB Hal 是 Android 系统中用于管理 USB 主机模式的硬件抽象层。
+su -c svc usb getUsbHalVersion
+# svc usb resetUsbPort [port number]
+su -c svc usb resetUsbPort 0
+```
+
+**USB 的功能模式：**
+
+- mtp：媒体传输协议（Media Transfer Protocol），用于传输文件（如照片、音乐、视频等）。
+
+- ptp：图片传输协议（Picture Transfer Protocol），主要用于传输照片，通常用于数码相机。
+
+- rndis：远程网络驱动接口规范（Remote Network Driver Interface Specification），用于将设备模拟为网络适配器（如 USB 网络共享）。
+
+- midi：音乐仪器数字接口（Musical Instrument Digital Interface），用于连接 MIDI 设备（如音乐键盘）。
+
+- ncm：网络控制模型（Network Control Model），用于 USB 网络共享（需要 Gadget Hal v1.2 支持）。
+
+- 如果留空（不指定参数），则设备仅充电，不启用任何数据传输功能。
 
 # 常用运维
 
