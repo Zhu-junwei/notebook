@@ -14,7 +14,7 @@ echo.
 if "%option%"=="1" net start mysql
 if "%option%"=="2" net stop mysql
 if "%option%"=="3" (
-mode con cols=80 lines=30
+mode con cols=120 lines=60
 title mysql commond
 mysql -uroot -p --prompt="\u@\h \d>"
 )
