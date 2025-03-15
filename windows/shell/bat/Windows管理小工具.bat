@@ -161,7 +161,7 @@ if "%submenu_option%"=="1" (
 	REG add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Gwx" /v "DisableGwx" /t REG_DWORD /d 1 /f >nul 2>&1
 	REG add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\EOSNotify" /v "DiscontinueEOS" /t REG_DWORD /d 1 /f >nul 2>&1
 	net start wuauserv
-	echo 系统已禁止更新，请重启电脑
+	echo 系统已禁止更新
 	echo.
 	pause
     goto windows_update
@@ -188,7 +188,7 @@ if "%submenu_option%"=="1" (
 	reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\WAU" /v "Disabled" /f >nul 2>&1
 	REG delete "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate" /v "DisableOSUpgrade"  /f >nul 2>&1
 	net start wuauserv
-	echo 系统已开启更新，请重启电脑
+	echo 系统已开启更新
 	echo.
 	pause
     goto windows_update
