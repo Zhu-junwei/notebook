@@ -9,7 +9,7 @@ mode con cols=55 lines=20
 title Windows管理小工具 v1.3
 set "main_option="
 echo *************************************
-echo  1. 右键菜单管理
+echo  1. Windows 11 右键菜单管理
 echo  2. 桌面图标小箭头管理
 echo  3. 卸载 Windows 11 小组件
 echo  4. 安装 Office
@@ -37,7 +37,7 @@ goto main_menu
 :: 右键菜单管理子菜单
 :submenu_right_click
 cls
-title 右键菜单管理
+title Windows 11 右键菜单管理
 set "submenu_option="
 echo *************************************
 echo  1. 切换 Windows 10 右键菜单
