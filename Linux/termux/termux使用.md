@@ -445,6 +445,8 @@ vim $PREFIX/etc/redis.conf
 ```
 # 设置中用户名密码
 requirepass redis@123
+# 监听所有网络接口
+bind 0.0.0.0
 # 开启AOF持久化
 appendonly yes
 # 数据保存的位置，刚才新建的地址

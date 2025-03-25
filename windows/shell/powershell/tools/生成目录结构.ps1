@@ -21,5 +21,5 @@ function Get-Tree {
 }
 
 # 生成并保存目录结构
-Get-Tree -Path "." | Out-File -Encoding utf8 "tree.txt"
+Get-Tree -Path "." | Out-File "tree.txt"
 Write-Output "Directory structure saved to tree.txt"
