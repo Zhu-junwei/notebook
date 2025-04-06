@@ -1,0 +1,14 @@
+winget uninstall "Microsoft 365 Copilot" --accept-source-agreements
+winget uninstall "Microsoft Clipchamp" --accept-source-agreements
+winget uninstall "Microsoft To Do"
+winget uninstall "Microsoft 必应"
+winget uninstall "Outlook (new)"*******
+winget uninstall "Solitaire & Casual Games"
+winget uninstall "Xbox"
+winget uninstall "Xbox TCUI"
+winget uninstall "Xbox Identity Provider"
+winget uninstall "反馈中心"
+winget uninstall "资讯"
+winget uninstall "Power Automate"
+winget uninstall "Outlook for Windows"
+winget uninstall "Game Bar"
