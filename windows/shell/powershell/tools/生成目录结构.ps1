@@ -1,4 +1,4 @@
-# 递归函数来生成目录结构
+﻿# 递归函数来生成目录结构
 function Get-Tree {
     param (
         [string]$Path,
@@ -6,7 +6,7 @@ function Get-Tree {
     )
 
     $items = Get-ChildItem -Path $Path -Force -ErrorAction SilentlyContinue |
-             Where-Object { $_.Name -notin @('scripts', '.git', '.idea', 'tree.txt') }
+             Where-Object { $_.Name -notin @('scripts', '00_练习', '.git', '.idea', 'tree.txt', 'target') }
 
     $items | ForEach-Object {
         $isLast = $_ -eq $items[-1]
