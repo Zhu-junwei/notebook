@@ -1,2 +1,2 @@
 @echo off
-start https:\\www.google.com
+start "" https:\\www.google.com
