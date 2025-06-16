@@ -6,10 +6,6 @@
 
 [https://www.kali.org/get-kali/#kali-virtual-machines](https://www.kali.org/get-kali/#kali-virtual-machines)
 
-阿里云盘下载
-
-无
-
 # WMware导入及登录
 
 1. WMware扫描解压出来的kali压缩包
@@ -41,10 +37,16 @@ deb http://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free
 deb-src https://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free
 ```
 
+或者使用下面的命令选择愿
+
+```bash
+bash <(curl -sSL https://linuxmirrors.cn/main.sh)
+```
+
 更新源
 
-```shell
-apt-get update && apt-get upgrade && apt-get dist-upgrade
+```bash
+apt update && apt upgrade
 ```
 
 ## sshd设置
