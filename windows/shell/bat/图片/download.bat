@@ -2,7 +2,8 @@
 setlocal enabledelayedexpansion
 
 :: 设置保存图片的目录
-set "downloadDir=%USERPROFILE%\Pictures\BingDailyImages"
+::set "downloadDir=%USERPROFILE%\Pictures\BingDailyImages"
+set "downloadDir=%USERPROFILE%\Pictures\test"
 if not exist "%downloadDir%" mkdir "%downloadDir%"
 
 :: 设置要下载的天数（0=今天，1=昨天，依此类推）

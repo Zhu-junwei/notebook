@@ -8,7 +8,8 @@ if "%content%"=="q" exit /b
 
 curl.exe -v https://api.deepseek.com/chat/completions ^
   -H "Content-Type: application/json" ^
-  -H "Authorization: Bearer sk-3a38003ce8a04122b52aa7aaae1fd443" ^
+  : 有病吧刷我key 
+  -H "Authorization: Bearer sk-3a38003ce8a04122b52aa7aaae1fa123" ^
   -d "{^
     \"model\": \"deepseek-chat\",^
     \"messages\": [^

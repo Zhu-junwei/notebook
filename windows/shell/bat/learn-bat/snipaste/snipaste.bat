@@ -1,4 +1,5 @@
 @echo off & chcp 65001 >nul
+
 :: 1. 检查 Snipaste.exe 是否正在运行 
 tasklist /FI "IMAGENAME eq Snipaste.exe" 2>NUL | find /I "Snipaste.exe" >NUL
 set was_running=%ERRORLEVEL%
@@ -17,12 +18,7 @@ echo 正在执行全屏截图并保存...
 Snipaste.exe snip --full -o success
 timeout /t 1 >nul
 
-:: 4. 如果最初未运行，则退出 Snipaste.exe（还原状态） 
+:: 4. 还原状态
 if %was_running% neq 0 (
-    echo 还原状态，退出 Snipaste.exe...
     start "" "Snipaste.exe" exit
-    timeout /t 1 >nul
 )
-
-echo 操作完成！ 
-timeout /t 2 >nul
