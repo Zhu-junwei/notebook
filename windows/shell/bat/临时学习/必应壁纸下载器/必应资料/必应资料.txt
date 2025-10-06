@@ -1,0 +1,57 @@
+https://github.com/zkeq/Bing-Wallpaper-Action
+https://github.com/asvow/bing-wallpaper
+https://github.com/npanuhin/Bing-Wallpaper-Archive
+https://github.com/niumoo/bing-wallpaper
+https://bingwallpaper.anerg.com/
+https://github.com/myseil/BingWallpaper 20160305——至今
+https://github.com/wzshiming/bing-wallpaper/ 2022——至今 url
+https://github.com/zijie3/BingWallpaperJson/blob/main/json/cn.json  20220810——至今 json
+
+
+https://github.com/flow2000/bing-wallpaper-api 20160305-至今 json，不全
+https://api.bimg.cc/all?page=1&order=asc&limit=100&w=1920&h=1080&mkt=zh-CN
+
+
+历史
+https://www.bwallpaperhd.com/
+https://bingwallpaper.anerg.com/cn
+
+
+https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=8&mkt=zh-CN&nc=1614319565639&pid=hp&FORM=BEHPTB&uhd=1&uhdwidth=3840&uhdheight=2160
+
+
+https://www.bing.com/th?id=OHR.GreatRidge_ZH-CN6165605288_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp
+/th?id=OHR.DelicateArch_ZH-CN8971667580_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4
+/th?id=OHR.GreatRidge_ZH-CN6165605288_UHD.jp&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4
+
+https://www.bing.com/th?id=OHR.DelicateArch_ZH-CN8971667580_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4
+
+最高画质
+https://www.bing.com/th?id=OHR.GreatRidge_ZH-CN6165605288_UHD.jpg
+4K
+https://www.bing.com/th?id=OHR.GreatRidge_ZH-CN6165605288_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4
+2Kx1440
+https://www.bing.com/th?id=OHR.GreatRidge_ZH-CN6165605288_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=2560&h=1440&rs=1&c=4
+1080P
+https://www.bing.com/th?id=OHR.GreatRidge_ZH-CN6165605288_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4
+
+
+https://www.bing.com/th?id=OHR.GreatRidge_ZH-CN6165605288.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=1920&h=1080&rs=1&c=4
+https://www.bing.com/th?id=OHR.SalcombeDevon_ZH-CN5806331292_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp
+https://www.bing.com/th?id=OHR.SalcombeDevon_ZH-CN5806331292_UHD.jpg
+
+请求json地址
+https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=8&uhd=1&mkt=zh-CN
+https://raw.githubusercontent.com/Zhu-junwei/bing-wallpaper-archive/master/Bing_zh-CN_all.json
+
+
+http://bing.richex.cn/
+
+2016-03-05
+https://cdn.bimg.cc/bing/2016/OHR.LaurelMoss_ZH-CN9578543974_1920x1080.jpg
+
+2018-09-11 更换域名
+https://bing.com/th?id=OHR.ShinjukuKiku_EN-AU9146476128_1920x1080.jpg
+
+2019-05-10 开始支持UHD
+https://bing.com/th?id=OHR.ChannelIslandFox_ZH-CN5568101953_1920x1080.jpg

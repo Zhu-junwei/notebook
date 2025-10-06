@@ -162,10 +162,21 @@ sudo apt purge package_name
 sudo apt autoremove
 ```
 
+## 查看内核
+
+```
+dpkg -l | grep linux-image
+```
+
+## 删除多余的内核
+
+```
+sudo apt remove linux-image-6.1.0-30-amd64
+```
+
 # 防火墙
 
-> 在 Debian 上，常用的防火墙管理工具是 iptables 或 nftables。不过，从 Debian 10 (Buster) 开始，nftables 被作为默认的防火墙管理工具，逐渐取代了
-> iptables，因为 nftables 提供了更简洁的语法和更高效的性能。
+> 在 Debian 上，常用的防火墙管理工具是 iptables 或 nftables。不过，从 Debian 10 (Buster) 开始，nftables 被作为默认的防火墙管理工具，逐渐取代了iptables，因为 nftables 提供了更简洁的语法和更高效的性能。
 
 ## 切换到iptables防火墙
 
@@ -189,7 +200,5 @@ sudo apt install iptables
 sudo iptables -L
 # 检查 iptables 模式
 sudo update-alternatives --config iptables
-
 ```
-
 

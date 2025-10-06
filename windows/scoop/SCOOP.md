@@ -103,8 +103,10 @@ scoop bucket add java
 scoop bucket rm main
 
 # 设置SCOOP_REPO，scoop本身更新的仓库
-scoop config SCOOP_REPO "https://gitee.com/scoop-installer/scoop"
 scoop config SCOOP_REPO "https://github.com/ScoopInstaller/Scoop"
+# 不要用这个了，里面的代理无法使用了
+scoop config SCOOP_REPO "https://gitee.com/scoop-installer/scoop"
+
 
 # 添加第三方的 bucket 根据需要添加删除自带的bucket，用来安装应用
 scoop bucket add main https://gitee.com/cmontage/scoopbucket
@@ -171,7 +173,10 @@ scoop config rm aria2-enabled
 如果配置了国内的`SCOOP_REPO`，可能会自动配置了代理，比如`https://gitee.com/scoop-installer/scoop`使用了`https://scoop.201704.xyz` 来对下载进行加速，不过这不是长久之策，通过仓库的介绍可以看到`25/8`后就不再提供加速服务了。好在我们还有的办法，比如可以设置使用系统的代理进行加速。
 
 ```
+# 设置代理
 scoop config proxy 127.0.0.1:7890
+# 清除代理
+scoop config proxy ""
 ```
 
 ## 设置自动更新

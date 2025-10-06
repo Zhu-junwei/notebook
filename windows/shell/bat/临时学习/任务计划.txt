@@ -1,0 +1,57 @@
+:: 每天早上 9:00 运行 C:\Scripts\MyTask.bat
+SCHTASKS /Create /SC DAILY /TN "MyDailyTask" /TR "C:\Scripts\MyTask.bat" /ST 09:00
+:: 每次启动时运行 C:\Scripts\StartupTask.bat
+SCHTASKS /Create /SC ONSTART /TN "MyStartupTask" /TR "C:\Scripts\StartupTask.bat"
+:: 每小时运行一次的任务
+SCHTASKS /Create /SC HOURLY /TN "MyHourlyTask" /TR "C:\Scripts\HourlyTask.bat"
+:: 创建每周指定星期几运行的任务 例如每周一、三、五 14:30 运行：
+SCHTASKS /Create /SC WEEKLY /D MON,WED,FRI /TN "MyWeeklyTask" /TR "C:\Scripts\WeeklyTask.bat" /ST 14:30
+
+:: 创建任务并指定以 SYSTEM 用户身份运行（无需登录用户）
+SCHTASKS /Create /SC DAILY /TN "MySystemTask" /TR "C:\Scripts\SystemTask.bat" /ST 10:00 /RU SYSTEM
+
+
+:: 删除任务
+SCHTASKS /Delete /TN "MyDailyTask" /F
+
+
+SCHTASKS /Create /SC DAILY /SC ONSTART /TN "MyDailyTask" /TR "wscript.exe \"C:\Users\jw\AppData\Local\SimpleWallpaper\SimpleWallpaper.vbs\" load_bing_wallpaper" /ST 09:00 /F
+
+
+
+$trigger1 = New-ScheduledTaskTrigger -Daily -At 00:00
+$trigger2 = New-ScheduledTaskTrigger -AtLogOn -User $env:USERNAME
+$trigger2.Delay = 'PT1M' 
+$action = New-ScheduledTaskAction -Execute "wscript.exe" -Argument '"C:\Users\jw\AppData\Local\SimpleWallpaper\SimpleWallpaper.vbs" load_bing_wallpaper'
+$settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries
+Register-ScheduledTask -TaskName "MyTask" -Trigger $trigger1, $trigger2 -Action $action -Settings $settings
+
+
+
+$trigger1 = New-ScheduledTaskTrigger -Daily -At 00:00
+$trigger2 = New-ScheduledTaskTrigger -AtLogOn -User $env:USERNAME
+$trigger2.Delay = 'PT1M' 
+$trigger2.RepetitionInterval = 'PT30M'  # 每 30 分钟重复一次（ISO 8601 格式）
+$trigger2.RepetitionDuration = 'P10675199DT2H48M5.4775807S'  # 无限期（.NET TimeSpan.MaxValue 的 ISO 8601 表示）
+
+$action = New-ScheduledTaskAction -Execute "wscript.exe" -Argument '"C:\Users\jw\AppData\Local\SimpleWallpaper\SimpleWallpaper.vbs" load_bing_wallpaper'
+$settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries
+Register-ScheduledTask -TaskName "MyTask" -Trigger $trigger1, $trigger2 -Action $action -Settings $settings
+
+
+
+
+
+
+$trigger = New-ScheduledTaskTrigger -Once -At "00:00" -RepetitionInterval (New-TimeSpan -Minutes 1)
+$action = New-ScheduledTaskAction -Execute 'wscript.exe' -Argument '\"C:\Users\jw\AppData\Local\SimpleWallpaper\SimpleWallpaper.vbs\" next'
+$settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -ExecutionTimeLimit 0
+Register-ScheduledTask -TaskName '自动更换壁纸' -Trigger $trigger -Action $action -Settings $settings -Force;
+
+$timeSpanStr = '00:05:00';
+$parts = $timeSpanStr -split ':';
+$ts = New-TimeSpan -Hours $parts[0] -Minutes $parts[1] -Seconds $parts[2];
+$trigger = New-ScheduledTaskTrigger -Once -At '00:00' -RepetitionInterval $ts;
+$action = New-ScheduledTaskAction -Execute 'wscript.exe' -Argument '\"C:\Users\jw\AppData\Local\SimpleWallpaper\SimpleWallpaper.vbs\" next';
+$settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -ExecutionTimeLimit 0;
+Register-ScheduledTask -TaskName '自动更换壁纸' -Trigger $trigger -Action $action -Settings $settings -Force;

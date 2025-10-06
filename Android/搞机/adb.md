@@ -4,7 +4,6 @@
 一、设备管理
 - `adb devices`: 列出当前连接的设备及其状态。
 - `adb get-serialno`: 获取设备的序列号。
-- `adb get-state`: 查看设备当前状态（device、offline、unauthorized等）。
 - `adb kill-server`: 停止ADB服务。
 - `adb start-server`: 启动ADB服务。
 - `adb connect <IP地址>`: 通过IP地址连接设备（适用于无线调试）。
@@ -51,7 +50,6 @@
 
 七、屏幕和输入
 - `adb shell input text <文本>`: 模拟输入文本。
-- `adb shell input keyevent <keycode>`: 模拟按键事件。
 - `adb shell input keyevent <keycode>`: 模拟按键事件。
 - `adb shell input tap <x> <y>`: 模拟屏幕点击。
 - `adb shell input swipe <x1> <y1> <x2> <y2> <duration>`: 模拟屏幕滑动。

@@ -1233,7 +1233,7 @@ termux-clipboard-get
 
 ## termux-clipboard-set
 
-> 获取剪切板内容
+> 写入剪切板内容
 
 ```bash
 termux-clipboard-set "Hello World!"
@@ -1523,7 +1523,7 @@ Usage: termux-nfc [-r [short|full]] [-w] [-t [text for TAG]
 ```
 试了下手机上的NFC功能，提示只支持 ~~(NFEF)~~ NDEF标签，其他标签不支持。
 ```
-termux-nfcc -r short
+termux-nfc -r short
 ```
 
 **termux API support only NDEF Tag**
