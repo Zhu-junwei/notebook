@@ -1,5 +1,18 @@
 # Scoop 使用指南
 
+
+
+> [Scoop](https://scoop.sh/) :  Windows的命令行安装程序。
+
+Scoop 让你从命令行安装你熟悉和喜爱的程序，且尽量减少麻烦。它的特点包括：
+
+- **消除权限弹窗**：避免权限请求弹窗的干扰。
+- **隐藏图形界面的安装向导**：不需要通过图形界面的安装向导。
+- **防止 PATH 污染**：避免在安装大量程序时污染系统的 PATH 环境变量。
+- **避免安装和卸载程序时的意外副作用**：安装和卸载程序时，不会产生意外的副作用。
+- **自动查找并安装依赖**：自动处理程序所需的依赖项安装。
+- **自动执行额外的设置步骤**：自动完成程序运行所需的额外配置和设置。
+
 ## 安装Scoop
 
 ### 依赖项
@@ -10,7 +23,7 @@ Scoop 需要 PowerShell，在安装 Scoop 之前，确保系统满足以下要�
 
 - PowerShell 5.1 或更高版本
 
-### 运行 Scoop 安装命令
+### 安装方式一：运行 Scoop 安装命令
 
 在 PowerShell 中运行以下命令：
 ```powershell
@@ -22,25 +35,13 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
 
-安装完成后，可以运行以下命令检查 Scoop 是否安装成功：
-```
-# 查看版本
-scoop --version
-# 帮助信息
-scoop
-```
+### 安装方式二：自定义 Scoop安装目录
 
-## 自定义 Scoop安装目录
+默认情况下，Scoop 安装在 `C:\Users\你的用户名\scoop` 目录。如果想更改安装目录，如果希望 Scoop 安装到 `D:\software\scoop`，最好采用手动安装，在 PowerShell 中运行以下命令：：
 
-默认情况下，Scoop 安装在 `C:\Users\你的用户名\scoop` 目录。如果想更改安装目录，需要在安装前手动设置环境变量 `SCOOP`。
-
-### 自定义安装目录
-
-例如，如果希望 Scoop 安装到 `D:\software\scoop`，最好采用手动安装：
-
-然后重新运行 Scoop 安装命令：
 ```
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/scoopinstaller/install/master/install.ps1" -OutFile "install.ps1"
 
 .\install.ps1 -ScoopDir 'D:\software\scoop' -ScoopGlobalDir 'D:\scoop_global' -NoProxy
@@ -48,7 +49,15 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/scoopinstaller/install
 
 ## 命令
 
+安装完成后，会将`scoop\shims`的路径添加到系统坏境变量`path`下，后续的软件安装，大多数可执行程序也都会链接到这个位置。可以运行以下命令检查 Scoop 是否安装成功：
+
 ```shell
+# 查看版本
+scoop --version
+
+# 帮助信息
+scoop
+
 C:\Users\jw>scoop
 Usage: scoop <command> [<args>]
 
@@ -90,7 +99,7 @@ which      Locate a shim/executable (similar to 'which' on Linux)
 
 ## bucket管理
 
->  bucket 是 Scoop 的一个概念，它允许用户添加额外的软件源，以便在 Scoop 中安装更多软件。
+>  bucket 是 Scoop 的一个概念，它允许用户添加额外的软件源，以便在 Scoop 中安装更多软件，一般情况不同的bucket存放不同的软件源。
 
 ```powershell
 # 列出已安装的 bucket
@@ -102,27 +111,23 @@ scoop bucket add java
 # 卸载一个bucket
 scoop bucket rm main
 
-# 设置SCOOP_REPO，scoop本身更新的仓库
-scoop config SCOOP_REPO "https://github.com/ScoopInstaller/Scoop"
-# 不要用这个了，里面的代理无法使用了
-scoop config SCOOP_REPO "https://gitee.com/scoop-installer/scoop"
-
-
-# 添加第三方的 bucket 根据需要添加删除自带的bucket，用来安装应用
+------------------------
+# 添加bucket
+------------------------
+# 添加第三方的 bucket 根据需要添加删除自带的bucket，用来安装应用,这里有github和gitee，根据自己情况选择添加
 scoop bucket add main https://gitee.com/cmontage/scoopbucket
+scoop bucket add main https://github.com/ScoopInstaller/Main
 scoop bucket add dorado https://github.com/chawyehsu/dorado
 scoop bucket add dorado https://gitee.com/scoop-bucket/dorado
-scoop bucket add abgo_bucket https://gitee.com/abgox/abgo_bucket
 # 这个太大了，会导致搜索过慢
 scoop bucket add third https://gitee.com/cmontage/scoopbucket-third
-
 ```
 
 ## 安装和卸载软件
 
 ### 搜索软件
 
-可以使用 `Scoop` 搜索软件，`例如搜索` `7zip`：
+可以使用 `Scoop` 搜索软件，例如搜索  `7zip`：
 ```powershell
 scoop search 7zip
 ```
@@ -155,9 +160,25 @@ scoop config
 scoop config --help
 ```
 
+### scoop_repo管理
+
+> scoop repo提供对scoop本身进行更新的源，默认情况下在安装的时候已经指定好了，无需额外配置
+
+```powershell
+------------------------
+# 设置SCOOP_REPO，scoop本身更新的仓库
+------------------------
+# 通过scoop config查看当前配置
+scoop config
+# 官方默认SCOOP_REPO
+scoop config SCOOP_REPO "https://github.com/ScoopInstaller/Scoop"
+# 不要用gitee这个了，里面的代理无法使用了(弃用)
+scoop config SCOOP_REPO "https://gitee.com/scoop-installer/scoop"
+```
+
 ### aria2设置
 
-在安装了`aria2`后，scoop可以通过`aria2`进行下载，这个不需要手动配置。我们也可以手动开启关闭`aria2`使用。
+如果安装了`aria2`，scoop可以通过`aria2`进行多线程下载。我们也可以手动开启关闭`aria2`使用。
 
 ```
 # 禁用aria2
@@ -170,7 +191,7 @@ scoop config rm aria2-enabled
 
 ### 设置代理下载
 
-如果配置了国内的`SCOOP_REPO`，可能会自动配置了代理，比如`https://gitee.com/scoop-installer/scoop`使用了`https://scoop.201704.xyz` 来对下载进行加速，不过这不是长久之策，通过仓库的介绍可以看到`25/8`后就不再提供加速服务了。好在我们还有的办法，比如可以设置使用系统的代理进行加速。
+如果配置的`SCOOP_REPO` 或 `bucket` 在国外（github），可能因为网络问题导致下载更新过慢。好在我们还有的办法，比如可以设置使用系统的代理（前提你有可用的代理）进行加速。
 
 ```
 # 设置代理
@@ -219,7 +240,7 @@ scoop export > E:\code\IdeaProjects\notebook\windows\scoop\scoopfile.json
 - 更新所有scoop及其安装的应用
 - 清理下载的应用安装包
 - 清理旧的应用
-- 将所有安装的应用保存到一个json文件里面（可以在其他计算机上使用）
+- 将所有安装的应用保存到一个json文件里面，可以方便对已经安装应用做一个备份，如果重装系统或在另外一个电脑上可以通过`scoop import xxx.json` 进行快速恢复
 
 **验证任务**
 
@@ -231,33 +252,28 @@ scoop export > E:\code\IdeaProjects\notebook\windows\scoop\scoopfile.json
 
 ### 先卸载所有已安装的软件
 ```
-scoop uninstall '*'
+scoop uninstall *
+```
+
+已安装的程序可能**正在运行**或在系统中存在**服务**，需要退出正在运行的程序或删除程序对应的服务。
+
+```
+# 管理员删除程序的服务（如果有）
+sc delete <服务名字>
 ```
 
 ### 删除 Scoop 目录
+
+- 默认安装删除
 
 找到 Scoop 安装目录（默认在 `C:\Users\你的用户名\scoop`），然后运行以下命令删除：
 ```powershell
 Remove-Item -Recurse -Force "C:\Users\$env:UserName\scoop"
 ```
 
-或者通过 `$env:SCOOP` 变量删除：
-```powershell
-Remove-Item -Recurse -Force $env:SCOOP
-```
+- 自定义安装删除
 
-### 删除环境变量
-
-在 PowerShell 中运行：
-```powershell
-[Environment]::SetEnvironmentVariable('SCOOP', $null, 'User')
-[Environment]::SetEnvironmentVariable('SCOOP_GLOBAL', $null, 'Machine')
-```
-
-### 删除 Scoop 相关的 PATH 变量
-```
-[System.Environment]::SetEnvironmentVariable('Path', ($env:Path -replace "C:\\Users\\$env:UserName\\scoop\\shims;", ""), 'User')
-```
+如果是scoop的路径是自定义的，需要手动删除。
 
 ### 重新启动计算机
 

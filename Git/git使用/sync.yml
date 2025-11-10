@@ -1,0 +1,68 @@
+name: Auto Sync Fork
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@v3
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Setup git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Add upstream
+        run: |
+          # 获取上游仓库的完整克隆地址（例如 https://github.com/drawdb-io/drawdb.git）
+          UPSTREAM_URL=$(gh api repos/${{ github.repository }} --jq '.parent.clone_url')
+          
+          if [ -z "$UPSTREAM_URL" ]; then
+            echo "This repo does not have an upstream (it may not be a fork)."
+            exit 1
+          fi
+          
+          echo "Detected upstream: $UPSTREAM_URL"
+          git remote add upstream "$UPSTREAM_URL" || true
+          git fetch upstream
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check for changes in upstream (ignoring sync.yml)
+        id: check_changes
+        run: |
+          git fetch upstream
+          # 获取上游和本地的变化，排除 sync.yml 文件
+          UPSTREAM_DIFF=$(git diff --name-only upstream/main..main | grep -v '.github/workflows/sync.yml' || true)
+          echo "Upstream changes (excluding sync.yml): $UPSTREAM_DIFF"
+          
+          # 如果没有变化，则设置 has_changes 为 false
+          if [ -z "$UPSTREAM_DIFF" ]; then
+            echo "has_changes=false" >> $GITHUB_ENV
+          else
+            echo "has_changes=true" >> $GITHUB_ENV
+          fi
+
+      - name: Reset fork to upstream (exclude workflow)
+        if: env.has_changes == 'true'
+        run: |
+          cp -r .github/workflows/sync.yml ../sync.yml.bak
+          git reset --hard upstream/main
+          mkdir -p .github/workflows
+          mv ../sync.yml.bak .github/workflows/sync.yml
+          git add .github/workflows/sync.yml
+          git commit -m "ci: restore workflow" || echo "No changes to commit"
+
+      - name: Push changes
+        if: env.has_changes == 'true'
+        run: git push origin main --force
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

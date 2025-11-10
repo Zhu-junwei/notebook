@@ -1,0 +1,33 @@
+# 查看git所有命令
+git 
+# 初始项目
+git init
+# 查看状态
+git status
+# 添加变动到暂存区
+git add .
+git add <filename>
+# 提交变动
+git commit -m "消息"
+
+# 设置命令别名
+git config --global alias.i init
+这时git i和git init等效
+
+# clone项目
+git clone https://github.com/<username>/xxx.git
+# 创新并切换到dev分支
+git checkout -b dev
+# 查看分支
+git branch
+# 切换分支
+git switch main
+
+git push <remote> <branch name>
+git push origin dev
+git pull
+git show
+git branch -d dev
+git push --delete origin dev
+
+
