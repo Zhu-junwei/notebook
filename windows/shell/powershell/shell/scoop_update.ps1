@@ -39,4 +39,4 @@ if ($Commit) {
 } else {
     Write-Host "自动提交被关闭，只导出文件，不提交。"
 }
-Start-Sleep -Seconds 3
+Start-Sleep -Seconds 6
