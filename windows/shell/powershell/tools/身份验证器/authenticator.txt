@@ -1,0 +1,4 @@
+# 身份验证器otpauth URL配置文件
+# 
+# 每行一个otpauth URL
+# 示例：otpauth://totp/GitHub:user1?secret=DMETBKDJAAY3D2K3&issuer=GitHub
