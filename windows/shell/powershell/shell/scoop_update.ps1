@@ -16,7 +16,7 @@ $fullScoopFilePath = Join-Path $projectDir $scoopFile
 scoop update *
 scoop cache rm *
 scoop cleanup *
-scoop export > $fullScoopFilePath
+scoop export | Out-File -FilePath $fullScoopFilePath -Encoding utf8
 
 # -----------------------------
 # 进入项目目录
