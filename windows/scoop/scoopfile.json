@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1764304189000)\/",
+                "value": "\/Date(1764376784000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年11月28日 12:29:49"
+                "DateTime": "2025年11月29日 8:39:44"
             },
             "Manifests": 1413
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1764318616000)\/",
+                "value": "\/Date(1764377229000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年11月28日 16:30:16"
+                "DateTime": "2025年11月29日 8:47:09"
             },
             "Manifests": 2216
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1764289121000)\/",
+                "value": "\/Date(1764375376000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年11月28日 8:18:41"
+                "DateTime": "2025年11月29日 8:16:16"
             },
             "Manifests": 264
         }
@@ -253,8 +253,8 @@
             "Info": "",
             "Source": "main",
             "Name": "sqlite",
-            "Version": "3.51.0",
-            "Updated": "\/Date(1762592439050)\/"
+            "Version": "3.51.1",
+            "Updated": "\/Date(1764381899974)\/"
         },
         {
             "Info": "",
