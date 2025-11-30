@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1764419534000)\/",
+                "value": "\/Date(1764491402000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年11月29日 20:32:14"
+                "DateTime": "2025年11月30日 16:30:02"
             },
             "Manifests": 1413
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1764419473000)\/",
+                "value": "\/Date(1764491385000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年11月29日 20:31:13"
+                "DateTime": "2025年11月30日 16:29:45"
             },
             "Manifests": 2216
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1764375376000)\/",
+                "value": "\/Date(1764462050000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年11月29日 8:16:16"
+                "DateTime": "2025年11月30日 8:20:50"
             },
             "Manifests": 264
         }
@@ -42,9 +42,23 @@
         {
             "Info": "",
             "Source": "main",
+            "Name": "adb",
+            "Version": "36.0.0",
+            "Updated": "\/Date(1764438845152)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "another-redis-desktop-manager",
+            "Version": "1.7.1",
+            "Updated": "\/Date(1764435368201)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
             "Name": "apifox",
-            "Version": "2.7.40",
-            "Updated": "\/Date(1760265213748)\/"
+            "Version": "2.7.51",
+            "Updated": "\/Date(1764428751384)\/"
         },
         {
             "Info": "",
@@ -55,10 +69,10 @@
         },
         {
             "Info": "",
-            "Source": "main",
+            "Source": "extras",
             "Name": "bat2exe",
             "Version": "2.2",
-            "Updated": "\/Date(1760265216735)\/"
+            "Updated": "\/Date(1764428639595)\/"
         },
         {
             "Info": "",
@@ -97,10 +111,10 @@
         },
         {
             "Info": "",
-            "Source": "main",
+            "Source": "extras",
             "Name": "dbeaver",
-            "Version": "25.2.2",
-            "Updated": "\/Date(1760265291248)\/"
+            "Version": "25.2.5",
+            "Updated": "\/Date(1764428878522)\/"
         },
         {
             "Info": "",
@@ -111,17 +125,38 @@
         },
         {
             "Info": "",
-            "Source": "main",
-            "Name": "filezilla",
-            "Version": "3.69.1",
-            "Updated": "\/Date(1760265300796)\/"
+            "Source": "extras",
+            "Name": "escrcpy",
+            "Version": "1.33.0",
+            "Updated": "\/Date(1764438468222)\/"
         },
         {
             "Info": "",
             "Source": "main",
+            "Name": "ffmpeg",
+            "Version": "8.0.1",
+            "Updated": "\/Date(1764437043278)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "filezilla",
+            "Version": "3.69.5",
+            "Updated": "\/Date(1764428946350)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
             "Name": "geekuninstaller",
-            "Version": "1.5.2.165",
-            "Updated": "\/Date(1760265305525)\/"
+            "Version": "1.5.3.170",
+            "Updated": "\/Date(1764428999018)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "gnirehtet",
+            "Version": "2.5.1",
+            "Updated": "\/Date(1764438847448)\/"
         },
         {
             "Info": "",
@@ -146,17 +181,17 @@
         },
         {
             "Info": "",
-            "Source": "main",
+            "Source": "extras",
             "Name": "jd-gui",
             "Version": "1.6.6",
-            "Updated": "\/Date(1760265320279)\/"
+            "Updated": "\/Date(1764429029104)\/"
         },
         {
             "Info": "",
-            "Source": "main",
+            "Source": "extras",
             "Name": "jetbrains-toolbox",
-            "Version": "2.9.1.58121",
-            "Updated": "\/Date(1760265353106)\/"
+            "Version": "3.1.0.62320",
+            "Updated": "\/Date(1764429197250)\/"
         },
         {
             "Info": "",
@@ -171,13 +206,6 @@
             "Name": "koodo-reader",
             "Version": "2.2.2",
             "Updated": "\/Date(1764382179883)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "make",
-            "Version": "4.4.1",
-            "Updated": "\/Date(1763394853627)\/"
         },
         {
             "Info": "",
@@ -202,10 +230,10 @@
         },
         {
             "Info": "",
-            "Source": "main",
+            "Source": "extras",
             "Name": "notepadplusplus",
-            "Version": "8.8.6",
-            "Updated": "\/Date(1760265449561)\/"
+            "Version": "8.8.8",
+            "Updated": "\/Date(1764429445488)\/"
         },
         {
             "Info": "",
@@ -252,6 +280,13 @@
         {
             "Info": "",
             "Source": "main",
+            "Name": "scrcpy",
+            "Version": "3.3.3",
+            "Updated": "\/Date(1764438779243)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
             "Name": "sqlite",
             "Version": "3.51.1",
             "Updated": "\/Date(1764381899974)\/"
@@ -262,6 +297,34 @@
             "Name": "syncthing",
             "Version": "2.0.11",
             "Updated": "\/Date(1762592446607)\/"
+        },
+        {
+            "Info": "Held package",
+            "Source": "extras",
+            "Name": "tailscale",
+            "Version": "1.90.9",
+            "Updated": "\/Date(1764428368850)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "ventoy",
+            "Version": "1.1.07",
+            "Updated": "\/Date(1764436759196)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "vncviewer",
+            "Version": "7.15.1",
+            "Updated": "\/Date(1764438242945)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "wireshark",
+            "Version": "4.6.1",
+            "Updated": "\/Date(1764434979458)\/"
         }
     ]
 }
