@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1764577947000)\/",
+                "value": "\/Date(1764664286000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月1日 16:32:27"
+                "DateTime": "2025年12月2日 16:31:26"
             },
             "Manifests": 1413
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1764577831000)\/",
+                "value": "\/Date(1764664288000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月1日 16:30:31"
+                "DateTime": "2025年12月2日 16:31:28"
             },
-            "Manifests": 2216
+            "Manifests": 2219
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1764548483000)\/",
+                "value": "\/Date(1764634666000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月1日 8:21:23"
+                "DateTime": "2025年12月2日 8:17:46"
             },
             "Manifests": 264
         }
@@ -78,8 +78,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cacert",
-            "Version": "2025-11-04",
-            "Updated": "\/Date(1762246826699)\/"
+            "Version": "2025-12-02",
+            "Updated": "\/Date(1764666021837)\/"
         },
         {
             "Info": "",
@@ -295,8 +295,8 @@
             "Info": "",
             "Source": "main",
             "Name": "syncthing",
-            "Version": "2.0.11",
-            "Updated": "\/Date(1762592446607)\/"
+            "Version": "2.0.12",
+            "Updated": "\/Date(1764666029934)\/"
         },
         {
             "Info": "Held package",
