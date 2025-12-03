@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1764664286000)\/",
+                "value": "\/Date(1764750648000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月2日 16:31:26"
+                "DateTime": "2025年12月3日 16:30:48"
             },
             "Manifests": 1413
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1764664288000)\/",
+                "value": "\/Date(1764750708000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月2日 16:31:28"
+                "DateTime": "2025年12月3日 16:31:48"
             },
-            "Manifests": 2219
+            "Manifests": 2224
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1764634666000)\/",
+                "value": "\/Date(1764721150000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月2日 8:17:46"
+                "DateTime": "2025年12月3日 8:19:10"
             },
             "Manifests": 264
         }
@@ -57,8 +57,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.7.51",
-            "Updated": "\/Date(1764428751384)\/"
+            "Version": "2.7.54",
+            "Updated": "\/Date(1764752444360)\/"
         },
         {
             "Info": "",
@@ -190,8 +190,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "jetbrains-toolbox",
-            "Version": "3.1.0.62320",
-            "Updated": "\/Date(1764429197250)\/"
+            "Version": "3.1.1.64142",
+            "Updated": "\/Date(1764752504743)\/"
         },
         {
             "Info": "",
@@ -204,8 +204,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "koodo-reader",
-            "Version": "2.2.2",
-            "Updated": "\/Date(1764382179883)\/"
+            "Version": "2.2.3",
+            "Updated": "\/Date(1764752553887)\/"
         },
         {
             "Info": "",
