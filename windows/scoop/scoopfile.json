@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1764750648000)\/",
+                "value": "\/Date(1764837050000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月3日 16:30:48"
+                "DateTime": "2025年12月4日 16:30:50"
             },
             "Manifests": 1413
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1764750708000)\/",
+                "value": "\/Date(1764837113000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月3日 16:31:48"
+                "DateTime": "2025年12月4日 16:31:53"
             },
-            "Manifests": 2224
+            "Manifests": 2225
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1764721150000)\/",
+                "value": "\/Date(1764807492000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月3日 8:19:10"
+                "DateTime": "2025年12月4日 8:18:12"
             },
             "Manifests": 264
         }
@@ -308,6 +308,13 @@
         {
             "Info": "",
             "Source": "extras",
+            "Name": "treesize-free",
+            "Version": "4.8.1",
+            "Updated": "\/Date(1764825974578)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
             "Name": "ventoy",
             "Version": "1.1.07",
             "Updated": "\/Date(1764436759196)\/"
@@ -323,8 +330,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "wireshark",
-            "Version": "4.6.1",
-            "Updated": "\/Date(1764434979458)\/"
+            "Version": "4.6.2",
+            "Updated": "\/Date(1764838906857)\/"
         }
     ]
 }
