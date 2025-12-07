@@ -1,4 +1,5 @@
-﻿;# JetBrains全家桶激活脚本 zjw-20251110
+﻿
+# JetBrains全家桶激活脚本 zjw-20251110
 if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb runAs; exit}
 
 function Show-Menu {
