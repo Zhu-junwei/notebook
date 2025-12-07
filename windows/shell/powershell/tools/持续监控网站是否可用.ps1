@@ -1,16 +1,16 @@
-$url = "http://baidu.com"  # Ìæ»»³ÉÄãÒª¼ì²éµÄÍøÕ¾
-$interval = 5  # ¼ì²â¼ä¸ô£¨Ãë£©
+ï»¿$url = "http://baidu.com"  # æ›¿æ¢æˆä½ è¦æ£€æŸ¥çš„ç½‘ç«™
+$interval = 5  # æ£€æµ‹é—´éš”ï¼ˆç§’ï¼‰
 
 while ($true) {
     $response = try { (Invoke-WebRequest -Uri $url -Method Head -UseBasicParsing -ErrorAction Stop).StatusCode } catch { $_.Exception.Response.StatusCode.value__ }
 
     if ($response -eq 200) {
-        Write-Host "$(Get-Date -Format 'HH:mm:ss') ÍøÕ¾·µ»Ø 200£¬Õı³£·ÃÎÊ£¡" -ForegroundColor Green
-        #[System.Console]::Beep(1000, 500)  # ·¢³öÌáÊ¾Òô
+        Write-Host "$(Get-Date -Format 'HH:mm:ss') ç½‘ç«™è¿”å› 200ï¼Œæ­£å¸¸è®¿é—®ï¼" -ForegroundColor Green
+        #[System.Console]::Beep(1000, 500)  # å‘å‡ºæç¤ºéŸ³
 		[System.Media.SystemSounds]::Beep.Play()
 		#Start-Job -ScriptBlock { [System.Media.SystemSounds]::Beep.Play() } | Out-Null
     } else {
-        Write-Host "$(Get-Date -Format 'HH:mm:ss') ÍøÕ¾·µ»Ø $response£¬¿ÉÄÜÓĞÎÊÌâ£¡" -ForegroundColor Red
+        Write-Host "$(Get-Date -Format 'HH:mm:ss') ç½‘ç«™è¿”å› $responseï¼Œå¯èƒ½æœ‰é—®é¢˜ï¼" -ForegroundColor Red
     }
-    Start-Sleep -Seconds $interval  # µÈ´ıXÃëºóÔÙ´Î¼ì²â
+    Start-Sleep -Seconds $interval  # ç­‰å¾…Xç§’åå†æ¬¡æ£€æµ‹
 }

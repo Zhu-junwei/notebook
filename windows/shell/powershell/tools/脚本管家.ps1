@@ -1,5 +1,5 @@
 ﻿
-if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb runAs; exit}
+#if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb runAs; exit}
 
 function Show-Menu {
 	Clear-Host
@@ -31,10 +31,12 @@ while ($running) {
 	Show-Menu
 	$choice = Read-Host "请输入选项数字"
 	switch ($choice) {
-		"1" { irm https://raw.githubusercontent.com/Zhu-junwei/Windows-Manage-Tool/master/WindowsManageTool.bat -OutFile "$env:TEMP\WindowsManageTool.bat"; cmd.exe /c "$env:TEMP\WindowsManageTool.bat" }
+		"1" { irm https://raw.githubusercontent.com/Zhu-junwei/Windows-Manage-Tool/master/WindowsManageTool.bat -OutFile "$env:TEMP\WindowsManageTool.bat"
+		Start-Process cmd.exe "/c `"$env:TEMP\WindowsManageTool.bat`"" }
 		"2" { 
-			Start-Process powershell `
-			-ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"irm https://raw.githubusercontent.com/Zhu-junwei/notebook/master/windows/shell/powershell/tools/JetBrains全家桶激活.ps1 | iex`""
+			$cmd = 'irm https://raw.githubusercontent.com/Zhu-junwei/notebook/master/windows/shell/powershell/tools/JetBrains全家桶激活.ps1 | iex'
+			Start-Process powershell.exe -Verb RunAs `
+				-ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"$cmd`""
 		}
 		"0" { $running = $false }
 	}

@@ -178,7 +178,8 @@ while ($true) {
 			$code = Get-Otp -SECRET $acc.Secret -LENGTH $acc.Digits -WINDOW $acc.Period
 			Write-Host ("网站: " + $acc.Issuer)
 			Write-Host ("账号: " + $acc.Account)
-			Write-Host ("验证码: " + $code)
+			Write-Host "验证码: " -NoNewline
+			Write-Host $code -ForegroundColor Green
 			Write-Host "----------------------------------------"
 		}
 	}

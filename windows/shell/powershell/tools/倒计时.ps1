@@ -1,4 +1,4 @@
-# 简单的倒计时计时器
+﻿# 简单的倒计时计时器
 function Start-Timer {
     param (
         [int]$Seconds

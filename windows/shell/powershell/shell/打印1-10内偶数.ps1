@@ -5,6 +5,6 @@ for ( $i = 1; $i -le 10; $i++ )
     $x = $i % 2
     if($x -eq 0)
     {
-        echo $i
+        Write-Host $i
     }
 }

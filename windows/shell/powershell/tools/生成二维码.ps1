@@ -1,4 +1,4 @@
-# 生成二维码
+﻿# 生成二维码
 function Generate-QRCode {
     param (
         [string]$Text,

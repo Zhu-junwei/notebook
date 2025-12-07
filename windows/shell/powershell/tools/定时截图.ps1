@@ -1,20 +1,20 @@
-# ÉèÖÃÈÕÖ¾ÎÄ¼ş
+ï»¿# è®¾ç½®æ—¥å¿—æ–‡ä»¶
 $logFile = "C:\Screenshots\log.txt"
 function Write-Log($message) {
     $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
     "$timestamp - $message" | Out-File -FilePath $logFile -Append -Encoding UTF8
 }
 
-# ¼ì²é²¢´´½¨ÈÎÎñ¼Æ»®
+# æ£€æŸ¥å¹¶åˆ›å»ºä»»åŠ¡è®¡åˆ’
 $taskName = "AutoScreenshot"
 $taskExists = Get-ScheduledTask -TaskName $taskName -ErrorAction SilentlyContinue
 
 if (-not $taskExists) {
-    Write-Log "¼ì²éÈÎÎñ¼Æ»®£ºÈÎÎñ²»´æÔÚ£¬¿ªÊ¼´´½¨¡£"
+    Write-Log "æ£€æŸ¥ä»»åŠ¡è®¡åˆ’ï¼šä»»åŠ¡ä¸å­˜åœ¨ï¼Œå¼€å§‹åˆ›å»ºã€‚"
     $scriptPath = Join-Path $PSScriptRoot "screenshot.ps1"
-    # Ìí¼Ó -WindowStyle Hidden ²ÎÊı
+    # æ·»åŠ  -WindowStyle Hidden å‚æ•°
     $action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File `"$scriptPath`""
-    # ÉèÖÃ´¥·¢Æ÷£º´ÓÏÖÔÚ¿ªÊ¼£¬Ã¿·ÖÖÓÖØ¸´
+    # è®¾ç½®è§¦å‘å™¨ï¼šä»ç°åœ¨å¼€å§‹ï¼Œæ¯åˆ†é’Ÿé‡å¤
     $trigger = New-ScheduledTaskTrigger -Once -At (Get-Date) -RepetitionInterval (New-TimeSpan -Minutes 1)
     $settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -StartWhenAvailable
 
@@ -23,97 +23,97 @@ if (-not $taskExists) {
                               -Action $action `
                               -Trigger $trigger `
                               -Settings $settings `
-                              -Description "Ã¿·ÖÖÓ×Ô¶¯½ØÍ¼" `
+                              -Description "æ¯åˆ†é’Ÿè‡ªåŠ¨æˆªå›¾" `
                               -Force
-        Write-Log "ÈÎÎñ¼Æ»®´´½¨³É¹¦£º$taskName"
-        Write-Host "ÈÎÎñ¼Æ»®ÒÑ´´½¨£º$taskName"
+        Write-Log "ä»»åŠ¡è®¡åˆ’åˆ›å»ºæˆåŠŸï¼š$taskName"
+        Write-Host "ä»»åŠ¡è®¡åˆ’å·²åˆ›å»ºï¼š$taskName"
     } catch {
-        Write-Log "ÈÎÎñ¼Æ»®´´½¨Ê§°Ü£º$_"
-        Write-Host "´´½¨ÈÎÎñ¼Æ»®Ê§°Ü£º$_"
+        Write-Log "ä»»åŠ¡è®¡åˆ’åˆ›å»ºå¤±è´¥ï¼š$_"
+        Write-Host "åˆ›å»ºä»»åŠ¡è®¡åˆ’å¤±è´¥ï¼š$_"
         exit
     }
 } else {
-    Write-Log "ÈÎÎñ¼Æ»®ÒÑ´æÔÚ£º$taskName"
-    Write-Host "ÈÎÎñ¼Æ»®ÒÑ´æÔÚ£º$taskName"
+    Write-Log "ä»»åŠ¡è®¡åˆ’å·²å­˜åœ¨ï¼š$taskName"
+    Write-Host "ä»»åŠ¡è®¡åˆ’å·²å­˜åœ¨ï¼š$taskName"
 }
 
-# ÉèÖÃ±£´æ½ØÍ¼µÄÎÄ¼ş¼Ğ
+# è®¾ç½®ä¿å­˜æˆªå›¾çš„æ–‡ä»¶å¤¹
 $saveFolder = "C:\Screenshots"
 if (!(Test-Path $saveFolder)) {
     New-Item -ItemType Directory -Path $saveFolder
 }
 
-# »ñÈ¡µ±Ç°Ê±¼ä£¬ÓÃÓÚÃüÃûÎÄ¼ş
+# è·å–å½“å‰æ—¶é—´ï¼Œç”¨äºå‘½åæ–‡ä»¶
 $timestamp = Get-Date -Format "yyyyMMdd_HHmmss"
 $savePath = "$saveFolder\screenshot_$timestamp.png"
 
-# Ìí¼ÓÔËĞĞÊ±ÈÕÖ¾
-Write-Log "½Å±¾¿ªÊ¼Ö´ĞĞ£¬³¢ÊÔ½ØÍ¼¡£"
+# æ·»åŠ è¿è¡Œæ—¶æ—¥å¿—
+Write-Log "è„šæœ¬å¼€å§‹æ‰§è¡Œï¼Œå°è¯•æˆªå›¾ã€‚"
 
-# ¼ì²éÆÁÄ»¿ÉÓÃĞÔ²¢½ØÍ¼
+# æ£€æŸ¥å±å¹•å¯ç”¨æ€§å¹¶æˆªå›¾
 try {
     Add-Type -AssemblyName System.Windows.Forms -ErrorAction Stop
     Add-Type -AssemblyName System.Drawing -ErrorAction Stop
 
-    # ¼ì²éÊÇ·ñÔÚÔ¶³Ì»á»°ÖĞ
+    # æ£€æŸ¥æ˜¯å¦åœ¨è¿œç¨‹ä¼šè¯ä¸­
     $isTerminalSession = [System.Windows.Forms.SystemInformation]::TerminalServerSession
-    Write-Log "ÖÕ¶Ë»á»°×´Ì¬£º$isTerminalSession"
+    Write-Log "ç»ˆç«¯ä¼šè¯çŠ¶æ€ï¼š$isTerminalSession"
 
-    # »ñÈ¡Ö÷ÆÁÄ»
+    # è·å–ä¸»å±å¹•
     $primaryScreen = [System.Windows.Forms.Screen]::PrimaryScreen
     if (-not $primaryScreen) {
-        throw "Î´ÕÒµ½Ö÷ÆÁÄ»"
+        throw "æœªæ‰¾åˆ°ä¸»å±å¹•"
     }
 
-    # »ñÈ¡Ö÷ÆÁÄ»µÄ±ß½ç
+    # è·å–ä¸»å±å¹•çš„è¾¹ç•Œ
     $bounds = $primaryScreen.Bounds
-    Write-Log "Ö÷ÆÁÄ»·Ö±æÂÊ: $($bounds.Width)x$($bounds.Height), Î»ÖÃ: ($($bounds.X), $($bounds.Y))"
+    Write-Log "ä¸»å±å¹•åˆ†è¾¨ç‡: $($bounds.Width)x$($bounds.Height), ä½ç½®: ($($bounds.X), $($bounds.Y))"
 
-    # ¼ì²éÖ÷ÆÁÄ»±ß½çÊÇ·ñÓĞĞ§
+    # æ£€æŸ¥ä¸»å±å¹•è¾¹ç•Œæ˜¯å¦æœ‰æ•ˆ
     if ($bounds.Width -le 0 -or $bounds.Height -le 0) {
-        throw "Ö÷ÆÁÄ»·Ö±æÂÊÎŞĞ§£º¿í¶È»ò¸ß¶ÈĞ¡ÓÚµÈÓÚ0"
+        throw "ä¸»å±å¹•åˆ†è¾¨ç‡æ— æ•ˆï¼šå®½åº¦æˆ–é«˜åº¦å°äºç­‰äº0"
     }
 
-    # ´Ó×¢²á±í»ñÈ¡Ëõ·Å±ÈÀı
+    # ä»æ³¨å†Œè¡¨è·å–ç¼©æ”¾æ¯”ä¾‹
     $regPath = "HKCU:\Control Panel\Desktop\WindowMetrics"
     $regValue = Get-ItemProperty -Path $regPath -Name "AppliedDPI" -ErrorAction SilentlyContinue
     if ($regValue -and $regValue.AppliedDPI) {
         $dpi = $regValue.AppliedDPI
         $scale = $dpi / 96.0
     } else {
-        # Èç¹û×¢²á±íÖĞÃ»ÓĞ AppliedDPI£¬ÔòÊ¹ÓÃÄ¬ÈÏÖµ 1
+        # å¦‚æœæ³¨å†Œè¡¨ä¸­æ²¡æœ‰ AppliedDPIï¼Œåˆ™ä½¿ç”¨é»˜è®¤å€¼ 1
         $scale = 1.0
     }
-    Write-Log "Ëõ·Å±ÈÀı: $scale"
+    Write-Log "ç¼©æ”¾æ¯”ä¾‹: $scale"
 
-    # ¼ì²éËõ·Å±ÈÀıÊÇ·ñÓĞĞ§
+    # æ£€æŸ¥ç¼©æ”¾æ¯”ä¾‹æ˜¯å¦æœ‰æ•ˆ
     if ($scale -le 0) {
-        throw "Ëõ·Å±ÈÀıÎŞĞ§£ºĞ¡ÓÚµÈÓÚ0"
+        throw "ç¼©æ”¾æ¯”ä¾‹æ— æ•ˆï¼šå°äºç­‰äº0"
     }
 
-    # µ÷Õû½ØÍ¼³ß´ç
+    # è°ƒæ•´æˆªå›¾å°ºå¯¸
     $scaledWidth = [int]($bounds.Width * $scale)
     $scaledHeight = [int]($bounds.Height * $scale)
-    Write-Log "µ÷ÕûºóµÄ½ØÍ¼³ß´ç: ${scaledWidth}x${scaledHeight}"
+    Write-Log "è°ƒæ•´åçš„æˆªå›¾å°ºå¯¸: ${scaledWidth}x${scaledHeight}"
 
-    # ¼ì²éµ÷ÕûºóµÄ³ß´çÊÇ·ñÓĞĞ§
+    # æ£€æŸ¥è°ƒæ•´åçš„å°ºå¯¸æ˜¯å¦æœ‰æ•ˆ
     if ($scaledWidth -le 0 -or $scaledHeight -le 0) {
-        throw "µ÷ÕûºóµÄ½ØÍ¼³ß´çÎŞĞ§£º¿í¶È»ò¸ß¶ÈĞ¡ÓÚµÈÓÚ0"
+        throw "è°ƒæ•´åçš„æˆªå›¾å°ºå¯¸æ— æ•ˆï¼šå®½åº¦æˆ–é«˜åº¦å°äºç­‰äº0"
     }
 
-    # ´´½¨ Bitmap ²¢½ØÍ¼
+    # åˆ›å»º Bitmap å¹¶æˆªå›¾
     $bitmap = New-Object System.Drawing.Bitmap $scaledWidth, $scaledHeight
     $graphics = [System.Drawing.Graphics]::FromImage($bitmap)
 
-    # µ÷Õû CopyFromScreen µÄ²ÎÊı
+    # è°ƒæ•´ CopyFromScreen çš„å‚æ•°
     $graphics.CopyFromScreen($bounds.X, $bounds.Y, 0, 0, $bitmap.Size, [System.Drawing.CopyPixelOperation]::SourceCopy)
     $bitmap.Save($savePath, [System.Drawing.Imaging.ImageFormat]::Png)
     $graphics.Dispose()
     $bitmap.Dispose()
 
-    Write-Log "½ØÍ¼³É¹¦£º$savePath (·Ö±æÂÊ: ${scaledWidth}x${scaledHeight})"
-    Write-Host "½ØÍ¼ÒÑ±£´æÖÁ£º$savePath"
+    Write-Log "æˆªå›¾æˆåŠŸï¼š$savePath (åˆ†è¾¨ç‡: ${scaledWidth}x${scaledHeight})"
+    Write-Host "æˆªå›¾å·²ä¿å­˜è‡³ï¼š$savePath"
 } catch {
-    Write-Log "½ØÍ¼Ê§°Ü£º$_"
-    Write-Host "½ØÍ¼Ê§°Ü£º$_"
+    Write-Log "æˆªå›¾å¤±è´¥ï¼š$_"
+    Write-Host "æˆªå›¾å¤±è´¥ï¼š$_"
 }

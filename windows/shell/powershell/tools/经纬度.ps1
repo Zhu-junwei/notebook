@@ -1,12 +1,12 @@
-Add-Type -AssemblyName System.Device
+ï»¿Add-Type -AssemblyName System.Device
 $GeoWatcher = New-Object System.Device.Location.GeoCoordinateWatcher
 
-# ½ö»ñÈ¡Ò»´ÎÎ»ÖÃ£¬Ìá¸ßĞ§ÂÊ
+# ä»…è·å–ä¸€æ¬¡ä½ç½®ï¼Œæé«˜æ•ˆç‡
 $GeoWatcher.MovementThreshold = 1
 $GeoWatcher.Start()
 
-Write-Output "ÕıÔÚ»ñÈ¡GPSÎ»ÖÃĞÅÏ¢£¬ÇëÉÔºò..."
-$timeout = 15  # ×î³¤µÈ´ı 15 Ãë
+Write-Output "æ­£åœ¨è·å–GPSä½ç½®ä¿¡æ¯ï¼Œè¯·ç¨å€™..."
+$timeout = 15  # æœ€é•¿ç­‰å¾… 15 ç§’
 
 while (($GeoWatcher.Status -ne "Ready" -or $GeoWatcher.Position.Location.IsUnknown) -and $timeout -gt 0) {
     Start-Sleep -Seconds 1
@@ -15,58 +15,58 @@ while (($GeoWatcher.Status -ne "Ready" -or $GeoWatcher.Position.Location.IsUnkno
 
 $Location = $GeoWatcher.Position.Location
 
-# ÅĞ¶ÏÊÇ·ñ³É¹¦»ñÈ¡Î»ÖÃ
+# åˆ¤æ–­æ˜¯å¦æˆåŠŸè·å–ä½ç½®
 if ($Location.IsUnknown) {
-    Write-Output "ÎŞ·¨»ñÈ¡Î»ÖÃĞÅÏ¢£¬ÇëÈ·±£Éè±¸ÒÑÆôÓÃ¶¨Î»·şÎñ¡£"
+    Write-Output "æ— æ³•è·å–ä½ç½®ä¿¡æ¯ï¼Œè¯·ç¡®ä¿è®¾å¤‡å·²å¯ç”¨å®šä½æœåŠ¡ã€‚"
 } else {
-    # »ñÈ¡¾­Î³¶È
+    # è·å–ç»çº¬åº¦
     $lat = $Location.Latitude
     $lon = $Location.Longitude
 
-    Write-Output "Î»ÖÃĞÅÏ¢»ñÈ¡³É¹¦£º"
-    Write-Output "   Î³¶È (Latitude):  $lat"
-    Write-Output "   ¾­¶È (Longitude): $lon"
+    Write-Output "ä½ç½®ä¿¡æ¯è·å–æˆåŠŸï¼š"
+    Write-Output "   çº¬åº¦ (Latitude):  $lat"
+    Write-Output "   ç»åº¦ (Longitude): $lon"
 
-    # »ñÈ¡º£°Î¸ß¶È
+    # è·å–æµ·æ‹”é«˜åº¦
     $altitude = $Location.Altitude
     if ([double]::IsNaN($altitude)) {
-        Write-Output "   º£°Î¸ß¶È (Altitude): ²»Ö§³Ö"
+        Write-Output "   æµ·æ‹”é«˜åº¦ (Altitude): ä¸æ”¯æŒ"
     } else {
-        Write-Output "   º£°Î¸ß¶È (Altitude): $altitude Ã×"
+        Write-Output "   æµ·æ‹”é«˜åº¦ (Altitude): $altitude ç±³"
     }
 
-    # »ñÈ¡Ë®Æ½¾«¶È
+    # è·å–æ°´å¹³ç²¾åº¦
     $horizontalAccuracy = $Location.HorizontalAccuracy
-    Write-Output "   Ë®Æ½¾«¶È (Horizontal Accuracy): $horizontalAccuracy Ã×"
+    Write-Output "   æ°´å¹³ç²¾åº¦ (Horizontal Accuracy): $horizontalAccuracy ç±³"
 
-    # »ñÈ¡´¹Ö±¾«¶È
+    # è·å–å‚ç›´ç²¾åº¦
     $verticalAccuracy = $Location.VerticalAccuracy
     if ([double]::IsNaN($verticalAccuracy)) {
-        Write-Output "   ´¹Ö±¾«¶È (Vertical Accuracy): ²»Ö§³Ö"
+        Write-Output "   å‚ç›´ç²¾åº¦ (Vertical Accuracy): ä¸æ”¯æŒ"
     } else {
-        Write-Output "   ´¹Ö±¾«¶È (Vertical Accuracy): $verticalAccuracy Ã×"
+        Write-Output "   å‚ç›´ç²¾åº¦ (Vertical Accuracy): $verticalAccuracy ç±³"
     }
 
-    # »ñÈ¡ËÙ¶È
+    # è·å–é€Ÿåº¦
     $speed = $Location.Speed
     if ([double]::IsNaN($speed)) {
-        Write-Output "   ËÙ¶È (Speed): ²»Ö§³Ö"
+        Write-Output "   é€Ÿåº¦ (Speed): ä¸æ”¯æŒ"
     } else {
-        Write-Output "   ËÙ¶È (Speed): $speed Ã×/Ãë"
+        Write-Output "   é€Ÿåº¦ (Speed): $speed ç±³/ç§’"
     }
 
-    # »ñÈ¡·½Ïò
+    # è·å–æ–¹å‘
     $course = $Location.Course
     if ([double]::IsNaN($course)) {
-        Write-Output "   ·½Ïò (Course): ²»Ö§³Ö"
+        Write-Output "   æ–¹å‘ (Course): ä¸æ”¯æŒ"
     } else {
-        Write-Output "   ·½Ïò (Course): $course ¶È"
+        Write-Output "   æ–¹å‘ (Course): $course åº¦"
     }
 
-    # »ñÈ¡Ê±¼ä´Á²¢×ª»»Îª±¾µØÊ±¼ä
+    # è·å–æ—¶é—´æˆ³å¹¶è½¬æ¢ä¸ºæœ¬åœ°æ—¶é—´
     $timestamp = $GeoWatcher.Position.Timestamp
     $localTime = $timestamp.DateTime.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss")
-    Write-Output "   Ê±¼ä´Á (Timestamp): $localTime"
+    Write-Output "   æ—¶é—´æˆ³ (Timestamp): $localTime"
 }
 
 Pause
