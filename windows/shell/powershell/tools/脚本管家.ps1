@@ -35,8 +35,7 @@ while ($running) {
 		Start-Process cmd.exe "/c `"$env:TEMP\WindowsManageTool.bat`"" }
 		"2" { 
 			$cmd = 'irm https://raw.githubusercontent.com/Zhu-junwei/notebook/master/windows/shell/powershell/tools/JetBrains全家桶激活.ps1 | iex'
-			Start-Process powershell.exe -Verb RunAs `
-				-ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"$cmd`""
+			Start-Process powershell.exe -Verb RunAs -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"$cmd`""
 		}
 		"0" { $running = $false }
 	}

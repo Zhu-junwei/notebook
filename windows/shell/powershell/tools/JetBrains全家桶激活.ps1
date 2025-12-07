@@ -15,13 +15,9 @@
 	Write-Host ("=" * $width) -ForegroundColor Cyan
 	Write-Host
 	Write-Host (Indent-Text "1. 激活`n") -ForegroundColor Green
-	Write-Host
 	Write-Host (Indent-Text "2. 取消激活`n")
-	Write-Host
 	Write-Host (Indent-Text "3. 下载离线激活包`n")
-	Write-Host
-	Write-Host (Indent-Text "0. 退出"`n) -ForegroundColor Red
-	Write-Host
+	Write-Host (Indent-Text "0. 退出`n")
 	Write-Host ("=" * $width) -ForegroundColor Cyan
 }
 
