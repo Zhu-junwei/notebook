@@ -1,4 +1,9 @@
-﻿function Show-Menu {
+﻿# encoding: utf-8
+
+Clear-Host
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+
+function Show-Menu {
 	Clear-Host
 
 	# 设置缩进空格数
