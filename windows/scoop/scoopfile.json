@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1765182710000)\/",
+                "value": "\/Date(1765269064000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月8日 16:31:50"
+                "DateTime": "2025年12月9日 16:31:04"
             },
             "Manifests": 1413
         },
@@ -14,21 +14,21 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1765096175000)\/",
+                "value": "\/Date(1765269041000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月7日 16:29:35"
+                "DateTime": "2025年12月9日 16:30:41"
             },
-            "Manifests": 2226
+            "Manifests": 2227
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1765172847000)\/",
+                "value": "\/Date(1765239723000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月8日 13:47:27"
+                "DateTime": "2025年12月9日 8:22:03"
             },
-            "Manifests": 264
+            "Manifests": 265
         }
     ],
     "apps": [
@@ -127,8 +127,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "escrcpy",
-            "Version": "1.33.0",
-            "Updated": "\/Date(1764438468222)\/"
+            "Version": "1.34.2",
+            "Updated": "\/Date(1765270910330)\/"
         },
         {
             "Info": "",
@@ -218,8 +218,8 @@
             "Info": "",
             "Source": "dorado",
             "Name": "neteasemusic",
-            "Version": "3.1.23.204764",
-            "Updated": "\/Date(1763542829083)\/"
+            "Version": "3.1.24.204802",
+            "Updated": "\/Date(1765270940964)\/"
         },
         {
             "Info": "",
@@ -316,8 +316,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "ventoy",
-            "Version": "1.1.07",
-            "Updated": "\/Date(1764436759196)\/"
+            "Version": "1.1.08",
+            "Updated": "\/Date(1765270965750)\/"
         },
         {
             "Info": "",
