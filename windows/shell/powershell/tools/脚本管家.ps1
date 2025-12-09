@@ -19,7 +19,9 @@ function Show-Menu {
 	Write-Host
 	Write-Host (Indent-Text "1. Windows管理小工具") -ForegroundColor Green
 	Write-Host
-	Write-Host (Indent-Text "2. JetBrains 全家桶激活脚本") -ForegroundColor Green
+	Write-Host (Indent-Text "2. JetBrains 全家桶激活") -ForegroundColor Green
+	Write-Host
+	Write-Host (Indent-Text "3. Navicat Premium 激活") -ForegroundColor Green
 	Write-Host
 	Write-Host (Indent-Text "0. 退出")
 	Write-Host
@@ -36,6 +38,10 @@ while ($running) {
 		"2" { 
 			$cmd = 'irm https://raw.githubusercontent.com/Zhu-junwei/notebook/master/windows/shell/powershell/tools/JetBrains全家桶激活.ps1 | iex'
 			Start-Process powershell.exe -Verb RunAs -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"$cmd`""
+		}
+		"3" { 
+			$cmd = 'irm https://raw.githubusercontent.com/Zhu-junwei/notebook/master/windows/shell/powershell/tools/navicat_patch.ps1 | iex'
+			Start-Process powershell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"$cmd`""
 		}
 		"0" { $running = $false }
 	}
