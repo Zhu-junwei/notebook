@@ -35,13 +35,11 @@ while ($running) {
 	switch ($choice) {
 		"1" { irm https://raw.githubusercontent.com/Zhu-junwei/Windows-Manage-Tool/master/WindowsManageTool.bat -OutFile "$env:TEMP\WindowsManageTool.bat"
 		Start-Process cmd.exe "/c `"$env:TEMP\WindowsManageTool.bat`"" }
-		"2" { 
-			$cmd = 'irm https://raw.githubusercontent.com/Zhu-junwei/notebook/master/windows/shell/powershell/tools/JetBrains全家桶激活.ps1 | iex'
-			Start-Process powershell.exe -Verb RunAs -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"$cmd`""
+		"2" {
+			Start-Process powershell.exe -Verb RunAs -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"iex ((irm 'https://raw.githubusercontent.com/Zhu-junwei/notebook/master/windows/shell/powershell/tools/JetBrains全家桶激活.ps1') -replace '^\uFEFF','')`""
 		}
 		"3" { 
-			$cmd = 'irm https://raw.githubusercontent.com/Zhu-junwei/notebook/master/windows/shell/powershell/tools/navicat_patch.ps1 | iex'
-			Start-Process powershell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"$cmd`""
+			Start-Process powershell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"iex ((irm 'https://raw.githubusercontent.com/Zhu-junwei/notebook/master/windows/shell/powershell/tools/navicat_patch.ps1') -replace '^\uFEFF','')`""
 		}
 		"0" { $running = $false }
 	}
