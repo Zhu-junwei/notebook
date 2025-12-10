@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1765269064000)\/",
+                "value": "\/Date(1765341076000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月9日 16:31:04"
+                "DateTime": "2025年12月10日 12:31:16"
             },
             "Manifests": 1413
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1765269041000)\/",
+                "value": "\/Date(1765349964000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月9日 16:30:41"
+                "DateTime": "2025年12月10日 14:59:24"
             },
-            "Manifests": 2227
+            "Manifests": 2228
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1765239723000)\/",
+                "value": "\/Date(1765325963000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月9日 8:22:03"
+                "DateTime": "2025年12月10日 8:19:23"
             },
             "Manifests": 265
         }
@@ -276,6 +276,13 @@
             "Name": "resource-hacker",
             "Version": "5.2.8",
             "Updated": "\/Date(1761758969222)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "rustdesk",
+            "Version": "1.4.4",
+            "Updated": "\/Date(1765350222076)\/"
         },
         {
             "Info": "",
