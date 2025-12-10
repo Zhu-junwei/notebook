@@ -1,4 +1,5 @@
-﻿# encoding: utf-8
+﻿# run as Administrator
+if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb runAs; exit}
 
 Clear-Host
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
@@ -16,7 +17,7 @@ function Show-Menu {
 	}
 
 	Write-Host ("=" * $width) -ForegroundColor Cyan
-	Write-Host (Indent-Text "JetBrains 全家桶激活脚本") -ForegroundColor Yellow
+	Write-Host (Indent-Text "    JetBrains 全家桶激活脚本") -ForegroundColor Yellow
 	Write-Host ("=" * $width) -ForegroundColor Cyan
 	Write-Host
 	Write-Host (Indent-Text "1. 激活`n") -ForegroundColor Green
