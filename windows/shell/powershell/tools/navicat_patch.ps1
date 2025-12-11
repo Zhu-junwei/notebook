@@ -82,8 +82,13 @@ function Get-ExeInfo($exePath) {
     }
 }
 
+Write-Host "
+==================================================
+              Navicat Premium 激活脚本
+==================================================
+" -ForegroundColor Cyan
 # 执行查找
-Write-Host "查找Navicat安装位置..."
+Write-Host "`n查找Navicat安装位置..." -ForegroundColor Cyan
 $paths = Find-Navicat
 
 if ($paths.Count -eq 1) {
@@ -94,53 +99,49 @@ if ($paths.Count -eq 1) {
 	$NavicatInfo = Get-ExeInfo (Join-Path $path "navicat.exe")
 	$arch = $NavicatInfo.Arch
 	$version = $NavicatInfo.Version
-	Write-Host "位置： $path"
-	Write-Host "架构： $arch"
-	Write-Host "版本： $version"
+	Write-Host "  位置： $path"
+	Write-Host "  架构： $arch"
+	Write-Host "  版本： $version"
 
    # 下载 ZIP 到临时目录
-	$zip = "$env:TEMP\navicat_${arch}_patch.zip"
-	Write-Host "`n下载激活补丁..."
+	$zip = "$env:TEMP\${arch}_patch.zip"
+	Write-Host "`n下载激活补丁..." -ForegroundColor Cyan
 	$url = "https://cdn.jsdelivr.net/gh/Zhu-junwei/software/navicat/${arch}_patch.zip"
-	Write-Host "下载地址：$url" -ForegroundColor Green
+	Write-Host "下载 → $url"
 	try {
 		Invoke-WebRequest -Uri $url -OutFile $zip -ErrorAction Stop
 		Write-Host "下载成功！" -ForegroundColor Green
 	} catch {
 		Write-Host "下载失败：$url" -ForegroundColor Red
-		continue
+		Write-Host "请检查网络连接或URL是否正确。" -ForegroundColor Yellow
+		$null = Read-Host
+		exit
 	}
 	
-	# 列出 ZIP 内文件
+	# 解压
+	Write-Host "`n解压激活补丁..." -ForegroundColor Cyan
 	Add-Type -AssemblyName System.IO.Compression.FileSystem
 	$zipArchive = [System.IO.Compression.ZipFile]::OpenRead($zip)
-	Write-Host "`n即将解压补丁文件："
+	Write-Host "`解压补丁文件: $(Split-Path $zip -Leaf) → $path"
 	$zipArchive.Entries.FullName | ForEach-Object { Write-Host " - $_" }
 	$zipArchive.Dispose()
-
-	# 解压覆盖安装目录
-	Write-Host "`n解压中..."
 	try {
 		Expand-Archive -Force -LiteralPath $zip -DestinationPath $path
-		Write-Host "解压完成 → $path" -ForegroundColor Green
+		Write-Host "解压完成！" -ForegroundColor Green
 	} catch {
 		Write-Host "解压失败" -ForegroundColor Red
 	}
-	Write-Host "`n删除临时文件..."
 	Remove-Item $zip -Force -ErrorAction Stop
-	Write-Host "`删除临时文件完成" -ForegroundColor Green
-
-} 
-elseif ($paths.Count -gt 1) {
+	Write-Host "`nNavicat Premium 激活完成，请重启应用使用" -ForegroundColor Green
+} elseif ($paths.Count -gt 1) {
 	Write-Host "`n检测到多个 Navicat 安装路径：" -ForegroundColor Yellow
 	foreach ($p in $paths) {
 		Write-Host " - $p" -ForegroundColor Cyan
 	}
 	Write-Host "`n请手动删除多余的 Navicat 文件夹，仅保留一个。" -ForegroundColor Red
 	Write-Host "脚本已停止执行。" -ForegroundColor Red
-}
-else {
+} else {
 	Write-Host "未找到 Navicat 安装路径。" -ForegroundColor Yellow
 }
-Write-Host "`nNavicat Premium激活完成，请重启应用" -ForegroundColor Green
+
 $null = Read-Host

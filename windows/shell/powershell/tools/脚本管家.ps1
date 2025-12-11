@@ -14,7 +14,7 @@ function Show-Menu {
 	}
 
 	Write-Host ("=" * $width) -ForegroundColor Cyan
-	Write-Host (Indent-Text "    脚本管家") -ForegroundColor Yellow
+	Write-Host (Indent-Text "         脚本管家") -ForegroundColor Yellow
 	Write-Host ("=" * $width) -ForegroundColor Cyan
 	Write-Host
 	Write-Host (Indent-Text "1. Windows管理小工具") -ForegroundColor Green
@@ -28,18 +28,38 @@ function Show-Menu {
 	Write-Host ("=" * $width) -ForegroundColor Cyan
 }
 
+# ----------------
+# 运行远程脚本
+# ----------------
+function Invoke-ScriptFromUrl {
+    param (
+        [string]$url,
+        [switch]$IsAdmin
+    )
+    if ($IsAdmin) {
+        Start-Process powershell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"iex ((irm $url) -replace '^\uFEFF', '')`"" -Verb RunAs
+    } else {
+        Start-Process powershell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"iex ((irm $url) -replace '^\uFEFF', '')`""
+    }
+}
+
 $running = $true
 while ($running) {
 	Show-Menu
 	$choice = Read-Host "请输入选项数字"
 	switch ($choice) {
-		"1" { irm https://raw.githubusercontent.com/Zhu-junwei/Windows-Manage-Tool/master/WindowsManageTool.bat -OutFile "$env:TEMP\WindowsManageTool.bat"
-		Start-Process cmd.exe "/c `"$env:TEMP\WindowsManageTool.bat`"" }
+		"1" { 
+			$url = "https://raw.githubusercontent.com/Zhu-junwei/Windows-Manage-Tool/master/WindowsManageTool.bat"
+			irm $url -OutFile "$env:TEMP\WindowsManageTool.bat"
+			Start-Process cmd.exe "/c `"$env:TEMP\WindowsManageTool.bat`"" 
+		}
 		"2" {
-			Start-Process powershell.exe -Verb RunAs -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"iex ((irm 'https://raw.githubusercontent.com/Zhu-junwei/notebook/master/windows/shell/powershell/tools/JetBrains全家桶激活.ps1') -replace '^\uFEFF','')`""
+			$url = "https://raw.githubusercontent.com/Zhu-junwei/notebook/master/windows/shell/powershell/tools/JetBrains全家桶激活.ps1"
+			Invoke-ScriptFromUrl $url -IsAdmin
 		}
 		"3" { 
-			Start-Process powershell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"iex ((irm 'https://raw.githubusercontent.com/Zhu-junwei/notebook/master/windows/shell/powershell/tools/navicat_patch.ps1') -replace '^\uFEFF','')`""
+			$url = "https://raw.githubusercontent.com/Zhu-junwei/notebook/master/windows/shell/powershell/tools/navicat_patch.ps1"
+			Invoke-ScriptFromUrl $url
 		}
 		"0" { $running = $false }
 	}
