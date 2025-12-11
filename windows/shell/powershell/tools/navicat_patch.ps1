@@ -12,7 +12,7 @@
 		if (Test-Path $k) {
 			Get-ChildItem $k -ErrorAction SilentlyContinue | ForEach-Object {
 				$p = Get-ItemProperty $_.PsPath -ErrorAction SilentlyContinue
-				if ($p.DisplayName -like "*Navicat Premium*") {
+				if ($p.DisplayName -like "*Navicat*") {
 					if ($p.InstallLocation -and (Test-Path (Join-Path $p.InstallLocation "navicat.exe"))) {
 						$results.Add($p.InstallLocation.TrimEnd('\','/')) | Out-Null
 					}
@@ -101,12 +101,10 @@ function Download-Patch {
         "x64" = @{
             downloadURL = "https://cdn.jsdelivr.net/gh/Zhu-junwei/software/navicat/x64_patch.zip"
             localPatch   = Join-Path $env:TEMP "x64_patch.zip"
-            IsRemote    = $true
         }
         "x86" = @{
             downloadURL = "https://cdn.jsdelivr.net/gh/Zhu-junwei/software/navicat/x86_patch.zip"
             localPatch   = Join-Path $env:TEMP "x86_patch.zip"
-            IsRemote    = $true
         }
     }
 
@@ -126,7 +124,6 @@ function Download-Patch {
             $localPatch = Join-Path (Split-Path -Parent $PSCommandPath) ("${arch}_patch.zip")
             if (Test-Path $localPatch) {
                 $PatchMap[$arch].localPatch = $localPatch
-                $PatchMap[$arch].IsRemote = $false
                 Write-Host "Navicat补丁${arch}_patch.zip已存在，将会进行离线激活。" -ForegroundColor Gray
             }
         }
@@ -134,8 +131,7 @@ function Download-Patch {
         $url = $patchInfo.downloadURL
         $zip = $patchInfo.localPatch
 	
-        # 仅当是远程下载且文件不存在时才下载
-        if ($patchInfo.IsRemote -and -not (Test-Path $zip)) {
+        if (-not (Test-Path $zip)) {
 			Write-Host "`正在联网下载补丁: $zip ← $url" -ForegroundColor Blue
             try {
                 Invoke-WebRequest -Uri $url -OutFile $zip -UseBasicParsing -ErrorAction Stop
