@@ -21,7 +21,7 @@ function Show-Menu {
 	Write-Host
 	Write-Host (Indent-Text "2. JetBrains 全家桶激活") -ForegroundColor Green
 	Write-Host
-	Write-Host (Indent-Text "3. Navicat Premium 激活") -ForegroundColor Green
+	Write-Host (Indent-Text "3. Navicat 全家桶激活") -ForegroundColor Green
 	Write-Host
 	Write-Host (Indent-Text "0. 退出")
 	Write-Host
