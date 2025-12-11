@@ -154,7 +154,6 @@ function Clean-Temp-Patch {
 	Get-ChildItem $env:TEMP -Filter "x*_patch.zip" -File -ErrorAction SilentlyContinue | Remove-Item -Force 
 }
 
-
 $asciiArt = @"
     ___       ___       ___       ___       ___       ___       ___   
    /\__\     /\  \     /\__\     /\  \     /\  \     /\  \     /\  \  
@@ -164,13 +163,12 @@ $asciiArt = @"
    |:/  /    /:/  /   L;;/__/   \:\__\    \:\__\     /:/  /   \/__/   
    \/__/     \/__/               \/__/     \/__/     \/__/            
 
-              Navicat Premium 激活脚本v1.0 2025-12-11
+              Navicat全家桶激活脚本v1.0 2025-12-11
 "@
-
 Write-Host $asciiArt -ForegroundColor Cyan
 Start-Sleep -Seconds 3
 # 执行查找
-Write-Host "`n查找已Navicat安装位置..." -ForegroundColor Yellow
+Write-Host "`n查找已安装Navicat位置..." -ForegroundColor Yellow
 $paths = Find-Navicat
 
 if($paths.Count -eq 0) {
@@ -203,14 +201,14 @@ if($paths.Count -eq 0) {
 	foreach ($nav in $navicatInfoes) {
 		$navicatInfo = $nav.navicatInfo
 		$arch = $navicatInfo.arch
-		Write-Host "`正在激活 $($navicatInfo.versionInfo.ProductName) $($arch) $($navicatInfo.versionInfo.FileVersion)" -ForegroundColor Cyan
+		Write-Host "正在激活 $($navicatInfo.versionInfo.ProductName) $($arch) $($navicatInfo.versionInfo.FileVersion)" -ForegroundColor Cyan
 		if ($PatchMap.ContainsKey($arch)) {
 			$patchZip = $PatchMap[$arch].localPatch
 			$destPath = $nav.path
 			Write-Host "解压补丁文件: $(Split-Path $patchZip -Leaf) → $destPath"
 			Expand-Archive -Path $patchZip -DestinationPath $destPath -Force
 		}
-		Write-Host "`已激活 $($navicatInfo.versionInfo.ProductName) $($arch) $($navicatInfo.versionInfo.FileVersion)" -ForegroundColor Green
+		Write-Host "已激活 $($navicatInfo.versionInfo.ProductName) $($arch) $($navicatInfo.versionInfo.FileVersion)" -ForegroundColor Green
 	}
 	Clean-Temp-Patch
 	Write-Host "`nNavicat 产品激活完成，请重启应用使用" -ForegroundColor Green
