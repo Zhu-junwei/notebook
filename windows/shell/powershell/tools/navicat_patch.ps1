@@ -22,15 +22,22 @@
 	}
 
 	# 方法 2：快捷方式寻找
-	$lnkPaths = @("$env:ProgramData\Microsoft\Windows\Start Menu\Programs",
-					"$env:AppData\Microsoft\Windows\Start Menu\Programs")
+	$desktopPath = Join-Path -Path $env:USERPROFILE -ChildPath "Desktop"
+	# 然后创建数组并将桌面路径添加进去
+	$lnkPaths = @(
+		"$env:ProgramData\Microsoft\Windows\Start Menu\Programs",
+		"$env:AppData\Microsoft\Windows\Start Menu\Programs",
+		$desktopPath
+	)
 	foreach ($lp in $lnkPaths) {
 		if (Test-Path $lp) {
 			Get-ChildItem $lp -Recurse -Filter "*navicat*.lnk" -ErrorAction SilentlyContinue | ForEach-Object {
 				$ws = New-Object -ComObject WScript.Shell
 				$path = $ws.CreateShortcut($_.FullName).TargetPath
-				if ($path -and (Test-Path (Join-Path $path "navicat.exe"))) {
-					$results.Add($path.TrimEnd('\','/')) | Out-Null
+				if ($path -and (Test-Path $path)) {
+					if ([System.IO.Path]::GetFileName($path) -ieq "navicat.exe") {
+						$results.Add([System.IO.Path]::GetDirectoryName($path).TrimEnd('\','/')) | Out-Null
+					}
 				}
 			}
 		}
@@ -70,10 +77,10 @@ function Get-ExeInfo($exePath) {
             0x8664 { "x64" }
             default { "未知架构" }
         }
-        $ver = (Get-Item $exePath).VersionInfo.FileVersion
+        $exeVersionInfo = (Get-Item $exePath).VersionInfo
         return [PSCustomObject]@{
-            Arch    = $arch
-            Version = $ver
+            arch    = $arch
+            versionInfo = $exeVersionInfo
         }
     }
     finally {
@@ -82,66 +89,132 @@ function Get-ExeInfo($exePath) {
     }
 }
 
-Write-Host "
-==================================================
-              Navicat Premium 激活脚本
-==================================================
-" -ForegroundColor Cyan
-# 执行查找
-Write-Host "`n查找Navicat安装位置..." -ForegroundColor Cyan
-$paths = Find-Navicat
+function Download-Patch {
+    param(
+        [Parameter(Mandatory = $true)]
+        [System.Collections.Generic.HashSet[string]] $ArchSet
+    )
+	Write-Host "`n查找Navicat补丁..." -ForegroundColor Yellow
 
-if ($paths.Count -eq 1) {
-	$path = @($paths)[0]
-	Write-Host "找到 Navicat 安装路径" -ForegroundColor Green
+    # 默认下载 URL
+    $patchMap = @{
+        "x64" = @{
+            downloadURL = "https://cdn.jsdelivr.net/gh/Zhu-junwei/software/navicat/x64_patch.zip"
+            localPatch   = Join-Path $env:TEMP "x64_patch.zip"
+            IsRemote    = $true
+        }
+        "x86" = @{
+            downloadURL = "https://cdn.jsdelivr.net/gh/Zhu-junwei/software/navicat/x86_patch.zip"
+            localPatch   = Join-Path $env:TEMP "x86_patch.zip"
+            IsRemote    = $true
+        }
+    }
 
-	# 1. 获取 CPU 架构
-	$NavicatInfo = Get-ExeInfo (Join-Path $path "navicat.exe")
-	$arch = $NavicatInfo.Arch
-	$version = $NavicatInfo.Version
-	Write-Host "  位置： $path"
-	Write-Host "  架构： $arch"
-	Write-Host "  版本： $version"
+    # 判断脚本执行方式
+    $isMemory = [string]::IsNullOrEmpty($PSCommandPath)
 
-   # 下载 ZIP 到临时目录
-	$zip = "$env:TEMP\${arch}_patch.zip"
-	Write-Host "`n下载激活补丁..." -ForegroundColor Cyan
-	$url = "https://cdn.jsdelivr.net/gh/Zhu-junwei/software/navicat/${arch}_patch.zip"
-	Write-Host "下载 → $url"
-	try {
-		Invoke-WebRequest -Uri $url -OutFile $zip -ErrorAction Stop
-		Write-Host "下载成功！" -ForegroundColor Green
-	} catch {
-		Write-Host "下载失败：$url" -ForegroundColor Red
-		Write-Host "请检查网络连接或URL是否正确。" -ForegroundColor Yellow
-		$null = Read-Host
-		exit
-	}
+    foreach ($arch in $ArchSet) {
+        if (-not $PatchMap.ContainsKey($arch)) {
+            Write-Host "未找到架构 $arch 对应的补丁路径，跳过。" -ForegroundColor Red
+            continue
+        }
+
+        $patchInfo = $PatchMap[$arch]
+
+        # 如果是本地文件执行，检查脚本目录是否已有 patch
+        if (-not $isMemory) {
+            $localPatch = Join-Path (Split-Path -Parent $PSCommandPath) ("${arch}_patch.zip")
+            if (Test-Path $localPatch) {
+                $PatchMap[$arch].localPatch = $localPatch
+                $PatchMap[$arch].IsRemote = $false
+                Write-Host "Navicat补丁${arch}_patch.zip已存在，将会进行离线激活。" -ForegroundColor Gray
+            }
+        }
+
+        $url = $patchInfo.downloadURL
+        $zip = $patchInfo.localPatch
 	
-	# 解压
-	Write-Host "`n解压激活补丁..." -ForegroundColor Cyan
-	Add-Type -AssemblyName System.IO.Compression.FileSystem
-	$zipArchive = [System.IO.Compression.ZipFile]::OpenRead($zip)
-	Write-Host "`解压补丁文件: $(Split-Path $zip -Leaf) → $path"
-	$zipArchive.Entries.FullName | ForEach-Object { Write-Host " - $_" }
-	$zipArchive.Dispose()
-	try {
-		Expand-Archive -Force -LiteralPath $zip -DestinationPath $path
-		Write-Host "解压完成！" -ForegroundColor Green
-	} catch {
-		Write-Host "解压失败" -ForegroundColor Red
-	}
-	Remove-Item $zip -Force -ErrorAction Stop
-	Write-Host "`nNavicat Premium 激活完成，请重启应用使用" -ForegroundColor Green
-} elseif ($paths.Count -gt 1) {
-	Write-Host "`n检测到多个 Navicat 安装路径：" -ForegroundColor Yellow
-	foreach ($p in $paths) {
-		Write-Host " - $p" -ForegroundColor Cyan
-	}
-	Write-Host "`n请手动删除多余的 Navicat 文件夹，仅保留一个。" -ForegroundColor Red
-	Write-Host "脚本已停止执行。" -ForegroundColor Red
-} else {
-	Write-Host "未找到 Navicat 安装路径。" -ForegroundColor Yellow
+        # 仅当是远程下载且文件不存在时才下载
+        if ($patchInfo.IsRemote -and -not (Test-Path $zip)) {
+			Write-Host "`正在联网下载补丁: $zip ← $url" -ForegroundColor Blue
+            try {
+                Invoke-WebRequest -Uri $url -OutFile $zip -UseBasicParsing -ErrorAction Stop
+                Write-Host "补丁下载成功。" -ForegroundColor Green
+            }
+            catch {
+                Write-Host "补丁下载失败：$url ，请检查网络或补丁下载地址是否正确" -ForegroundColor Red
+                continue
+            }
+        }
+    }
+	return $patchMap
 }
 
-$null = Read-Host
+function Clean-Temp-Patch { 
+	Get-ChildItem $env:TEMP -Filter "x*_patch.zip" -File -ErrorAction SilentlyContinue | Remove-Item -Force 
+}
+
+
+$asciiArt = @"
+    ___       ___       ___       ___       ___       ___       ___   
+   /\__\     /\  \     /\__\     /\  \     /\  \     /\  \     /\  \  
+  /:| _|_   /::\  \   /:/ _/_   _\:\  \   /::\  \   /::\  \    \:\  \ 
+ /::|/\__\ /::\:\__\ |::L/\__\ /\/::\__\ /:/\:\__\ /::\:\__\   /::\__\
+ \/|::/  / \/\::/  / |::::/  / \::/\/__/ \:\ \/__/ \/\::/  /  /:/\/__/
+   |:/  /    /:/  /   L;;/__/   \:\__\    \:\__\     /:/  /   \/__/   
+   \/__/     \/__/               \/__/     \/__/     \/__/            
+
+              Navicat Premium 激活脚本v1.0 2025-12-11
+"@
+
+Write-Host $asciiArt -ForegroundColor Cyan
+Start-Sleep -Seconds 3
+# 执行查找
+Write-Host "`n查找已Navicat安装位置..." -ForegroundColor Yellow
+$paths = Find-Navicat
+
+if($paths.Count -eq 0) {
+	Write-Host "未找到 Navicat 安装路径。" -ForegroundColor DarkRed
+	$null = Read-Host
+	exit
+} else {
+	$archSet = New-Object System.Collections.Generic.HashSet[string]
+	$navicatInfoes = @()
+	foreach($path in $paths){
+		# navicat安装信息
+		$navicatInfo = Get-ExeInfo (Join-Path $path "navicat.exe")
+		$arch = $navicatInfo.arch
+		$archSet.Add($arch) | Out-Null
+		Write-Host "`找到已安装Navicat信息：" -ForegroundColor Cyan
+		Write-Host "  位置： $path"
+		Write-Host "  架构： $($navicatInfo.arch)"
+		Write-Host "  版本： $($navicatInfo.versionInfo.FileVersion)"
+		Write-Host "  产品： $($navicatInfo.versionInfo.ProductName)"
+		$navicatInfoes += [PSCustomObject]@{
+			path = $path
+			navicatInfo = $navicatInfo
+		}
+	}
+	
+	$patchMap = Download-Patch $archSet
+	
+	Write-Host "`n开始激活Navicat..." -ForegroundColor Yellow
+	Add-Type -AssemblyName System.IO.Compression.FileSystem
+	foreach ($nav in $navicatInfoes) {
+		$navicatInfo = $nav.navicatInfo
+		$arch = $navicatInfo.arch
+		Write-Host "`正在激活 $($navicatInfo.versionInfo.ProductName) $($arch) $($navicatInfo.versionInfo.FileVersion)" -ForegroundColor Cyan
+		if ($PatchMap.ContainsKey($arch)) {
+			$patchZip = $PatchMap[$arch].localPatch
+			$destPath = $nav.path
+			Write-Host "解压补丁文件: $(Split-Path $patchZip -Leaf) → $destPath"
+			Expand-Archive -Path $patchZip -DestinationPath $destPath -Force
+		}
+		Write-Host "`已激活 $($navicatInfo.versionInfo.ProductName) $($arch) $($navicatInfo.versionInfo.FileVersion)" -ForegroundColor Green
+	}
+	Clean-Temp-Patch
+	Write-Host "`nNavicat 产品激活完成，请重启应用使用" -ForegroundColor Green
+	$null = Read-Host
+	exit	
+}
+

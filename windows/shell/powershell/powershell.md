@@ -1,4 +1,4 @@
-[PowerShell教程™ (yiibai.com)](https://www.yiibai.com/powershell)
+[PowerShell 教程](https://www.runoob.com/powershell/powershell-tutorial.html)
 
 # 修改执行策略
 
