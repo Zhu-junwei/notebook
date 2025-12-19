@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1766046660000)\/",
+                "value": "\/Date(1766133038000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月18日 16:31:00"
+                "DateTime": "2025年12月19日 16:30:38"
             },
             "Manifests": 1412
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1766046666000)\/",
+                "value": "\/Date(1766133024000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月18日 16:31:06"
+                "DateTime": "2025年12月19日 16:30:24"
             },
-            "Manifests": 2229
+            "Manifests": 2232
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1766017112000)\/",
+                "value": "\/Date(1766103585000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月18日 8:18:32"
+                "DateTime": "2025年12月19日 8:19:45"
             },
             "Manifests": 265
         }
@@ -57,8 +57,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.7.58",
-            "Updated": "\/Date(1766048452143)\/"
+            "Version": "2.7.59",
+            "Updated": "\/Date(1766134834319)\/"
         },
         {
             "Info": "",
@@ -154,6 +154,13 @@
         {
             "Info": "",
             "Source": "main",
+            "Name": "gh",
+            "Version": "2.83.2",
+            "Updated": "\/Date(1766134459280)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
             "Name": "gnirehtet",
             "Version": "2.5.1",
             "Updated": "\/Date(1764438847448)\/"
@@ -190,8 +197,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "jetbrains-toolbox",
-            "Version": "3.1.2.64642",
-            "Updated": "\/Date(1765096643382)\/"
+            "Version": "3.2.0.65851",
+            "Updated": "\/Date(1766134914066)\/"
         },
         {
             "Info": "",
