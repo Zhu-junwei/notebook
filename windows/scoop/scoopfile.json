@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1766161881000)\/",
+                "value": "\/Date(1766219401000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月20日 0:31:21"
+                "DateTime": "2025年12月20日 16:30:01"
             },
             "Manifests": 1412
         },
@@ -14,19 +14,29 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1766161820000)\/",
+                "value": "\/Date(1766219380000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月20日 0:30:20"
+                "DateTime": "2025年12月20日 16:29:40"
             },
-            "Manifests": 2232
+            "Manifests": 2233
+        },
+        {
+            "Name": "sysinternals",
+            "Source": "https://github.com/niheaven/scoop-sysinternals",
+            "Updated": {
+                "value": "\/Date(1765938077000)\/",
+                "DisplayHint": 2,
+                "DateTime": "2025年12月17日 10:21:17"
+            },
+            "Manifests": 75
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1766103585000)\/",
+                "value": "\/Date(1766190081000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月19日 8:19:45"
+                "DateTime": "2025年12月20日 8:21:21"
             },
             "Manifests": 265
         }
@@ -66,6 +76,13 @@
             "Name": "aria2",
             "Version": "1.37.0-1",
             "Updated": "\/Date(1760265068454)\/"
+        },
+        {
+            "Info": "",
+            "Source": "sysinternals",
+            "Name": "autoruns",
+            "Version": "14.11",
+            "Updated": "\/Date(1766170667230)\/"
         },
         {
             "Info": "",
@@ -232,8 +249,8 @@
             "Info": "",
             "Source": "dorado",
             "Name": "neteasemusic",
-            "Version": "3.1.24.204802",
-            "Updated": "\/Date(1765270940964)\/"
+            "Version": "3.1.25.204860",
+            "Updated": "\/Date(1766221247337)\/"
         },
         {
             "Info": "",
