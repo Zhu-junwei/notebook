@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1766305870000)\/",
+                "value": "\/Date(1766392260000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月21日 16:31:10"
+                "DateTime": "2025年12月22日 16:31:00"
             },
             "Manifests": 1412
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1766307577000)\/",
+                "value": "\/Date(1766392251000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月21日 16:59:37"
+                "DateTime": "2025年12月22日 16:30:51"
             },
             "Manifests": 2236
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1766276384000)\/",
+                "value": "\/Date(1766362760000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月21日 8:19:44"
+                "DateTime": "2025年12月22日 8:19:20"
             },
             "Manifests": 265
         }
@@ -67,8 +67,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.7.59",
-            "Updated": "\/Date(1766134834319)\/"
+            "Version": "2.7.60",
+            "Updated": "\/Date(1766394063872)\/"
         },
         {
             "Info": "",
@@ -130,8 +130,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "dbeaver",
-            "Version": "25.3.0",
-            "Updated": "\/Date(1764579686801)\/"
+            "Version": "25.3.1",
+            "Updated": "\/Date(1766394143664)\/"
         },
         {
             "Info": "",
@@ -228,8 +228,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "koodo-reader",
-            "Version": "2.2.3",
-            "Updated": "\/Date(1764752553887)\/"
+            "Version": "2.2.4",
+            "Updated": "\/Date(1766394187754)\/"
         },
         {
             "Info": "",
@@ -251,6 +251,13 @@
             "Name": "neteasemusic",
             "Version": "3.1.25.204860",
             "Updated": "\/Date(1766221247337)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "nexttrace",
+            "Version": "1.5.0",
+            "Updated": "\/Date(1766381175260)\/"
         },
         {
             "Info": "",
@@ -354,8 +361,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "ventoy",
-            "Version": "1.1.09",
-            "Updated": "\/Date(1765616529848)\/"
+            "Version": "1.1.10",
+            "Updated": "\/Date(1766394197435)\/"
         },
         {
             "Info": "",
