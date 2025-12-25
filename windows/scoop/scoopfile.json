@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1766565059000)\/",
+                "value": "\/Date(1766651491000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月24日 16:30:59"
+                "DateTime": "2025年12月25日 16:31:31"
             },
             "Manifests": 1412
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1766565626000)\/",
+                "value": "\/Date(1766651753000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月24日 16:40:26"
+                "DateTime": "2025年12月25日 16:35:53"
             },
             "Manifests": 2235
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1766535480000)\/",
+                "value": "\/Date(1766621881000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月24日 8:18:00"
+                "DateTime": "2025年12月25日 8:18:01"
             },
             "Manifests": 265
         }
@@ -286,13 +286,6 @@
             "Name": "openlist",
             "Version": "4.1.8",
             "Updated": "\/Date(1764147640345)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "openssh",
-            "Version": "10.0.0.0p2",
-            "Updated": "\/Date(1762851634197)\/"
         },
         {
             "Info": "",
