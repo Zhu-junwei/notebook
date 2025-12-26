@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1766651491000)\/",
+                "value": "\/Date(1766737890000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月25日 16:31:31"
+                "DateTime": "2025年12月26日 16:31:30"
             },
             "Manifests": 1412
         },
@@ -14,11 +14,11 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1766651753000)\/",
+                "value": "\/Date(1766737923000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月25日 16:35:53"
+                "DateTime": "2025年12月26日 16:32:03"
             },
-            "Manifests": 2235
+            "Manifests": 2236
         },
         {
             "Name": "sysinternals",
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1766621881000)\/",
+                "value": "\/Date(1766708289000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月25日 8:18:01"
+                "DateTime": "2025年12月26日 8:18:09"
             },
             "Manifests": 265
         }
@@ -132,6 +132,13 @@
             "Name": "dbeaver",
             "Version": "25.3.1",
             "Updated": "\/Date(1766394143664)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "dependencies",
+            "Version": "1.11.1",
+            "Updated": "\/Date(1766728801357)\/"
         },
         {
             "Info": "",
