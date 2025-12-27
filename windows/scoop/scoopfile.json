@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1766737890000)\/",
+                "value": "\/Date(1766824271000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月26日 16:31:30"
+                "DateTime": "2025年12月27日 16:31:11"
             },
             "Manifests": 1412
         },
@@ -14,11 +14,11 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1766737923000)\/",
+                "value": "\/Date(1766825349000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月26日 16:32:03"
+                "DateTime": "2025年12月27日 16:49:09"
             },
-            "Manifests": 2236
+            "Manifests": 2238
         },
         {
             "Name": "sysinternals",
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1766708289000)\/",
+                "value": "\/Date(1766794661000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月26日 8:18:09"
+                "DateTime": "2025年12月27日 8:17:41"
             },
             "Manifests": 265
         }
