@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1766910756000)\/",
+                "value": "\/Date(1766997180000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月28日 16:32:36"
+                "DateTime": "2025年12月29日 16:33:00"
             },
             "Manifests": 1412
         },
@@ -14,29 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1766910596000)\/",
+                "value": "\/Date(1766997231000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月28日 16:29:56"
+                "DateTime": "2025年12月29日 16:33:51"
             },
             "Manifests": 2241
-        },
-        {
-            "Name": "sysinternals",
-            "Source": "https://github.com/niheaven/scoop-sysinternals",
-            "Updated": {
-                "value": "\/Date(1765938077000)\/",
-                "DisplayHint": 2,
-                "DateTime": "2025年12月17日 10:21:17"
-            },
-            "Manifests": 75
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1766881244000)\/",
+                "value": "\/Date(1766967599000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2025年12月28日 8:20:44"
+                "DateTime": "2025年12月29日 8:19:59"
             },
             "Manifests": 265
         }
@@ -76,13 +66,6 @@
             "Name": "aria2",
             "Version": "1.37.0-1",
             "Updated": "\/Date(1760265068454)\/"
-        },
-        {
-            "Info": "",
-            "Source": "sysinternals",
-            "Name": "autoruns",
-            "Version": "14.11",
-            "Updated": "\/Date(1766170667230)\/"
         },
         {
             "Info": "",
@@ -132,13 +115,6 @@
             "Name": "dbeaver",
             "Version": "25.3.1",
             "Updated": "\/Date(1766394143664)\/"
-        },
-        {
-            "Info": "",
-            "Source": "extras",
-            "Name": "dependencies",
-            "Version": "1.11.1",
-            "Updated": "\/Date(1766728801357)\/"
         },
         {
             "Info": "",
@@ -198,20 +174,6 @@
         },
         {
             "Info": "",
-            "Source": "main",
-            "Name": "innounp",
-            "Version": "2.66.1",
-            "Updated": "\/Date(1763802024234)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "iperf3",
-            "Version": "3.20",
-            "Updated": "\/Date(1763283665477)\/"
-        },
-        {
-            "Info": "",
             "Source": "extras",
             "Name": "jd-gui",
             "Version": "1.6.6",
@@ -237,13 +199,6 @@
             "Name": "koodo-reader",
             "Version": "2.2.4",
             "Updated": "\/Date(1766394187754)\/"
-        },
-        {
-            "Info": "",
-            "Source": "extras",
-            "Name": "mkcert",
-            "Version": "1.4.4",
-            "Updated": "\/Date(1765696366577)\/"
         },
         {
             "Info": "",
@@ -303,6 +258,13 @@
         },
         {
             "Info": "",
+            "Source": "extras",
+            "Name": "potplayer",
+            "Version": "250909",
+            "Updated": "\/Date(1766953430571)\/"
+        },
+        {
+            "Info": "",
             "Source": "main",
             "Name": "redis",
             "Version": "8.4.0",
@@ -347,8 +309,8 @@
             "Info": "Held package",
             "Source": "extras",
             "Name": "tailscale",
-            "Version": "1.90.9",
-            "Updated": "\/Date(1764428368850)\/"
+            "Version": "1.92.3",
+            "Updated": "\/Date(1766951671672)\/"
         },
         {
             "Info": "",
