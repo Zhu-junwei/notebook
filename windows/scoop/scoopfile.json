@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1767601924000)\/",
+                "value": "\/Date(1767645364000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月5日 16:32:04"
+                "DateTime": "2026年1月6日 4:36:04"
             },
             "Manifests": 1413
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1767601899000)\/",
+                "value": "\/Date(1767644993000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月5日 16:31:39"
+                "DateTime": "2026年1月6日 4:29:53"
             },
             "Manifests": 2239
         },
@@ -80,6 +80,13 @@
             "Name": "cacert",
             "Version": "2025-12-02",
             "Updated": "\/Date(1764666021837)\/"
+        },
+        {
+            "Info": "Held package",
+            "Source": "main",
+            "Name": "caddy",
+            "Version": "2.10.2",
+            "Updated": "\/Date(1767634263274)\/"
         },
         {
             "Info": "",
@@ -174,6 +181,13 @@
         },
         {
             "Info": "",
+            "Source": "main",
+            "Name": "innounp",
+            "Version": "2.66.2",
+            "Updated": "\/Date(1767631494331)\/"
+        },
+        {
+            "Info": "",
             "Source": "extras",
             "Name": "jd-gui",
             "Version": "1.6.6",
@@ -224,6 +238,13 @@
         {
             "Info": "",
             "Source": "main",
+            "Name": "nginx",
+            "Version": "1.29.4",
+            "Updated": "\/Date(1767629486033)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
             "Name": "nmap",
             "Version": "7.98",
             "Updated": "\/Date(1760265444187)\/"
@@ -248,6 +269,13 @@
             "Name": "openlist",
             "Version": "4.1.9",
             "Updated": "\/Date(1767344446503)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "openssl-light",
+            "Version": "3.6.0",
+            "Updated": "\/Date(1767631563666)\/"
         },
         {
             "Info": "",
