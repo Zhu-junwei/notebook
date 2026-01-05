@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1767515434000)\/",
+                "value": "\/Date(1767601924000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月4日 16:30:34"
+                "DateTime": "2026年1月5日 16:32:04"
             },
-            "Manifests": 1412
+            "Manifests": 1413
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1767515421000)\/",
+                "value": "\/Date(1767601899000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月4日 16:30:21"
+                "DateTime": "2026年1月5日 16:31:39"
             },
             "Manifests": 2239
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1767486041000)\/",
+                "value": "\/Date(1767572410000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月4日 8:20:41"
+                "DateTime": "2026年1月5日 8:20:10"
             },
             "Manifests": 266
         }
@@ -113,8 +113,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "dbeaver",
-            "Version": "25.3.1",
-            "Updated": "\/Date(1766394143664)\/"
+            "Version": "25.3.2",
+            "Updated": "\/Date(1767604568221)\/"
         },
         {
             "Info": "",
@@ -197,8 +197,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "koodo-reader",
-            "Version": "2.2.4",
-            "Updated": "\/Date(1766394187754)\/"
+            "Version": "2.2.5",
+            "Updated": "\/Date(1767604612611)\/"
         },
         {
             "Info": "",
