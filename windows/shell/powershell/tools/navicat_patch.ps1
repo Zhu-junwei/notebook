@@ -99,11 +99,11 @@ function Download-Patch {
     # 默认下载 URL
     $patchMap = @{
         "x64" = @{
-            downloadURL = "https://cdn.jsdelivr.net/gh/Zhu-junwei/software/navicat/x64_patch.zip"
+            downloadURL = "https://github.com/Zhu-junwei/software/raw/main/navicat/x64_patch.zip"
             localPatch   = Join-Path $env:TEMP "x64_patch.zip"
         }
         "x86" = @{
-            downloadURL = "https://cdn.jsdelivr.net/gh/Zhu-junwei/software/navicat/x86_patch.zip"
+            downloadURL = "https://github.com/Zhu-junwei/software/raw/main/navicat/x86_patch.zip"
             localPatch   = Join-Path $env:TEMP "x86_patch.zip"
         }
     }
@@ -136,11 +136,15 @@ function Download-Patch {
             try {
                 Invoke-WebRequest -Uri $url -OutFile $zip -UseBasicParsing -ErrorAction Stop
                 Write-Host "补丁下载成功。" -ForegroundColor Green
+                Start-Sleep -Milliseconds 500
             }
             catch {
-                Write-Host "补丁下载失败：$url ，请检查网络或补丁下载地址是否正确" -ForegroundColor Red
-                continue
-            }
+				# 打印详细的错误信息
+				Write-Host "补丁下载失败：$url" -ForegroundColor Red
+				Write-Host "错误信息：$($_.Exception.Message)" -ForegroundColor Red
+				Write-Host "堆栈跟踪：$($_.Exception.StackTrace)" -ForegroundColor Red
+				Exit-Script
+			}
         }
     }
 	return $patchMap
@@ -150,6 +154,12 @@ function Clean-Temp-Patch {
 	Get-ChildItem $env:TEMP -Filter "x*_patch.zip" -File -ErrorAction SilentlyContinue | Remove-Item -Force 
 }
 
+function Exit-Script {
+	$null = Read-Host
+	exit
+}
+
+Clean-Temp-Patch
 $asciiArt = @"
     ___       ___       ___       ___       ___       ___       ___   
    /\__\     /\  \     /\__\     /\  \     /\  \     /\  \     /\  \  
@@ -208,7 +218,6 @@ if($paths.Count -eq 0) {
 	}
 	Clean-Temp-Patch
 	Write-Host "`nNavicat 产品激活完成，请重启应用使用" -ForegroundColor Green
-	$null = Read-Host
-	exit	
+	Exit-Script
 }
 
