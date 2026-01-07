@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1767688262000)\/",
+                "value": "\/Date(1767779344000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月6日 16:31:02"
+                "DateTime": "2026年1月7日 17:49:04"
             },
             "Manifests": 1413
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1767688236000)\/",
+                "value": "\/Date(1767774639000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月6日 16:30:36"
+                "DateTime": "2026年1月7日 16:30:39"
             },
-            "Manifests": 2239
+            "Manifests": 2240
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1767684055000)\/",
+                "value": "\/Date(1767745088000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月6日 15:20:55"
+                "DateTime": "2026年1月7日 8:18:08"
             },
             "Manifests": 267
         }
@@ -183,8 +183,8 @@
             "Info": "",
             "Source": "main",
             "Name": "innounp",
-            "Version": "2.66.2",
-            "Updated": "\/Date(1767631494331)\/"
+            "Version": "2.66.3",
+            "Updated": "\/Date(1767782367490)\/"
         },
         {
             "Info": "",
@@ -330,8 +330,8 @@
             "Info": "",
             "Source": "main",
             "Name": "syncthing",
-            "Version": "2.0.12",
-            "Updated": "\/Date(1764666029934)\/"
+            "Version": "2.0.13",
+            "Updated": "\/Date(1767782377040)\/"
         },
         {
             "Info": "Held package",
