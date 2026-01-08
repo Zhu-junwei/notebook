@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1767779344000)\/",
+                "value": "\/Date(1767861058000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月7日 17:49:04"
+                "DateTime": "2026年1月8日 16:30:58"
             },
             "Manifests": 1413
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1767774639000)\/",
+                "value": "\/Date(1767861038000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月7日 16:30:39"
+                "DateTime": "2026年1月8日 16:30:38"
             },
-            "Manifests": 2240
+            "Manifests": 2241
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1767745088000)\/",
+                "value": "\/Date(1767831559000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月7日 8:18:08"
+                "DateTime": "2026年1月8日 8:19:19"
             },
             "Manifests": 267
         }
@@ -43,8 +43,8 @@
             "Info": "",
             "Source": "main",
             "Name": "adb",
-            "Version": "36.0.0",
-            "Updated": "\/Date(1764438845152)\/"
+            "Version": "36.0.2",
+            "Updated": "\/Date(1767862850404)\/"
         },
         {
             "Info": "",
