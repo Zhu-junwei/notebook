@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1767861058000)\/",
+                "value": "\/Date(1768022284000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月8日 16:30:58"
+                "DateTime": "2026年1月10日 13:18:04"
             },
-            "Manifests": 1413
+            "Manifests": 1414
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1767861038000)\/",
+                "value": "\/Date(1768036000000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月8日 16:30:38"
+                "DateTime": "2026年1月10日 17:06:40"
             },
-            "Manifests": 2241
+            "Manifests": 2245
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1767918044000)\/",
+                "value": "\/Date(1768004340000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月9日 8:20:44"
+                "DateTime": "2026年1月10日 8:19:00"
             },
             "Manifests": 267
         }
@@ -127,8 +127,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "draw.io",
-            "Version": "29.2.9",
-            "Updated": "\/Date(1767430893996)\/"
+            "Version": "29.3.0",
+            "Updated": "\/Date(1768039472803)\/"
         },
         {
             "Info": "",
@@ -309,8 +309,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "rustdesk",
-            "Version": "1.4.4",
-            "Updated": "\/Date(1765350222076)\/"
+            "Version": "1.4.5",
+            "Updated": "\/Date(1768039488356)\/"
         },
         {
             "Info": "",
@@ -323,8 +323,8 @@
             "Info": "",
             "Source": "main",
             "Name": "sqlite",
-            "Version": "3.51.1",
-            "Updated": "\/Date(1764381899974)\/"
+            "Version": "3.51.2",
+            "Updated": "\/Date(1768039495644)\/"
         },
         {
             "Info": "",
