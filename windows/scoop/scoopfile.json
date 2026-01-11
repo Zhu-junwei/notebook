@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1768022284000)\/",
+                "value": "\/Date(1768120248000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月10日 13:18:04"
+                "DateTime": "2026年1月11日 16:30:48"
             },
             "Manifests": 1414
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1768036000000)\/",
+                "value": "\/Date(1768120211000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月10日 17:06:40"
+                "DateTime": "2026年1月11日 16:30:11"
             },
-            "Manifests": 2245
+            "Manifests": 2251
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1768004340000)\/",
+                "value": "\/Date(1768090878000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月10日 8:19:00"
+                "DateTime": "2026年1月11日 8:21:18"
             },
             "Manifests": 267
         }
@@ -57,8 +57,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.0",
-            "Updated": "\/Date(1767258109329)\/"
+            "Version": "2.8.1",
+            "Updated": "\/Date(1768126697568)\/"
         },
         {
             "Info": "",
@@ -183,8 +183,8 @@
             "Info": "",
             "Source": "main",
             "Name": "innounp",
-            "Version": "2.66.3",
-            "Updated": "\/Date(1767782367490)\/"
+            "Version": "2.67.0",
+            "Updated": "\/Date(1768126700355)\/"
         },
         {
             "Info": "",
