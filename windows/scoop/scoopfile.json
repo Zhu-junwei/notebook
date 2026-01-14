@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1768120248000)\/",
+                "value": "\/Date(1768379504000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月11日 16:30:48"
+                "DateTime": "2026年1月14日 16:31:44"
             },
-            "Manifests": 1414
+            "Manifests": 1418
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1768120211000)\/",
+                "value": "\/Date(1768379441000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月11日 16:30:11"
+                "DateTime": "2026年1月14日 16:30:41"
             },
-            "Manifests": 2251
+            "Manifests": 2253
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1768090878000)\/",
+                "value": "\/Date(1768349992000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月11日 8:21:18"
+                "DateTime": "2026年1月14日 8:19:52"
             },
             "Manifests": 267
         }
@@ -288,8 +288,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "potplayer",
-            "Version": "250909",
-            "Updated": "\/Date(1766953430571)\/"
+            "Version": "260114",
+            "Updated": "\/Date(1768381276680)\/"
         },
         {
             "Info": "",
