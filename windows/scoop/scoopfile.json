@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1768379504000)\/",
+                "value": "\/Date(1768465871000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月14日 16:31:44"
+                "DateTime": "2026年1月15日 16:31:11"
             },
             "Manifests": 1418
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1768379441000)\/",
+                "value": "\/Date(1768465871000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月14日 16:30:41"
+                "DateTime": "2026年1月15日 16:31:11"
             },
-            "Manifests": 2253
+            "Manifests": 2254
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1768349992000)\/",
+                "value": "\/Date(1768436487000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月14日 8:19:52"
+                "DateTime": "2026年1月15日 8:21:27"
             },
             "Manifests": 267
         }
@@ -134,8 +134,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "escrcpy",
-            "Version": "1.34.2",
-            "Updated": "\/Date(1765270910330)\/"
+            "Version": "2.1.7",
+            "Updated": "\/Date(1768467670025)\/"
         },
         {
             "Info": "",
@@ -162,8 +162,8 @@
             "Info": "",
             "Source": "main",
             "Name": "gh",
-            "Version": "2.83.2",
-            "Updated": "\/Date(1766134459280)\/"
+            "Version": "2.85.0",
+            "Updated": "\/Date(1768467678476)\/"
         },
         {
             "Info": "",
@@ -183,8 +183,8 @@
             "Info": "",
             "Source": "main",
             "Name": "innounp",
-            "Version": "2.67.0",
-            "Updated": "\/Date(1768126700355)\/"
+            "Version": "2.67.1",
+            "Updated": "\/Date(1768467679500)\/"
         },
         {
             "Info": "",
@@ -225,8 +225,8 @@
             "Info": "",
             "Source": "dorado",
             "Name": "neteasemusic",
-            "Version": "3.1.25.204883",
-            "Updated": "\/Date(1767171688531)\/"
+            "Version": "3.1.26.204919",
+            "Updated": "\/Date(1768467700577)\/"
         },
         {
             "Info": "",
@@ -365,8 +365,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "wireshark",
-            "Version": "4.6.2",
-            "Updated": "\/Date(1764838906857)\/"
+            "Version": "4.6.3",
+            "Updated": "\/Date(1768467752130)\/"
         }
     ]
 }
