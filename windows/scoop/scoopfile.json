@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1768725015000)\/",
+                "value": "\/Date(1768811522000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月18日 16:30:15"
+                "DateTime": "2026年1月19日 16:32:02"
             },
             "Manifests": 1419
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1768638600000)\/",
+                "value": "\/Date(1768811451000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月17日 16:30:00"
+                "DateTime": "2026年1月19日 16:30:51"
             },
-            "Manifests": 2254
+            "Manifests": 2257
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1768695620000)\/",
+                "value": "\/Date(1768781995000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月18日 8:20:20"
+                "DateTime": "2026年1月19日 8:19:55"
             },
             "Manifests": 267
         }
@@ -120,8 +120,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "dbeaver",
-            "Version": "25.3.2",
-            "Updated": "\/Date(1767604568221)\/"
+            "Version": "25.3.3",
+            "Updated": "\/Date(1768817291121)\/"
         },
         {
             "Info": "",
@@ -134,8 +134,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "escrcpy",
-            "Version": "2.1.7",
-            "Updated": "\/Date(1768467670025)\/"
+            "Version": "2.2.0",
+            "Updated": "\/Date(1768817338662)\/"
         },
         {
             "Info": "",
@@ -183,8 +183,8 @@
             "Info": "",
             "Source": "main",
             "Name": "innounp",
-            "Version": "2.67.1",
-            "Updated": "\/Date(1768467679500)\/"
+            "Version": "2.67.2",
+            "Updated": "\/Date(1768817342182)\/"
         },
         {
             "Info": "",
