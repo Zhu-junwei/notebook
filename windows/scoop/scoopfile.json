@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1768897886000)\/",
+                "value": "\/Date(1768984264000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月20日 16:31:26"
+                "DateTime": "2026年1月21日 16:31:04"
             },
             "Manifests": 1420
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1768897836000)\/",
+                "value": "\/Date(1768984237000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月20日 16:30:36"
+                "DateTime": "2026年1月21日 16:30:37"
             },
             "Manifests": 2257
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1768868432000)\/",
+                "value": "\/Date(1768977021000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月20日 8:20:32"
+                "DateTime": "2026年1月21日 14:30:21"
             },
             "Manifests": 267
         }
@@ -71,8 +71,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "bat2exe",
-            "Version": "2.2",
-            "Updated": "\/Date(1764428639595)\/"
+            "Version": "2.3",
+            "Updated": "\/Date(1768988135015)\/"
         },
         {
             "Info": "",
@@ -99,8 +99,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cloudflared",
-            "Version": "2025.11.1",
-            "Updated": "\/Date(1762592433109)\/"
+            "Version": "2026.1.1",
+            "Updated": "\/Date(1768988174883)\/"
         },
         {
             "Info": "",
