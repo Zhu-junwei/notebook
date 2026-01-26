@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1769329861000)\/",
+                "value": "\/Date(1769416275000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月25日 16:31:01"
+                "DateTime": "2026年1月26日 16:31:15"
             },
             "Manifests": 1422
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1769331639000)\/",
+                "value": "\/Date(1769419056000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月25日 17:00:39"
+                "DateTime": "2026年1月26日 17:17:36"
             },
             "Manifests": 2257
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1769300561000)\/",
+                "value": "\/Date(1769386838000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月25日 8:22:41"
+                "DateTime": "2026年1月26日 8:20:38"
             },
             "Manifests": 267
         }
@@ -211,8 +211,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "koodo-reader",
-            "Version": "2.2.5",
-            "Updated": "\/Date(1767604612611)\/"
+            "Version": "2.2.6",
+            "Updated": "\/Date(1769428922590)\/"
         },
         {
             "Info": "",
