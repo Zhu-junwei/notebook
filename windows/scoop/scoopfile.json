@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1769419056000)\/",
+                "value": "\/Date(1769517136000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月26日 17:17:36"
+                "DateTime": "2026年1月27日 20:32:16"
             },
             "Manifests": 2257
         },
@@ -24,11 +24,11 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1769386838000)\/",
+                "value": "\/Date(1769496082000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月26日 8:20:38"
+                "DateTime": "2026年1月27日 14:41:22"
             },
-            "Manifests": 267
+            "Manifests": 269
         }
     ],
     "apps": [
@@ -134,8 +134,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "escrcpy",
-            "Version": "2.3.0",
-            "Updated": "\/Date(1769255833944)\/"
+            "Version": "2.3.1",
+            "Updated": "\/Date(1769518179247)\/"
         },
         {
             "Info": "",
@@ -253,8 +253,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "notepadplusplus",
-            "Version": "8.9",
-            "Updated": "\/Date(1766912437735)\/"
+            "Version": "8.9.1",
+            "Updated": "\/Date(1769518193614)\/"
         },
         {
             "Info": "",
