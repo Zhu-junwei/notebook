@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1769416275000)\/",
+                "value": "\/Date(1769603549000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月26日 16:31:15"
+                "DateTime": "2026年1月28日 20:32:29"
             },
             "Manifests": 1422
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1769517136000)\/",
+                "value": "\/Date(1769603645000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月27日 20:32:16"
+                "DateTime": "2026年1月28日 20:34:05"
             },
             "Manifests": 2257
         },
@@ -24,11 +24,11 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1769496082000)\/",
+                "value": "\/Date(1769559753000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月27日 14:41:22"
+                "DateTime": "2026年1月28日 8:22:33"
             },
-            "Manifests": 269
+            "Manifests": 270
         }
     ],
     "apps": [
@@ -99,8 +99,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cloudflared",
-            "Version": "2026.1.1",
-            "Updated": "\/Date(1768988174883)\/"
+            "Version": "2026.1.2",
+            "Updated": "\/Date(1769605611304)\/"
         },
         {
             "Info": "",
