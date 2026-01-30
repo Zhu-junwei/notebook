@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1769690029000)\/",
+                "value": "\/Date(1769776374000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月29日 20:33:49"
+                "DateTime": "2026年1月30日 20:32:54"
             },
-            "Manifests": 1423
+            "Manifests": 1425
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1769690167000)\/",
+                "value": "\/Date(1769776338000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月29日 20:36:07"
+                "DateTime": "2026年1月30日 20:32:18"
             },
             "Manifests": 2257
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1769646175000)\/",
+                "value": "\/Date(1769732550000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月29日 8:22:55"
+                "DateTime": "2026年1月30日 8:22:30"
             },
             "Manifests": 270
         }
@@ -127,8 +127,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "draw.io",
-            "Version": "29.3.0",
-            "Updated": "\/Date(1768039472803)\/"
+            "Version": "29.3.6",
+            "Updated": "\/Date(1769776695499)\/"
         },
         {
             "Info": "",
