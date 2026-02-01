@@ -1,6 +1,4 @@
-git安装
-
-
+学习资料[《Pro Git》](https://git-scm.com/book/zh/v2)
 
 # 1 git基础知识
 

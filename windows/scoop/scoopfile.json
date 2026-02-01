@@ -265,6 +265,13 @@
         },
         {
             "Info": "",
+            "Source": "extras",
+            "Name": "Obsidian",
+            "Version": "1.11.5",
+            "Updated": "\/Date(1769882165475)\/"
+        },
+        {
+            "Info": "",
             "Source": "main",
             "Name": "openlist",
             "Version": "4.1.9",

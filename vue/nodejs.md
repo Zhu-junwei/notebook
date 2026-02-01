@@ -116,6 +116,18 @@ npm update <package-name>
 npm install -g pnpm
 ```
 
+固定 pnpm store 位置
+
+```
+pnpm config set store-dir E:\SDK\pnpm-store
+```
+
+验证：
+
+```
+pnpm store path
+```
+
 ## 更新包
 
 ```

@@ -23,33 +23,37 @@ Scoop 需要 PowerShell，在安装 Scoop 之前，确保系统满足以下要�
 
 - PowerShell 5.1 或更高版本
 
-### 安装方式一：运行 Scoop 安装命令
+### 安装方式一：典型安装方式
 
-在 PowerShell 中运行以下命令：
+PowerShell[ 执行策略](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies)必须是`RemoteSigned`、`Unrestricted`或`ByPass`之一，才能运行安装程序。例如，可以通过以下方式将其设置为`RemoteSigned`：
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-然后安装 Scoop：
+从**非管理员**的 PowerShell 上执行此命令，安装 scoop，默认配置，scoop 将安装到 `C:\Users\<你的用户名>\scoop` 。
 ```powershell
-Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+irm get.scoop.sh | iex
 ```
 
-### 安装方式二：自定义 Scoop安装目录
+### 安装方式二： 高级安装
 
-默认情况下，Scoop 安装在 `C:\Users\你的用户名\scoop` 目录。如果想更改安装目录，如果希望 Scoop 安装到 `D:\software\scoop`，最好采用手动安装，在 PowerShell 中运行以下命令：：
+默认情况下，Scoop 安装在 `C:\Users\<你的用户名>\scoop` 目录。如果想更改安装目录，例如希望 Scoop 安装到 `D:\software\scoop`，最好采用手动安装，在 PowerShell 中运行以下命令：
 
 ```
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/scoopinstaller/install/master/install.ps1" -OutFile "install.ps1"
+irm get.scoop.sh -outfile 'install.ps1'
 
 .\install.ps1 -ScoopDir 'D:\software\scoop' -ScoopGlobalDir 'D:\scoop_global' -NoProxy
 ```
 
-## 命令
+大部分情况下我们的电脑只有一个账户在使用，安装的应用都是针对当前用户的，如果安装的应用需要对所有用户都使用，可以通过`-ScoopGlobalDir`参数来设置全部用户使用的应用位置。
 
-安装完成后，会将`scoop\shims`的路径添加到系统坏境变量`path`下，后续的软件安装，大多数可执行程序也都会链接到这个位置。可以运行以下命令检查 Scoop 是否安装成功：
+需要注意的是`-ScoopDir` `ScoopGlobalDir`都需要进行设置，尽管你只是自己在使用电脑。
+
+## 帮助命令
+
+可以使用`scoop --version`来查看版本信息，使用`scoop`命令查看[帮助文档](https://github.com/ScoopInstaller/Scoop/wiki)。
 
 ```shell
 # 查看版本
@@ -97,6 +101,44 @@ virustotal Look for app's hash or url on virustotal.com
 which      Locate a shim/executable (similar to 'which' on Linux)
 ```
 
+## scoop配置
+
+可以用过`soop config`来查看配置信息
+
+```
+scoop config
+```
+
+可以使用`--help`来获取更多的帮助信息
+
+```
+scoop config --help
+```
+
+### aria2设置
+
+如果安装了`aria2`，scoop可以通过`aria2`进行多线程下载。我们也可以手动开启关闭`aria2`使用。
+
+```
+# 禁用aria2
+scoop config aria2-enabled false
+# 启用aria2
+scoop config aria2-enabled true
+# 删除aria2配置
+scoop config rm aria2-enabled
+```
+
+### 设置代理下载
+
+由于scoop管理的软件大部分下载地址都是在国外，所以使用系统的代理（前提你有可用的代理）进行加速是很有必要的。
+
+```
+# 设置代理
+scoop config proxy 127.0.0.1:7890
+# 如果不需要，可以清除代理
+scoop config rm proxy
+```
+
 ## bucket管理
 
 >  bucket 是 Scoop 的一个概念，它允许用户添加额外的软件源，以便在 Scoop 中安装更多软件，一般情况不同的bucket存放不同的软件源。
@@ -106,7 +148,7 @@ which      Locate a shim/executable (similar to 'which' on Linux)
 scoop bucket list
 # 列出已知的 bucket
 scoop bucket known
-# 添加新的 bucket
+# 添加新的 bucket，添加bucket需要先安装有git
 scoop bucket add java
 # 卸载一个bucket
 scoop bucket rm main
@@ -115,12 +157,13 @@ scoop bucket rm main
 # 添加bucket
 ------------------------
 # 添加第三方的 bucket 根据需要添加删除自带的bucket，用来安装应用,这里有github和gitee，根据自己情况选择添加
-scoop bucket add main https://gitee.com/cmontage/scoopbucket
-scoop bucket add main https://github.com/ScoopInstaller/Main
+# -- github
+scoop bucket add main
+scoop bucket add extras
 scoop bucket add dorado https://github.com/chawyehsu/dorado
+# -- gitee
+scoop bucket add main https://gitee.com/cmontage/scoopbucket
 scoop bucket add dorado https://gitee.com/scoop-bucket/dorado
-# 这个太大了，会导致搜索过慢
-scoop bucket add third https://gitee.com/cmontage/scoopbucket-third
 ```
 
 ## 安装和卸载软件
@@ -139,6 +182,28 @@ scoop search 7zip
 scoop install 7zip
 ```
 
+### 更新软件
+
+```
+# 更新指定软件
+scoop update 7zip
+
+# 更新所有软件 
+scoop update *
+```
+
+### 软件锁定与解锁
+
+> 如果你不需要软件进行更新，可以使用`hold`锁定版本。使用`unhold`解除锁定。
+
+```
+# 锁定版本
+scoop hold 7zip
+
+# 解除锁定
+scoop unhold 7zip
+```
+
 ### 卸载软件
 
 如果要卸载已安装的软件，例如 7zip，可以运行：
@@ -146,61 +211,8 @@ scoop install 7zip
 scoop uninstall 7zip
 ```
 
-## scoop配置
 
-可以用过`soop config`来查看配置信息
-
-```
-scoop config
-```
-
-可以使用`--help`来获取更多的帮助信息
-
-```
-scoop config --help
-```
-
-### scoop_repo管理
-
-> scoop repo提供对scoop本身进行更新的源，默认情况下在安装的时候已经指定好了，无需额外配置
-
-```powershell
-------------------------
-# 设置SCOOP_REPO，scoop本身更新的仓库
-------------------------
-# 通过scoop config查看当前配置
-scoop config
-# 官方默认SCOOP_REPO
-scoop config SCOOP_REPO "https://github.com/ScoopInstaller/Scoop"
-# 不要用gitee这个了，里面的代理无法使用了(弃用)
-scoop config SCOOP_REPO "https://gitee.com/scoop-installer/scoop"
-```
-
-### aria2设置
-
-如果安装了`aria2`，scoop可以通过`aria2`进行多线程下载。我们也可以手动开启关闭`aria2`使用。
-
-```
-# 禁用aria2
-scoop config aria2-enabled false
-# 启用aria2
-scoop config aria2-enabled true
-# 删除配置
-scoop config rm aria2-enabled
-```
-
-### 设置代理下载
-
-如果配置的`SCOOP_REPO` 或 `bucket` 在国外（github），可能因为网络问题导致下载更新过慢。好在我们还有的办法，比如可以设置使用系统的代理（前提你有可用的代理）进行加速。
-
-```
-# 设置代理
-scoop config proxy 127.0.0.1:7890
-# 清除代理
-scoop config proxy ""
-```
-
-## 设置自动更新
+## 设置自动更新（可选）
 
 **打开任务计划程序**
 
@@ -232,7 +244,7 @@ scoop config proxy ""
 scoop update *
 scoop cache rm *
 scoop cleanup *
-scoop export > E:\code\IdeaProjects\notebook\windows\scoop\scoopfile.json
+scoop export | Out-File -FilePath scoopfile.json -Encoding utf8
 ```
 
 这里的作用是：
@@ -248,21 +260,23 @@ scoop export > E:\code\IdeaProjects\notebook\windows\scoop\scoopfile.json
 
 ## 卸载Scoop
 
+**1. 卸载scoop**
+
 如果需要完全卸载 Scoop，可以按照以下步骤进行：
 
-### 先卸载所有已安装的软件
 ```
-scoop uninstall *
+# 卸载scoop，这会卸载通过scoop安装的所有应用及scoop本身
+scoop uninstall scoop
 ```
 
-已安装的程序可能**正在运行**或在系统中存在**服务**，需要退出正在运行的程序或删除程序对应的服务。
+已安装的程序可能**正在运行**或在系统中存在**服务**，需要退出正在运行的程序或删除程序对应的服务后再进行卸载。
 
 ```
 # 管理员删除程序的服务（如果有）
 sc delete <服务名字>
 ```
 
-### 删除 Scoop 目录
+**2. 删除 Scoop 目录**
 
 - 默认安装删除
 
@@ -275,7 +289,7 @@ Remove-Item -Recurse -Force "C:\Users\$env:UserName\scoop"
 
 如果是scoop的路径是自定义的，需要手动删除。
 
-### 重新启动计算机
+**3. 重新启动计算机**
 
 执行完上述命令后，建议重启计算机以使更改生效。
 

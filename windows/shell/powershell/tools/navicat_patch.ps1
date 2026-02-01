@@ -169,7 +169,7 @@ $asciiArt = @"
    |:/  /    /:/  /   L;;/__/   \:\__\    \:\__\     /:/  /   \/__/   
    \/__/     \/__/               \/__/     \/__/     \/__/            
 
-              Navicat全家桶激活脚本v1.0 2025-12-11
+              Navicat全家桶激活脚本v1.1 2026-01-07
 "@
 Write-Host $asciiArt -ForegroundColor Cyan
 Start-Sleep -Seconds 3
