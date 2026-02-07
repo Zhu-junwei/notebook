@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1769776374000)\/",
+                "value": "\/Date(1770453081000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月30日 20:32:54"
+                "DateTime": "2026年2月7日 16:31:21"
             },
-            "Manifests": 1425
+            "Manifests": 1433
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1769776338000)\/",
+                "value": "\/Date(1770453172000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月30日 20:32:18"
+                "DateTime": "2026年2月7日 16:32:52"
             },
             "Manifests": 2257
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1769732550000)\/",
+                "value": "\/Date(1770424126000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年1月30日 8:22:30"
+                "DateTime": "2026年2月7日 8:28:46"
             },
             "Manifests": 270
         }
@@ -57,8 +57,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.4",
-            "Updated": "\/Date(1769693128928)\/"
+            "Version": "2.8.5",
+            "Updated": "\/Date(1770282070588)\/"
         },
         {
             "Info": "",
@@ -99,8 +99,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cloudflared",
-            "Version": "2026.1.2",
-            "Updated": "\/Date(1769605611304)\/"
+            "Version": "2026.2.0",
+            "Updated": "\/Date(1770454848776)\/"
         },
         {
             "Info": "",
@@ -113,15 +113,15 @@
             "Info": "",
             "Source": "main",
             "Name": "cwrsync",
-            "Version": "6.4.6",
-            "Updated": "\/Date(1762592433683)\/"
+            "Version": "6.4.7",
+            "Updated": "\/Date(1770282078880)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "dbeaver",
-            "Version": "25.3.3",
-            "Updated": "\/Date(1768817291121)\/"
+            "Version": "25.3.4",
+            "Updated": "\/Date(1770047585680)\/"
         },
         {
             "Info": "",
@@ -183,8 +183,8 @@
             "Info": "",
             "Source": "main",
             "Name": "innounp",
-            "Version": "2.67.2",
-            "Updated": "\/Date(1768817342182)\/"
+            "Version": "2.67.3",
+            "Updated": "\/Date(1770047591545)\/"
         },
         {
             "Info": "",
@@ -225,8 +225,8 @@
             "Info": "",
             "Source": "dorado",
             "Name": "neteasemusic",
-            "Version": "3.1.27.204959",
-            "Updated": "\/Date(1769072479793)\/"
+            "Version": "3.1.28.205001",
+            "Updated": "\/Date(1770454891912)\/"
         },
         {
             "Info": "",
@@ -239,8 +239,8 @@
             "Info": "",
             "Source": "main",
             "Name": "nginx",
-            "Version": "1.29.4",
-            "Updated": "\/Date(1767629486033)\/"
+            "Version": "1.29.5",
+            "Updated": "\/Date(1770282087316)\/"
         },
         {
             "Info": "",
@@ -267,15 +267,15 @@
             "Info": "",
             "Source": "extras",
             "Name": "Obsidian",
-            "Version": "1.11.5",
-            "Updated": "\/Date(1769882165475)\/"
+            "Version": "1.11.7",
+            "Updated": "\/Date(1770368553595)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "openlist",
-            "Version": "4.1.9",
-            "Updated": "\/Date(1767344446503)\/"
+            "Version": "4.1.10",
+            "Updated": "\/Date(1770047630465)\/"
         },
         {
             "Info": "",
@@ -337,8 +337,8 @@
             "Info": "",
             "Source": "main",
             "Name": "syncthing",
-            "Version": "2.0.13",
-            "Updated": "\/Date(1767782377040)\/"
+            "Version": "2.0.14",
+            "Updated": "\/Date(1770126257442)\/"
         },
         {
             "Info": "Held package",
