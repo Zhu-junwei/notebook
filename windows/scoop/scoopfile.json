@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1770467544000)\/",
+                "value": "\/Date(1770539474000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月7日 20:32:24"
+                "DateTime": "2026年2月8日 16:31:14"
             },
             "Manifests": 1433
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1770467506000)\/",
+                "value": "\/Date(1770539452000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月7日 20:31:46"
+                "DateTime": "2026年2月8日 16:30:52"
             },
-            "Manifests": 2257
+            "Manifests": 2258
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1770424126000)\/",
+                "value": "\/Date(1770510654000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月7日 8:28:46"
+                "DateTime": "2026年2月8日 8:30:54"
             },
             "Manifests": 270
         }
@@ -341,11 +341,11 @@
             "Updated": "\/Date(1770126257442)\/"
         },
         {
-            "Info": "",
+            "Info": "Held package",
             "Source": "extras",
             "Name": "tailscale",
             "Version": "1.94.1",
-            "Updated": "\/Date(1770469579714)\/"
+            "Updated": "\/Date(1770469588662)\/"
         },
         {
             "Info": "",
