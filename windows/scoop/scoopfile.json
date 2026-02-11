@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1770712480000)\/",
+                "value": "\/Date(1770786091000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月10日 16:34:40"
+                "DateTime": "2026年2月11日 13:01:31"
             },
-            "Manifests": 1433
+            "Manifests": 1435
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1770626378000)\/",
+                "value": "\/Date(1770786402000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月9日 16:39:38"
+                "DateTime": "2026年2月11日 13:06:42"
             },
-            "Manifests": 2258
+            "Manifests": 2259
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1770683433000)\/",
+                "value": "\/Date(1770769786000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月10日 8:30:33"
+                "DateTime": "2026年2月11日 8:29:46"
             },
             "Manifests": 270
         }
@@ -302,8 +302,8 @@
             "Info": "",
             "Source": "main",
             "Name": "redis",
-            "Version": "8.4.1",
-            "Updated": "\/Date(1770627625676)\/"
+            "Version": "8.6.0",
+            "Updated": "\/Date(1770794236317)\/"
         },
         {
             "Info": "",
