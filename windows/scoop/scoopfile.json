@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1771489949000)\/",
+                "value": "\/Date(1771576398000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月19日 16:32:29"
+                "DateTime": "2026年2月20日 16:33:18"
             },
             "Manifests": 1438
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1771489959000)\/",
+                "value": "\/Date(1771576421000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月19日 16:32:39"
+                "DateTime": "2026年2月20日 16:33:41"
             },
             "Manifests": 2265
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1771460642000)\/",
+                "value": "\/Date(1771546916000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月19日 8:24:02"
+                "DateTime": "2026年2月20日 8:21:56"
             },
             "Manifests": 270
         }
@@ -183,8 +183,8 @@
             "Info": "",
             "Source": "main",
             "Name": "innounp",
-            "Version": "2.67.3",
-            "Updated": "\/Date(1770047591545)\/"
+            "Version": "2.67.4",
+            "Updated": "\/Date(1771578023282)\/"
         },
         {
             "Info": "",
