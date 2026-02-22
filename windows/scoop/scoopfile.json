@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1771633355000)\/",
+                "value": "\/Date(1771719779000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月21日 8:22:35"
+                "DateTime": "2026年2月22日 8:22:59"
             },
             "Manifests": 270
         }
