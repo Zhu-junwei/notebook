@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1771662672000)\/",
+                "value": "\/Date(1771835606000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月21日 16:31:12"
+                "DateTime": "2026年2月23日 16:33:26"
             },
-            "Manifests": 1439
+            "Manifests": 1440
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1771662716000)\/",
+                "value": "\/Date(1771835597000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月21日 16:31:56"
+                "DateTime": "2026年2月23日 16:33:17"
             },
             "Manifests": 2265
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1771719779000)\/",
+                "value": "\/Date(1771806240000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月22日 8:22:59"
+                "DateTime": "2026年2月23日 8:24:00"
             },
             "Manifests": 270
         }
@@ -127,8 +127,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "draw.io",
-            "Version": "29.3.6",
-            "Updated": "\/Date(1769776695499)\/"
+            "Version": "29.5.2",
+            "Updated": "\/Date(1771837467890)\/"
         },
         {
             "Info": "",
@@ -148,8 +148,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "filezilla",
-            "Version": "3.69.5",
-            "Updated": "\/Date(1764428946350)\/"
+            "Version": "3.69.6",
+            "Updated": "\/Date(1771837518501)\/"
         },
         {
             "Info": "",
@@ -162,8 +162,8 @@
             "Info": "",
             "Source": "main",
             "Name": "gh",
-            "Version": "2.87.0",
-            "Updated": "\/Date(1771491639513)\/"
+            "Version": "2.87.2",
+            "Updated": "\/Date(1771837564256)\/"
         },
         {
             "Info": "",
@@ -211,8 +211,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "koodo-reader",
-            "Version": "2.2.8",
-            "Updated": "\/Date(1771491807153)\/"
+            "Version": "2.2.9",
+            "Updated": "\/Date(1771837620658)\/"
         },
         {
             "Info": "",
@@ -253,8 +253,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "notepadplusplus",
-            "Version": "8.9.1",
-            "Updated": "\/Date(1769518193614)\/"
+            "Version": "8.9.2",
+            "Updated": "\/Date(1771837630826)\/"
         },
         {
             "Info": "",
