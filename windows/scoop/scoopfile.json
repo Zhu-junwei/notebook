@@ -4,31 +4,31 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1771835606000)\/",
+                "value": "\/Date(1771980955000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月23日 16:33:26"
+                "DateTime": "2026年2月25日 8:55:55"
             },
-            "Manifests": 1440
+            "Manifests": 1445
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1771835597000)\/",
+                "value": "\/Date(1771984706000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月23日 16:33:17"
+                "DateTime": "2026年2月25日 9:58:26"
             },
-            "Manifests": 2265
+            "Manifests": 2267
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1771806240000)\/",
+                "value": "\/Date(1771979134000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月23日 8:24:00"
+                "DateTime": "2026年2月25日 8:25:34"
             },
-            "Manifests": 270
+            "Manifests": 271
         }
     ],
     "apps": [
@@ -162,8 +162,8 @@
             "Info": "",
             "Source": "main",
             "Name": "gh",
-            "Version": "2.87.2",
-            "Updated": "\/Date(1771837564256)\/"
+            "Version": "2.87.3",
+            "Updated": "\/Date(1771985465133)\/"
         },
         {
             "Info": "",
@@ -302,8 +302,8 @@
             "Info": "",
             "Source": "main",
             "Name": "redis",
-            "Version": "8.6.0",
-            "Updated": "\/Date(1770794236317)\/"
+            "Version": "8.6.1",
+            "Updated": "\/Date(1771985477033)\/"
         },
         {
             "Info": "",
