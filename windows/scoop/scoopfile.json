@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1772008393000)\/",
+                "value": "\/Date(1772094799000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月25日 16:33:13"
+                "DateTime": "2026年2月26日 16:33:19"
             },
-            "Manifests": 1445
+            "Manifests": 1447
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1772008486000)\/",
+                "value": "\/Date(1772094793000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月25日 16:34:46"
+                "DateTime": "2026年2月26日 16:33:13"
             },
             "Manifests": 2267
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1771979134000)\/",
+                "value": "\/Date(1772065277000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月25日 8:25:34"
+                "DateTime": "2026年2月26日 8:21:17"
             },
             "Manifests": 271
         }
@@ -372,8 +372,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "wireshark",
-            "Version": "4.6.3",
-            "Updated": "\/Date(1768467752130)\/"
+            "Version": "4.6.4",
+            "Updated": "\/Date(1772096453339)\/"
         }
     ]
 }
