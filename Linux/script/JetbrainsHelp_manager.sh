@@ -14,6 +14,14 @@ APP_PORT=${DEFAULT_APP_PORT} # Default port, will be read from config or set dur
 # Java 设置
 JAVA_CMD="java"
 REQUIRED_JAVA_VERSION=17
+JAVA_MIN_DOWNLOAD_URL="https://quwenjian.com/f/EgBqf1/openjdk-17-jre-min.tar.gz"
+JAVA_MIN_TMP_ARCHIVE="/tmp/openjdk-17-jre-min.tar.gz"
+JAVA_MIN_BASE_DIR="/usr/local/java"
+JAVA_MIN_NAME="openjdk-17-jre-min"
+JAVA_MIN_DIR="${JAVA_MIN_BASE_DIR}/${JAVA_MIN_NAME}"
+JAVA_MIN_LINK="${JAVA_MIN_BASE_DIR}/current"
+JAVA_ENV_FILE="/etc/profile.d/java.sh"
+JAVA_BIN_LINK="/usr/local/bin/java"
 
 # Colors for highlighting stages
 PLAIN="\033[0m"
@@ -106,6 +114,100 @@ check_java_version() {
 
     log_error "未找到合适的 Java ${REQUIRED_JAVA_VERSION} 或更高版本。"
     return 1 # Java not found or not suitable
+}
+
+install_min_java_runtime() {
+    log_info "正在安装 OpenJDK 精简版运行时..."
+
+    if ! check_root; then
+        log_error "安装 Java 运行时需要 root 权限。"
+        log_tip "请使用 root 重新运行此脚本。"
+        return 1
+    fi
+
+    local downloader=""
+    if command -v wget >/dev/null 2>&1; then
+        downloader="wget"
+    elif command -v curl >/dev/null 2>&1; then
+        downloader="curl"
+    else
+        log_error "缺少下载工具，请先安装 wget 或 curl。"
+        return 1
+    fi
+
+    if ! command -v tar >/dev/null 2>&1; then
+        log_error "缺少依赖：tar"
+        return 1
+    fi
+
+    mkdir -p "${JAVA_MIN_BASE_DIR}"
+    rm -rf "${JAVA_MIN_DIR}"
+    rm -f "${JAVA_MIN_TMP_ARCHIVE}"
+
+    log_info "正在下载 Java 安装包..."
+    if [ "${downloader}" = "wget" ]; then
+        if ! wget -O "${JAVA_MIN_TMP_ARCHIVE}" "${JAVA_MIN_DOWNLOAD_URL}"; then
+            log_error "下载 Java 安装包失败。"
+            return 1
+        fi
+    else
+        if ! curl -L -o "${JAVA_MIN_TMP_ARCHIVE}" "${JAVA_MIN_DOWNLOAD_URL}"; then
+            log_error "下载 Java 安装包失败。"
+            return 1
+        fi
+    fi
+
+    log_info "正在解压 Java 安装包..."
+    if ! tar -xzf "${JAVA_MIN_TMP_ARCHIVE}" -C "${JAVA_MIN_BASE_DIR}"; then
+        rm -f "${JAVA_MIN_TMP_ARCHIVE}"
+        log_error "解压 Java 安装包失败。"
+        return 1
+    fi
+    rm -f "${JAVA_MIN_TMP_ARCHIVE}"
+
+    if [ ! -d "${JAVA_MIN_DIR}" ]; then
+        log_error "解压后未找到目录：${JAVA_MIN_DIR}"
+        return 1
+    fi
+
+    ln -sfn "${JAVA_MIN_DIR}" "${JAVA_MIN_LINK}"
+    cat > "${JAVA_ENV_FILE}" <<'EOF'
+export JAVA_HOME=/usr/local/java/current
+export PATH=$JAVA_HOME/bin:$PATH
+EOF
+    chmod 644 "${JAVA_ENV_FILE}"
+    ln -sfn "${JAVA_MIN_LINK}/bin/java" "${JAVA_BIN_LINK}"
+
+    export JAVA_HOME="${JAVA_MIN_LINK}"
+    export PATH="/usr/local/bin:${JAVA_HOME}/bin:${PATH}"
+    JAVA_CMD="${JAVA_BIN_LINK}"
+    hash -r
+
+    if ! "${JAVA_BIN_LINK}" -version >/dev/null 2>&1; then
+        log_error "Java 安装后校验失败。"
+        return 1
+    fi
+
+    log_nice "Java 运行时安装完成。"
+    return 0
+}
+
+ensure_java_runtime() {
+    if check_java_version; then
+        return 0
+    fi
+
+    log_warn "未检测到可用 Java，开始自动安装 OpenJDK 17 精简版..."
+    if ! install_min_java_runtime; then
+        log_error "自动安装 Java 失败。"
+        return 1
+    fi
+
+    if ! check_java_version; then
+        log_error "自动安装后 Java 仍不可用。"
+        return 1
+    fi
+    return 0
 }
 
 # 启动应用
@@ -247,11 +349,9 @@ install_app() {
     
     # Check Java version
     log_info "检查 Java 环境"
-    if ! check_java_version; then
-        log_warn "Java ${REQUIRED_JAVA_VERSION} 或更高版本未找到。"
-        log_tip "请先安装OpenJDK 17 或更高版本。"
-        log_tip "例如: apt-get install openjdk-17-jre (Debian/Ubuntu)"
-        log_tip "     yum install java-17-openjdk-headless (Red Hat/CentOS)"
+    if ! ensure_java_runtime; then
+        log_error "Java 环境准备失败，安装终止。"
+        return 1
     fi
     
     # Save configuration
