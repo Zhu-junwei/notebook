@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1772181148000)\/",
+                "value": "\/Date(1772267438000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月27日 16:32:28"
+                "DateTime": "2026年2月28日 16:30:38"
             },
             "Manifests": 1449
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1772182115000)\/",
+                "value": "\/Date(1772267434000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月27日 16:48:35"
+                "DateTime": "2026年2月28日 16:30:34"
             },
-            "Manifests": 2269
+            "Manifests": 2270
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1772151935000)\/",
+                "value": "\/Date(1772238184000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年2月27日 8:25:35"
+                "DateTime": "2026年2月28日 8:23:04"
             },
             "Manifests": 271
         }
@@ -267,8 +267,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "Obsidian",
-            "Version": "1.11.7",
-            "Updated": "\/Date(1770368553595)\/"
+            "Version": "1.12.4",
+            "Updated": "\/Date(1772269262670)\/"
         },
         {
             "Info": "",
