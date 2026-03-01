@@ -3,7 +3,7 @@
 # Application settings
 APP_NAME="JetbrainsHelp"
 JAR_NAME="Jetbrains-Help.jar"
-JAR_DOWNLOAD_URL="https://openlist.900198.xyz/d/%E5%8F%96%E6%96%87%E4%BB%B6/wd1/Jetbrains-Help/Jetbrains-Help.jar?sign=Q7O7xVcjLUt7hbOF6sfrllyMio-l80upkkX0z5zilAE=:0"
+JAR_DOWNLOAD_URL="https://dn1.900198.xyz/Jetbrains-Help.jar"
 APP_HOME="/opt/${APP_NAME}"
 JAR_PATH="${APP_HOME}/${JAR_NAME}"
 LOG_FILE="${APP_HOME}/${APP_NAME}.log"
@@ -14,7 +14,7 @@ APP_PORT=${DEFAULT_APP_PORT} # Default port, will be read from config or set dur
 # Java 设置
 JAVA_CMD="java"
 REQUIRED_JAVA_VERSION=17
-JAVA_MIN_DOWNLOAD_URL="https://quwenjian.com/f/EgBqf1/openjdk-17-jre-min.tar.gz"
+JAVA_MIN_DOWNLOAD_URL="https://dn1.900198.xyz/openjdk-17-jre-min.tar.gz"
 JAVA_MIN_TMP_ARCHIVE="/tmp/openjdk-17-jre-min.tar.gz"
 JAVA_MIN_BASE_DIR="/usr/local/java"
 JAVA_MIN_NAME="openjdk-17-jre-min"
