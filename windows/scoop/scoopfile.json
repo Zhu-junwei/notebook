@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1772527880000)\/",
+                "value": "\/Date(1772613110000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月3日 16:51:20"
+                "DateTime": "2026年3月4日 16:31:50"
             },
-            "Manifests": 1452
+            "Manifests": 1454
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1772526681000)\/",
+                "value": "\/Date(1772613128000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月3日 16:31:21"
+                "DateTime": "2026年3月4日 16:32:08"
             },
-            "Manifests": 2273
+            "Manifests": 2275
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1772497489000)\/",
+                "value": "\/Date(1772583798000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月3日 8:24:49"
+                "DateTime": "2026年3月4日 8:23:18"
             },
             "Manifests": 271
         }
@@ -344,8 +344,8 @@
             "Info": "",
             "Source": "main",
             "Name": "syncthing",
-            "Version": "2.0.14",
-            "Updated": "\/Date(1770126257442)\/"
+            "Version": "2.0.15",
+            "Updated": "\/Date(1772614832382)\/"
         },
         {
             "Info": "Held package",
