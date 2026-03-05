@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1772613110000)\/",
+                "value": "\/Date(1772699586000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月4日 16:31:50"
+                "DateTime": "2026年3月5日 16:33:06"
             },
             "Manifests": 1454
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1772613128000)\/",
+                "value": "\/Date(1772700151000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月4日 16:32:08"
+                "DateTime": "2026年3月5日 16:42:31"
             },
             "Manifests": 2275
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1772583798000)\/",
+                "value": "\/Date(1772670322000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月4日 8:23:18"
+                "DateTime": "2026年3月5日 8:25:22"
             },
             "Manifests": 271
         }
@@ -204,8 +204,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "jetbrains-toolbox",
-            "Version": "3.3.0.74186",
-            "Updated": "\/Date(1772182938901)\/"
+            "Version": "3.3.1.75249",
+            "Updated": "\/Date(1772701249161)\/"
         },
         {
             "Info": "",
