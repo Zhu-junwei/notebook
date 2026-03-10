@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1773045171000)\/",
+                "value": "\/Date(1773131577000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月9日 16:32:51"
+                "DateTime": "2026年3月10日 16:32:57"
             },
             "Manifests": 1457
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1773045190000)\/",
+                "value": "\/Date(1773131638000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月9日 16:33:10"
+                "DateTime": "2026年3月10日 16:33:58"
             },
             "Manifests": 2279
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1772929456000)\/",
+                "value": "\/Date(1773102099000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月8日 8:24:16"
+                "DateTime": "2026年3月10日 8:21:39"
             },
             "Manifests": 271
         }
@@ -99,8 +99,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cloudflared",
-            "Version": "2026.2.0",
-            "Updated": "\/Date(1770454848776)\/"
+            "Version": "2026.3.0",
+            "Updated": "\/Date(1773133263320)\/"
         },
         {
             "Info": "",
@@ -218,8 +218,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "koodo-reader",
-            "Version": "2.2.9",
-            "Updated": "\/Date(1771837620658)\/"
+            "Version": "2.3.0",
+            "Updated": "\/Date(1773133475521)\/"
         },
         {
             "Info": "",
