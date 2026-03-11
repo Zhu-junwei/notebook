@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1773131577000)\/",
+                "value": "\/Date(1773218909000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月10日 16:32:57"
+                "DateTime": "2026年3月11日 16:48:29"
             },
-            "Manifests": 1457
+            "Manifests": 1458
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1773131638000)\/",
+                "value": "\/Date(1773217912000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月10日 16:33:58"
+                "DateTime": "2026年3月11日 16:31:52"
             },
             "Manifests": 2279
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1773102099000)\/",
+                "value": "\/Date(1773188451000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月10日 8:21:39"
+                "DateTime": "2026年3月11日 8:20:51"
             },
             "Manifests": 271
         }
@@ -57,8 +57,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.11",
-            "Updated": "\/Date(1772182858564)\/"
+            "Version": "2.8.13",
+            "Updated": "\/Date(1773219663875)\/"
         },
         {
             "Info": "",
@@ -169,8 +169,8 @@
             "Info": "",
             "Source": "main",
             "Name": "gh",
-            "Version": "2.87.3",
-            "Updated": "\/Date(1771985465133)\/"
+            "Version": "2.88.0",
+            "Updated": "\/Date(1773219675560)\/"
         },
         {
             "Info": "",
@@ -246,8 +246,8 @@
             "Info": "",
             "Source": "main",
             "Name": "nginx",
-            "Version": "1.29.5",
-            "Updated": "\/Date(1770282087316)\/"
+            "Version": "1.29.6",
+            "Updated": "\/Date(1773219726599)\/"
         },
         {
             "Info": "",
@@ -309,8 +309,8 @@
             "Info": "",
             "Source": "main",
             "Name": "redis",
-            "Version": "8.6.1",
-            "Updated": "\/Date(1771985477033)\/"
+            "Version": "8.6.1.1",
+            "Updated": "\/Date(1773219924948)\/"
         },
         {
             "Info": "",
