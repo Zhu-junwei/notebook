@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1773650392000)\/",
+                "value": "\/Date(1773736554000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月16日 16:39:52"
+                "DateTime": "2026年3月17日 16:35:54"
             },
             "Manifests": 1464
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1773650561000)\/",
+                "value": "\/Date(1773736537000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月16日 16:42:41"
+                "DateTime": "2026年3月17日 16:35:37"
             },
             "Manifests": 2278
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1773620806000)\/",
+                "value": "\/Date(1773707052000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月16日 8:26:46"
+                "DateTime": "2026年3月17日 8:24:12"
             },
             "Manifests": 271
         }
@@ -148,8 +148,8 @@
             "Info": "",
             "Source": "main",
             "Name": "ffmpeg",
-            "Version": "8.0.1",
-            "Updated": "\/Date(1764437043278)\/"
+            "Version": "8.1",
+            "Updated": "\/Date(1773738152650)\/"
         },
         {
             "Info": "",
