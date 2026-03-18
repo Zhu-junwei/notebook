@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1773736554000)\/",
+                "value": "\/Date(1773822790000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月17日 16:35:54"
+                "DateTime": "2026年3月18日 16:33:10"
             },
-            "Manifests": 1464
+            "Manifests": 1466
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1773736537000)\/",
+                "value": "\/Date(1773822795000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月17日 16:35:37"
+                "DateTime": "2026年3月18日 16:33:15"
             },
             "Manifests": 2278
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1773707052000)\/",
+                "value": "\/Date(1773793751000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月17日 8:24:12"
+                "DateTime": "2026年3月18日 8:29:11"
             },
             "Manifests": 271
         }
@@ -204,8 +204,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "jetbrains-toolbox",
-            "Version": "3.3.1.75249",
-            "Updated": "\/Date(1772701249161)\/"
+            "Version": "3.4.0.77112",
+            "Updated": "\/Date(1773824732159)\/"
         },
         {
             "Info": "",
@@ -232,8 +232,8 @@
             "Info": "",
             "Source": "dorado",
             "Name": "neteasemusic",
-            "Version": "3.1.28.205001",
-            "Updated": "\/Date(1770454891912)\/"
+            "Version": "3.1.29.205117",
+            "Updated": "\/Date(1773824846876)\/"
         },
         {
             "Info": "",
