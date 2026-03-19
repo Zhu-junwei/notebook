@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1773822790000)\/",
+                "value": "\/Date(1773909157000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月18日 16:33:10"
+                "DateTime": "2026年3月19日 16:32:37"
             },
-            "Manifests": 1466
+            "Manifests": 1467
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1773822795000)\/",
+                "value": "\/Date(1773909256000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月18日 16:33:15"
+                "DateTime": "2026年3月19日 16:34:16"
             },
-            "Manifests": 2278
+            "Manifests": 2279
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1773793751000)\/",
+                "value": "\/Date(1773879961000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月18日 8:29:11"
+                "DateTime": "2026年3月19日 8:26:01"
             },
             "Manifests": 271
         }
@@ -78,8 +78,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cacert",
-            "Version": "2025-12-02",
-            "Updated": "\/Date(1764666021837)\/"
+            "Version": "2026-03-19",
+            "Updated": "\/Date(1773910858311)\/"
         },
         {
             "Info": "Held package",
