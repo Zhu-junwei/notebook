@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1773909157000)\/",
+                "value": "\/Date(1774081879000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月19日 16:32:37"
+                "DateTime": "2026年3月21日 16:31:19"
             },
-            "Manifests": 1467
+            "Manifests": 1472
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1773909256000)\/",
+                "value": "\/Date(1774081848000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月19日 16:34:16"
+                "DateTime": "2026年3月21日 16:30:48"
             },
             "Manifests": 2279
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1773966292000)\/",
+                "value": "\/Date(1774052767000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月20日 8:24:52"
+                "DateTime": "2026年3月21日 8:26:07"
             },
             "Manifests": 271
         }
@@ -141,8 +141,8 @@
             "Info": "",
             "Source": "main",
             "Name": "exiftool",
-            "Version": "13.52",
-            "Updated": "\/Date(1772276716309)\/"
+            "Version": "13.53",
+            "Updated": "\/Date(1774083637771)\/"
         },
         {
             "Info": "",
@@ -232,15 +232,15 @@
             "Info": "",
             "Source": "dorado",
             "Name": "neteasemusic",
-            "Version": "3.1.29.205117",
-            "Updated": "\/Date(1773824846876)\/"
+            "Version": "3.1.30.205130",
+            "Updated": "\/Date(1774083665006)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "nexttrace",
-            "Version": "1.5.0",
-            "Updated": "\/Date(1766381175260)\/"
+            "Version": "1.6.1",
+            "Updated": "\/Date(1774083683761)\/"
         },
         {
             "Info": "",
@@ -337,8 +337,8 @@
             "Info": "",
             "Source": "main",
             "Name": "sqlite",
-            "Version": "3.51.2",
-            "Updated": "\/Date(1768039495644)\/"
+            "Version": "3.51.3",
+            "Updated": "\/Date(1774083690126)\/"
         },
         {
             "Info": "",
