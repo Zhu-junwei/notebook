@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1774081879000)\/",
+                "value": "\/Date(1774168276000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月21日 16:31:19"
+                "DateTime": "2026年3月22日 16:31:16"
             },
             "Manifests": 1472
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1774081848000)\/",
+                "value": "\/Date(1774168256000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月21日 16:30:48"
+                "DateTime": "2026年3月22日 16:30:56"
             },
-            "Manifests": 2279
+            "Manifests": 2280
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1774052767000)\/",
+                "value": "\/Date(1774139076000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月21日 8:26:07"
+                "DateTime": "2026年3月22日 8:24:36"
             },
             "Manifests": 271
         }
