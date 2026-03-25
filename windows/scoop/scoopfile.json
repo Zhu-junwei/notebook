@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1774341363000)\/",
+                "value": "\/Date(1774427699000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月24日 16:36:03"
+                "DateTime": "2026年3月25日 16:34:59"
             },
             "Manifests": 1474
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1774341688000)\/",
+                "value": "\/Date(1774427715000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月24日 16:41:28"
+                "DateTime": "2026年3月25日 16:35:15"
             },
             "Manifests": 2282
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1774311766000)\/",
+                "value": "\/Date(1774398297000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月24日 8:22:46"
+                "DateTime": "2026年3月25日 8:24:57"
             },
             "Manifests": 271
         }
@@ -204,8 +204,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "jetbrains-toolbox",
-            "Version": "3.4.0.77112",
-            "Updated": "\/Date(1773824732159)\/"
+            "Version": "3.4.1.78303",
+            "Updated": "\/Date(1774429314346)\/"
         },
         {
             "Info": "",
@@ -246,8 +246,8 @@
             "Info": "",
             "Source": "main",
             "Name": "nginx",
-            "Version": "1.29.6",
-            "Updated": "\/Date(1773219726599)\/"
+            "Version": "1.29.7",
+            "Updated": "\/Date(1774429320219)\/"
         },
         {
             "Info": "",
@@ -309,8 +309,8 @@
             "Info": "",
             "Source": "main",
             "Name": "redis",
-            "Version": "8.6.1.1",
-            "Updated": "\/Date(1773219924948)\/"
+            "Version": "8.6.2",
+            "Updated": "\/Date(1774429329454)\/"
         },
         {
             "Info": "",
