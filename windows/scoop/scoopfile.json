@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1774484872000)\/",
+                "value": "\/Date(1774571282000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月26日 8:27:52"
+                "DateTime": "2026年3月27日 8:28:02"
             },
             "Manifests": 271
         }
@@ -57,8 +57,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.14",
-            "Updated": "\/Date(1773565334225)\/"
+            "Version": "2.8.21",
+            "Updated": "\/Date(1774602151937)\/"
         },
         {
             "Info": "",
