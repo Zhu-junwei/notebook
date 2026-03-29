@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1774514188000)\/",
+                "value": "\/Date(1774787552000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月26日 16:36:28"
+                "DateTime": "2026年3月29日 20:32:32"
             },
-            "Manifests": 1474
+            "Manifests": 1478
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1774514166000)\/",
+                "value": "\/Date(1774788683000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月26日 16:36:06"
+                "DateTime": "2026年3月29日 20:51:23"
             },
             "Manifests": 2282
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1774571282000)\/",
+                "value": "\/Date(1774744055000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年3月27日 8:28:02"
+                "DateTime": "2026年3月29日 8:27:35"
             },
             "Manifests": 271
         }
@@ -43,8 +43,8 @@
             "Info": "",
             "Source": "main",
             "Name": "adb",
-            "Version": "36.0.2",
-            "Updated": "\/Date(1767862850404)\/"
+            "Version": "37.0.0",
+            "Updated": "\/Date(1774794942242)\/"
         },
         {
             "Info": "",
@@ -127,8 +127,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "draw.io",
-            "Version": "29.6.1",
-            "Updated": "\/Date(1773046908484)\/"
+            "Version": "29.6.6",
+            "Updated": "\/Date(1774795015473)\/"
         },
         {
             "Info": "",
@@ -169,8 +169,8 @@
             "Info": "",
             "Source": "main",
             "Name": "gh",
-            "Version": "2.88.1",
-            "Updated": "\/Date(1773392525909)\/"
+            "Version": "2.89.0",
+            "Updated": "\/Date(1774795028885)\/"
         },
         {
             "Info": "",
@@ -190,8 +190,8 @@
             "Info": "",
             "Source": "main",
             "Name": "innounp",
-            "Version": "2.67.5",
-            "Updated": "\/Date(1774342827965)\/"
+            "Version": "2.67.6",
+            "Updated": "\/Date(1774795031657)\/"
         },
         {
             "Info": "",
@@ -218,8 +218,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "koodo-reader",
-            "Version": "2.3.0",
-            "Updated": "\/Date(1773133475521)\/"
+            "Version": "2.3.1",
+            "Updated": "\/Date(1774795092071)\/"
         },
         {
             "Info": "",
@@ -253,8 +253,8 @@
             "Info": "",
             "Source": "main",
             "Name": "nmap",
-            "Version": "7.98",
-            "Updated": "\/Date(1760265444187)\/"
+            "Version": "7.99",
+            "Updated": "\/Date(1774795126978)\/"
         },
         {
             "Info": "",
