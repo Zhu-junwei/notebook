@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1775377971000)\/",
+                "value": "\/Date(1775465404000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月5日 16:32:51"
+                "DateTime": "2026年4月6日 16:50:04"
             },
             "Manifests": 1490
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1775377960000)\/",
+                "value": "\/Date(1775465448000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月5日 16:32:40"
+                "DateTime": "2026年4月6日 16:50:48"
             },
             "Manifests": 2287
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1775348871000)\/",
+                "value": "\/Date(1775435291000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月5日 8:27:51"
+                "DateTime": "2026年4月6日 8:28:11"
             },
             "Manifests": 271
         }
@@ -120,8 +120,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "dbeaver",
-            "Version": "26.0.1",
-            "Updated": "\/Date(1774256507643)\/"
+            "Version": "26.0.2",
+            "Updated": "\/Date(1775466157196)\/"
         },
         {
             "Info": "",
@@ -372,8 +372,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "ventoy",
-            "Version": "1.1.10",
-            "Updated": "\/Date(1766394197435)\/"
+            "Version": "1.1.11",
+            "Updated": "\/Date(1775466185306)\/"
         },
         {
             "Info": "",
