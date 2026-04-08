@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1775551522000)\/",
+                "value": "\/Date(1775637871000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月7日 16:45:22"
+                "DateTime": "2026年4月8日 16:44:31"
             },
-            "Manifests": 1490
+            "Manifests": 1491
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1775551446000)\/",
+                "value": "\/Date(1775637933000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月7日 16:44:06"
+                "DateTime": "2026年4月8日 16:45:33"
             },
-            "Manifests": 2287
+            "Manifests": 2289
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1775521672000)\/",
+                "value": "\/Date(1775608124000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月7日 8:27:52"
+                "DateTime": "2026年4月8日 8:28:44"
             },
             "Manifests": 271
         }
@@ -134,15 +134,15 @@
             "Info": "",
             "Source": "extras",
             "Name": "escrcpy",
-            "Version": "2.8.0",
-            "Updated": "\/Date(1775552513249)\/"
+            "Version": "2.8.1",
+            "Updated": "\/Date(1775638902892)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "exiftool",
-            "Version": "13.54",
-            "Updated": "\/Date(1775120497756)\/"
+            "Version": "13.55",
+            "Updated": "\/Date(1775638930164)\/"
         },
         {
             "Info": "",
@@ -246,8 +246,8 @@
             "Info": "",
             "Source": "main",
             "Name": "nginx",
-            "Version": "1.29.7",
-            "Updated": "\/Date(1774429320219)\/"
+            "Version": "1.29.8",
+            "Updated": "\/Date(1775638945130)\/"
         },
         {
             "Info": "",
@@ -344,8 +344,8 @@
             "Info": "",
             "Source": "main",
             "Name": "syncthing",
-            "Version": "2.0.15",
-            "Updated": "\/Date(1772614832382)\/"
+            "Version": "2.0.16",
+            "Updated": "\/Date(1775638965981)\/"
         },
         {
             "Info": "Held package",
