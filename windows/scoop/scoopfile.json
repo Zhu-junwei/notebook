@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1775637871000)\/",
+                "value": "\/Date(1776156839000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月8日 16:44:31"
+                "DateTime": "2026年4月14日 16:53:59"
             },
-            "Manifests": 1491
+            "Manifests": 1494
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1775637933000)\/",
+                "value": "\/Date(1776156824000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月8日 16:45:33"
+                "DateTime": "2026年4月14日 16:53:44"
             },
-            "Manifests": 2289
+            "Manifests": 2292
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1775608124000)\/",
+                "value": "\/Date(1776126931000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月8日 8:28:44"
+                "DateTime": "2026年4月14日 8:35:31"
             },
             "Manifests": 271
         }
@@ -57,8 +57,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.21",
-            "Updated": "\/Date(1774602151937)\/"
+            "Version": "2.8.24",
+            "Updated": "\/Date(1776157266430)\/"
         },
         {
             "Info": "",
@@ -155,8 +155,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "filezilla",
-            "Version": "3.69.6",
-            "Updated": "\/Date(1771837518501)\/"
+            "Version": "3.70.2",
+            "Updated": "\/Date(1776157286912)\/"
         },
         {
             "Info": "",
@@ -190,8 +190,8 @@
             "Info": "",
             "Source": "main",
             "Name": "innounp",
-            "Version": "2.67.6",
-            "Updated": "\/Date(1774795031657)\/"
+            "Version": "2.67.7",
+            "Updated": "\/Date(1775725230706)\/"
         },
         {
             "Info": "",
@@ -239,8 +239,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "nexttrace",
-            "Version": "1.6.1",
-            "Updated": "\/Date(1774083683761)\/"
+            "Version": "1.6.2",
+            "Updated": "\/Date(1775908093046)\/"
         },
         {
             "Info": "",
@@ -281,15 +281,15 @@
             "Info": "",
             "Source": "main",
             "Name": "openlist",
-            "Version": "4.1.10",
-            "Updated": "\/Date(1770047630465)\/"
+            "Version": "4.2.1",
+            "Updated": "\/Date(1775908102467)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "openssl-light",
-            "Version": "3.6.1",
-            "Updated": "\/Date(1769693286124)\/"
+            "Version": "3.6.2",
+            "Updated": "\/Date(1775725284996)\/"
         },
         {
             "Info": "",
@@ -365,8 +365,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "v2rayn",
-            "Version": "7.19.5",
-            "Updated": "\/Date(1775018473238)\/"
+            "Version": "7.20.2",
+            "Updated": "\/Date(1776070856786)\/"
         },
         {
             "Info": "",
