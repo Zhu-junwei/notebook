@@ -82,11 +82,11 @@
             "Updated": "\/Date(1773910858311)\/"
         },
         {
-            "Info": "Held package",
+            "Info": "",
             "Source": "main",
             "Name": "caddy",
-            "Version": "2.10.2",
-            "Updated": "\/Date(1767634263274)\/"
+            "Version": "2.11.2",
+            "Updated": "\/Date(1776244280731)\/"
         },
         {
             "Info": "",
@@ -348,11 +348,11 @@
             "Updated": "\/Date(1775638965981)\/"
         },
         {
-            "Info": "Held package",
+            "Info": "",
             "Source": "extras",
             "Name": "tailscale",
             "Version": "1.94.1",
-            "Updated": "\/Date(1770469588662)\/"
+            "Updated": "\/Date(1776244199349)\/"
         },
         {
             "Info": "",
