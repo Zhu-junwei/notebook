@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1776243319000)\/",
+                "value": "\/Date(1776416096000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月15日 16:55:19"
+                "DateTime": "2026年4月17日 16:54:56"
             },
             "Manifests": 1495
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1776243269000)\/",
+                "value": "\/Date(1776416033000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月15日 16:54:29"
+                "DateTime": "2026年4月17日 16:53:53"
             },
             "Manifests": 2293
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1776213289000)\/",
+                "value": "\/Date(1776385971000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月15日 8:34:49"
+                "DateTime": "2026年4月17日 8:32:51"
             },
             "Manifests": 271
         }
@@ -82,11 +82,11 @@
             "Updated": "\/Date(1773910858311)\/"
         },
         {
-            "Info": "",
+            "Info": "Held package",
             "Source": "main",
             "Name": "caddy",
             "Version": "2.11.2",
-            "Updated": "\/Date(1776244280731)\/"
+            "Updated": "\/Date(1776244468745)\/"
         },
         {
             "Info": "",
@@ -141,8 +141,8 @@
             "Info": "",
             "Source": "main",
             "Name": "exiftool",
-            "Version": "13.55",
-            "Updated": "\/Date(1775638930164)\/"
+            "Version": "13.56",
+            "Updated": "\/Date(1776416442265)\/"
         },
         {
             "Info": "",
@@ -155,8 +155,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "filezilla",
-            "Version": "3.70.3",
-            "Updated": "\/Date(1776244078192)\/"
+            "Version": "3.70.4",
+            "Updated": "\/Date(1776416462469)\/"
         },
         {
             "Info": "",
@@ -169,8 +169,8 @@
             "Info": "",
             "Source": "main",
             "Name": "gh",
-            "Version": "2.89.0",
-            "Updated": "\/Date(1774795028885)\/"
+            "Version": "2.90.0",
+            "Updated": "\/Date(1776416472271)\/"
         },
         {
             "Info": "",
@@ -204,8 +204,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "jetbrains-toolbox",
-            "Version": "3.4.2.80952",
-            "Updated": "\/Date(1776244151678)\/"
+            "Version": "3.4.3.81140",
+            "Updated": "\/Date(1776416554989)\/"
         },
         {
             "Info": "",
@@ -288,8 +288,8 @@
             "Info": "",
             "Source": "main",
             "Name": "openssl-light",
-            "Version": "3.6.2",
-            "Updated": "\/Date(1775725284996)\/"
+            "Version": "4.0.0",
+            "Updated": "\/Date(1776416565179)\/"
         },
         {
             "Info": "",
@@ -348,11 +348,11 @@
             "Updated": "\/Date(1775638965981)\/"
         },
         {
-            "Info": "",
+            "Info": "Held package",
             "Source": "extras",
             "Name": "tailscale",
             "Version": "1.96.3",
-            "Updated": "\/Date(1776244394141)\/"
+            "Updated": "\/Date(1776244475554)\/"
         },
         {
             "Info": "",
@@ -365,8 +365,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "v2rayn",
-            "Version": "7.20.2",
-            "Updated": "\/Date(1776070856786)\/"
+            "Version": "7.20.3",
+            "Updated": "\/Date(1776416649401)\/"
         },
         {
             "Info": "",
