@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1776416096000)\/",
+                "value": "\/Date(1776501232000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月17日 16:54:56"
+                "DateTime": "2026年4月18日 16:33:52"
             },
-            "Manifests": 1495
+            "Manifests": 1496
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1776416033000)\/",
+                "value": "\/Date(1776501246000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月17日 16:53:53"
+                "DateTime": "2026年4月18日 16:34:06"
             },
-            "Manifests": 2293
+            "Manifests": 2294
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1776385971000)\/",
+                "value": "\/Date(1776472255000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月17日 8:32:51"
+                "DateTime": "2026年4月18日 8:30:55"
             },
             "Manifests": 271
         }
@@ -141,8 +141,8 @@
             "Info": "",
             "Source": "main",
             "Name": "exiftool",
-            "Version": "13.56",
-            "Updated": "\/Date(1776416442265)\/"
+            "Version": "13.57",
+            "Updated": "\/Date(1776502859258)\/"
         },
         {
             "Info": "",
