@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1776848157000)\/",
+                "value": "\/Date(1776934772000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月22日 16:55:57"
+                "DateTime": "2026年4月23日 16:59:32"
             },
-            "Manifests": 1501
+            "Manifests": 1504
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1776848138000)\/",
+                "value": "\/Date(1776934749000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月22日 16:55:38"
+                "DateTime": "2026年4月23日 16:59:09"
             },
             "Manifests": 2300
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1776817822000)\/",
+                "value": "\/Date(1776904593000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月22日 8:30:22"
+                "DateTime": "2026年4月23日 8:36:33"
             },
             "Manifests": 271
         }
@@ -169,8 +169,8 @@
             "Info": "",
             "Source": "main",
             "Name": "gh",
-            "Version": "2.90.0",
-            "Updated": "\/Date(1776416472271)\/"
+            "Version": "2.91.0",
+            "Updated": "\/Date(1776937380418)\/"
         },
         {
             "Info": "",
@@ -190,8 +190,8 @@
             "Info": "",
             "Source": "main",
             "Name": "innounp",
-            "Version": "2.67.7",
-            "Updated": "\/Date(1775725230706)\/"
+            "Version": "2.67.8",
+            "Updated": "\/Date(1776937382188)\/"
         },
         {
             "Info": "",
@@ -239,8 +239,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "nexttrace",
-            "Version": "1.6.2",
-            "Updated": "\/Date(1775908093046)\/"
+            "Version": "1.6.4",
+            "Updated": "\/Date(1776937390061)\/"
         },
         {
             "Info": "",
@@ -353,6 +353,13 @@
             "Name": "tailscale",
             "Version": "1.96.3",
             "Updated": "\/Date(1776244475554)\/"
+        },
+        {
+            "Info": "",
+            "Source": "dorado",
+            "Name": "todesk",
+            "Version": "nightly-20260422",
+            "Updated": "\/Date(1776867557506)\/"
         },
         {
             "Info": "",
