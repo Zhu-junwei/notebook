@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1776934772000)\/",
+                "value": "\/Date(1777007961000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月23日 16:59:32"
+                "DateTime": "2026年4月24日 13:19:21"
             },
-            "Manifests": 1504
+            "Manifests": 1506
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1776934749000)\/",
+                "value": "\/Date(1777007980000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月23日 16:59:09"
+                "DateTime": "2026年4月24日 13:19:40"
             },
             "Manifests": 2300
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1776904593000)\/",
+                "value": "\/Date(1776998639000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月23日 8:36:33"
+                "DateTime": "2026年4月24日 10:43:59"
             },
             "Manifests": 271
         }
@@ -379,8 +379,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "ventoy",
-            "Version": "1.1.11",
-            "Updated": "\/Date(1775466185306)\/"
+            "Version": "1.1.12",
+            "Updated": "\/Date(1777021231074)\/"
         },
         {
             "Info": "",
