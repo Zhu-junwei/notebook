@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1777440627000)\/",
+                "value": "\/Date(1777535553000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月29日 13:30:27"
+                "DateTime": "2026年4月30日 15:52:33"
             },
             "Manifests": 1508
         },
@@ -14,11 +14,11 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1777452857000)\/",
+                "value": "\/Date(1777534903000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月29日 16:54:17"
+                "DateTime": "2026年4月30日 15:41:43"
             },
-            "Manifests": 2304
+            "Manifests": 2305
         },
         {
             "Name": "dorado",
@@ -393,8 +393,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "wireshark",
-            "Version": "4.6.4",
-            "Updated": "\/Date(1772096453339)\/"
+            "Version": "4.6.5",
+            "Updated": "\/Date(1777544901045)\/"
         }
     ]
 }
