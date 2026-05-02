@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1777535553000)\/",
+                "value": "\/Date(1777711681000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月30日 15:52:33"
+                "DateTime": "2026年5月2日 16:48:01"
             },
-            "Manifests": 1508
+            "Manifests": 1514
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1777534903000)\/",
+                "value": "\/Date(1777711661000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月30日 15:41:43"
+                "DateTime": "2026年5月2日 16:47:41"
             },
             "Manifests": 2305
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1777336664000)\/",
+                "value": "\/Date(1777682221000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年4月28日 8:37:44"
+                "DateTime": "2026年5月2日 8:37:01"
             },
             "Manifests": 271
         }
@@ -113,8 +113,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cwrsync",
-            "Version": "6.4.7",
-            "Updated": "\/Date(1770282078880)\/"
+            "Version": "6.4.8",
+            "Updated": "\/Date(1777719665358)\/"
         },
         {
             "Info": "",
@@ -190,8 +190,8 @@
             "Info": "",
             "Source": "main",
             "Name": "innounp",
-            "Version": "2.67.8",
-            "Updated": "\/Date(1776937382188)\/"
+            "Version": "2.67.9",
+            "Updated": "\/Date(1777719667156)\/"
         },
         {
             "Info": "",
