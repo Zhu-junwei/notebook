@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1778045486000)\/",
+                "value": "\/Date(1778140388000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月6日 13:31:26"
+                "DateTime": "2026年5月7日 15:53:08"
             },
-            "Manifests": 1522
+            "Manifests": 1524
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1778045411000)\/",
+                "value": "\/Date(1778131852000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月6日 13:30:11"
+                "DateTime": "2026年5月7日 13:30:52"
             },
             "Manifests": 2305
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1778027731000)\/",
+                "value": "\/Date(1778114378000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月6日 8:35:31"
+                "DateTime": "2026年5月7日 8:39:38"
             },
             "Manifests": 271
         }
@@ -57,8 +57,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.24",
-            "Updated": "\/Date(1776157266430)\/"
+            "Version": "2.8.27",
+            "Updated": "\/Date(1778144474660)\/"
         },
         {
             "Info": "",
@@ -155,8 +155,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "filezilla",
-            "Version": "3.70.4",
-            "Updated": "\/Date(1776416462469)\/"
+            "Version": "3.70.5",
+            "Updated": "\/Date(1778144494248)\/"
         },
         {
             "Info": "",
@@ -318,6 +318,13 @@
             "Name": "resource-hacker",
             "Version": "5.2.8",
             "Updated": "\/Date(1761758969222)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "ripgrep",
+            "Version": "15.1.0",
+            "Updated": "\/Date(1778128764294)\/"
         },
         {
             "Info": "",
