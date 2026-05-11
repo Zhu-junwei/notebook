@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1778403582000)\/",
+                "value": "\/Date(1778482240000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月10日 16:59:42"
+                "DateTime": "2026年5月11日 14:50:40"
             },
-            "Manifests": 1527
+            "Manifests": 1531
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1778403551000)\/",
+                "value": "\/Date(1778488862000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月10日 16:59:11"
+                "DateTime": "2026年5月11日 16:41:02"
             },
             "Manifests": 2306
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1778373526000)\/",
+                "value": "\/Date(1778470727000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月10日 8:38:46"
+                "DateTime": "2026年5月11日 11:38:47"
             },
             "Manifests": 271
         }
@@ -360,6 +360,13 @@
             "Name": "tailscale",
             "Version": "1.96.3",
             "Updated": "\/Date(1776244475554)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "tesseract",
+            "Version": "5.5.0.20241111",
+            "Updated": "\/Date(1778414346956)\/"
         },
         {
             "Info": "",
