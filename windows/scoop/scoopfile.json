@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1778482240000)\/",
+                "value": "\/Date(1778563940000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月11日 14:50:40"
+                "DateTime": "2026年5月12日 13:32:20"
             },
             "Manifests": 1531
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1778488862000)\/",
+                "value": "\/Date(1778563907000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月11日 16:41:02"
+                "DateTime": "2026年5月12日 13:31:47"
             },
             "Manifests": 2306
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1778470727000)\/",
+                "value": "\/Date(1778546269000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月11日 11:38:47"
+                "DateTime": "2026年5月12日 8:37:49"
             },
             "Manifests": 271
         }
@@ -57,8 +57,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.27",
-            "Updated": "\/Date(1778144474660)\/"
+            "Version": "2.8.28",
+            "Updated": "\/Date(1778576467649)\/"
         },
         {
             "Info": "",
@@ -218,8 +218,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "koodo-reader",
-            "Version": "2.3.2",
-            "Updated": "\/Date(1776589269992)\/"
+            "Version": "2.3.4",
+            "Updated": "\/Date(1778576515628)\/"
         },
         {
             "Info": "",
@@ -239,8 +239,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "nexttrace",
-            "Version": "1.6.4",
-            "Updated": "\/Date(1776937390061)\/"
+            "Version": "1.6.5",
+            "Updated": "\/Date(1778576575024)\/"
         },
         {
             "Info": "",
@@ -386,8 +386,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "v2rayn",
-            "Version": "7.20.4",
-            "Updated": "\/Date(1776589348806)\/"
+            "Version": "7.21.3",
+            "Updated": "\/Date(1778576690498)\/"
         },
         {
             "Info": "",
