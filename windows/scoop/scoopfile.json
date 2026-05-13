@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1778563940000)\/",
+                "value": "\/Date(1778650588000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月12日 13:32:20"
+                "DateTime": "2026年5月13日 13:36:28"
             },
-            "Manifests": 1531
+            "Manifests": 1533
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1778563907000)\/",
+                "value": "\/Date(1778650609000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月12日 13:31:47"
+                "DateTime": "2026年5月13日 13:36:49"
             },
             "Manifests": 2306
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1778546269000)\/",
+                "value": "\/Date(1778632837000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月12日 8:37:49"
+                "DateTime": "2026年5月13日 8:40:37"
             },
             "Manifests": 271
         }
@@ -127,15 +127,15 @@
             "Info": "",
             "Source": "extras",
             "Name": "draw.io",
-            "Version": "30.0.0",
-            "Updated": "\/Date(1778403716251)\/"
+            "Version": "30.0.1",
+            "Updated": "\/Date(1778662891520)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "escrcpy",
-            "Version": "2.9.0",
-            "Updated": "\/Date(1777107793469)\/"
+            "Version": "2.10.2",
+            "Updated": "\/Date(1778662927478)\/"
         },
         {
             "Info": "",
@@ -260,8 +260,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "notepadplusplus",
-            "Version": "8.9.4",
-            "Updated": "\/Date(1777280516230)\/"
+            "Version": "8.9.5",
+            "Updated": "\/Date(1778662935162)\/"
         },
         {
             "Info": "",
@@ -337,8 +337,8 @@
             "Info": "",
             "Source": "main",
             "Name": "scrcpy",
-            "Version": "3.3.4",
-            "Updated": "\/Date(1766048478280)\/"
+            "Version": "4.0",
+            "Updated": "\/Date(1778662956398)\/"
         },
         {
             "Info": "",
@@ -351,8 +351,8 @@
             "Info": "",
             "Source": "main",
             "Name": "syncthing",
-            "Version": "2.0.16",
-            "Updated": "\/Date(1775638965981)\/"
+            "Version": "2.1.0",
+            "Updated": "\/Date(1778662970522)\/"
         },
         {
             "Info": "Held package",
