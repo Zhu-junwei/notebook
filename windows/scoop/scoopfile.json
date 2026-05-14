@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1778650588000)\/",
+                "value": "\/Date(1778736946000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月13日 13:36:28"
+                "DateTime": "2026年5月14日 13:35:46"
             },
             "Manifests": 1533
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1778650609000)\/",
+                "value": "\/Date(1778736971000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月13日 13:36:49"
+                "DateTime": "2026年5月14日 13:36:11"
             },
             "Manifests": 2306
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1778632837000)\/",
+                "value": "\/Date(1778719562000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月13日 8:40:37"
+                "DateTime": "2026年5月14日 8:46:02"
             },
             "Manifests": 271
         }
@@ -78,8 +78,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cacert",
-            "Version": "2026-03-19",
-            "Updated": "\/Date(1773910858311)\/"
+            "Version": "2026-05-14",
+            "Updated": "\/Date(1778749231365)\/"
         },
         {
             "Info": "Held package",
@@ -99,8 +99,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cloudflared",
-            "Version": "2026.3.0",
-            "Updated": "\/Date(1773133263320)\/"
+            "Version": "2026.5.0",
+            "Updated": "\/Date(1778749277782)\/"
         },
         {
             "Info": "",
@@ -246,8 +246,8 @@
             "Info": "",
             "Source": "main",
             "Name": "nginx",
-            "Version": "1.29.8",
-            "Updated": "\/Date(1775638945130)\/"
+            "Version": "1.31.0",
+            "Updated": "\/Date(1778749292714)\/"
         },
         {
             "Info": "",
