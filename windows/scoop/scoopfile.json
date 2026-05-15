@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1778736946000)\/",
+                "value": "\/Date(1778823590000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月14日 13:35:46"
+                "DateTime": "2026年5月15日 13:39:50"
             },
-            "Manifests": 1533
+            "Manifests": 1535
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1778736971000)\/",
+                "value": "\/Date(1778829931000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月14日 13:36:11"
+                "DateTime": "2026年5月15日 15:25:31"
             },
             "Manifests": 2306
         },
@@ -24,9 +24,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1778719562000)\/",
+                "value": "\/Date(1778805582000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月14日 8:46:02"
+                "DateTime": "2026年5月15日 8:39:42"
             },
             "Manifests": 271
         }
@@ -295,8 +295,8 @@
             "Info": "",
             "Source": "main",
             "Name": "postgresql",
-            "Version": "18.3",
-            "Updated": "\/Date(1772183140915)\/"
+            "Version": "18.4",
+            "Updated": "\/Date(1778835893952)\/"
         },
         {
             "Info": "",
