@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1779261110000)\/",
+                "value": "\/Date(1779342680000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月20日 15:11:50"
+                "DateTime": "2026年5月21日 13:51:20"
             },
             "Manifests": 1545
         },
@@ -14,19 +14,29 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1779260290000)\/",
+                "value": "\/Date(1779342412000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月20日 14:58:10"
+                "DateTime": "2026年5月21日 13:46:52"
             },
-            "Manifests": 2300
+            "Manifests": 2301
+        },
+        {
+            "Name": "nonportable",
+            "Source": "https://github.com/ScoopInstaller/Nonportable",
+            "Updated": {
+                "value": "\/Date(1779338984000)\/",
+                "DisplayHint": 2,
+                "DateTime": "2026年5月21日 12:49:44"
+            },
+            "Manifests": 132
         },
         {
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1779237878000)\/",
+                "value": "\/Date(1779324269000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月20日 8:44:38"
+                "DateTime": "2026年5月21日 8:44:29"
             },
             "Manifests": 271
         }
@@ -218,8 +228,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "koodo-reader",
-            "Version": "2.3.4",
-            "Updated": "\/Date(1778576515628)\/"
+            "Version": "2.3.5",
+            "Updated": "\/Date(1779354058912)\/"
         },
         {
             "Info": "",
@@ -260,8 +270,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "notepadplusplus",
-            "Version": "8.9.5",
-            "Updated": "\/Date(1778662935162)\/"
+            "Version": "8.9.6",
+            "Updated": "\/Date(1779354065244)\/"
         },
         {
             "Info": "",
@@ -332,6 +342,13 @@
             "Name": "rustdesk",
             "Version": "1.4.6",
             "Updated": "\/Date(1772787647985)\/"
+        },
+        {
+            "Info": "",
+            "Source": "nonportable",
+            "Name": "sandboxie-plus-np",
+            "Version": "1.17.6",
+            "Updated": "\/Date(1779295254476)\/"
         },
         {
             "Info": "",
@@ -407,8 +424,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "wireshark",
-            "Version": "4.6.5",
-            "Updated": "\/Date(1777544901045)\/"
+            "Version": "4.6.6",
+            "Updated": "\/Date(1779354101502)\/"
         }
     ]
 }
