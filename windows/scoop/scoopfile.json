@@ -4,31 +4,31 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1779428665000)\/",
+                "value": "\/Date(1779517415000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月22日 13:44:25"
+                "DateTime": "2026年5月23日 14:23:35"
             },
-            "Manifests": 1545
+            "Manifests": 1547
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1779438939000)\/",
+                "value": "\/Date(1779525113000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月22日 16:35:39"
+                "DateTime": "2026年5月23日 16:31:53"
             },
-            "Manifests": 2302
+            "Manifests": 2303
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1779378842000)\/",
+                "value": "\/Date(1779525935000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月21日 23:54:02"
+                "DateTime": "2026年5月23日 16:45:35"
             },
-            "Manifests": 132
+            "Manifests": 131
         },
         {
             "Name": "dorado",
@@ -256,8 +256,8 @@
             "Info": "",
             "Source": "main",
             "Name": "nginx",
-            "Version": "1.31.0",
-            "Updated": "\/Date(1778749292714)\/"
+            "Version": "1.31.1",
+            "Updated": "\/Date(1779526969385)\/"
         },
         {
             "Info": "",
