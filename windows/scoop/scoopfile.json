@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1779603077000)\/",
+                "value": "\/Date(1779698680000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月24日 14:11:17"
+                "DateTime": "2026年5月25日 16:44:40"
             },
-            "Manifests": 1548
+            "Manifests": 1551
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1779601617000)\/",
+                "value": "\/Date(1779688265000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月24日 13:46:57"
+                "DateTime": "2026年5月25日 13:51:05"
             },
             "Manifests": 2303
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1779583362000)\/",
+                "value": "\/Date(1779669908000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月24日 8:42:42"
+                "DateTime": "2026年5月25日 8:45:08"
             },
             "Manifests": 271
         }
@@ -120,7 +120,7 @@
             "Updated": "\/Date(1760265244894)\/"
         },
         {
-            "Info": "",
+            "Info": "Deprecated package",
             "Source": "main",
             "Name": "cwrsync",
             "Version": "6.4.8",
