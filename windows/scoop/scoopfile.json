@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1779774273000)\/",
+                "value": "\/Date(1779864951000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月26日 13:44:33"
+                "DateTime": "2026年5月27日 14:55:51"
             },
-            "Manifests": 1551
+            "Manifests": 1552
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1779782706000)\/",
+                "value": "\/Date(1779868289000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月26日 16:05:06"
+                "DateTime": "2026年5月27日 15:51:29"
             },
             "Manifests": 2303
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1779533889000)\/",
+                "value": "\/Date(1779820742000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月23日 18:58:09"
+                "DateTime": "2026年5月27日 2:39:02"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1779756215000)\/",
+                "value": "\/Date(1779843536000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月26日 8:43:35"
+                "DateTime": "2026年5月27日 8:58:56"
             },
             "Manifests": 271
         }
@@ -270,8 +270,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "notepadplusplus",
-            "Version": "8.9.6",
-            "Updated": "\/Date(1779354065244)\/"
+            "Version": "8.9.6.1",
+            "Updated": "\/Date(1779872439814)\/"
         },
         {
             "Info": "",
