@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1779864951000)\/",
+                "value": "\/Date(1779947194000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月27日 14:55:51"
+                "DateTime": "2026年5月28日 13:46:34"
             },
             "Manifests": 1552
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1779868289000)\/",
+                "value": "\/Date(1779955231000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月27日 15:51:29"
+                "DateTime": "2026年5月28日 16:00:31"
             },
             "Manifests": 2303
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1779820742000)\/",
+                "value": "\/Date(1779943560000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月27日 2:39:02"
+                "DateTime": "2026年5月28日 12:46:00"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1779843536000)\/",
+                "value": "\/Date(1780020587000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年5月27日 8:58:56"
+                "DateTime": "2026年5月29日 10:09:47"
             },
             "Manifests": 271
         }
@@ -109,8 +109,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cloudflared",
-            "Version": "2026.5.1",
-            "Updated": "\/Date(1779786092144)\/"
+            "Version": "2026.5.2",
+            "Updated": "\/Date(1779958842621)\/"
         },
         {
             "Info": "",
@@ -137,8 +137,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "draw.io",
-            "Version": "30.0.2",
-            "Updated": "\/Date(1779181259427)\/"
+            "Version": "30.0.4",
+            "Updated": "\/Date(1779958868781)\/"
         },
         {
             "Info": "",
@@ -151,8 +151,8 @@
             "Info": "",
             "Source": "main",
             "Name": "exiftool",
-            "Version": "13.58",
-            "Updated": "\/Date(1778058036892)\/"
+            "Version": "13.59",
+            "Updated": "\/Date(1779958884870)\/"
         },
         {
             "Info": "",
@@ -179,8 +179,8 @@
             "Info": "",
             "Source": "main",
             "Name": "gh",
-            "Version": "2.92.0",
-            "Updated": "\/Date(1777453303007)\/"
+            "Version": "2.93.0",
+            "Updated": "\/Date(1779958890650)\/"
         },
         {
             "Info": "",
