@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1780379889000)\/",
+                "value": "\/Date(1780469077000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月2日 13:58:09"
+                "DateTime": "2026年6月3日 14:44:37"
             },
             "Manifests": 1554
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1780379868000)\/",
+                "value": "\/Date(1780466478000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月2日 13:57:48"
+                "DateTime": "2026年6月3日 14:01:18"
             },
             "Manifests": 2299
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1780346309000)\/",
+                "value": "\/Date(1780463583000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月2日 4:38:29"
+                "DateTime": "2026年6月3日 13:13:03"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1780361521000)\/",
+                "value": "\/Date(1780448083000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月2日 8:52:01"
+                "DateTime": "2026年6月3日 8:54:43"
             },
             "Manifests": 271
         }
@@ -130,8 +130,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "dbeaver",
-            "Version": "26.0.5",
-            "Updated": "\/Date(1779094949400)\/"
+            "Version": "26.1.0",
+            "Updated": "\/Date(1780477314075)\/"
         },
         {
             "Info": "",
@@ -214,8 +214,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "jetbrains-toolbox",
-            "Version": "3.4.3.81140",
-            "Updated": "\/Date(1776416554989)\/"
+            "Version": "3.5.0.84344",
+            "Updated": "\/Date(1780477391556)\/"
         },
         {
             "Info": "",
@@ -340,8 +340,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "rustdesk",
-            "Version": "1.4.6",
-            "Updated": "\/Date(1772787647985)\/"
+            "Version": "1.4.7",
+            "Updated": "\/Date(1780477406957)\/"
         },
         {
             "Info": "",
@@ -368,8 +368,8 @@
             "Info": "",
             "Source": "main",
             "Name": "syncthing",
-            "Version": "2.1.0",
-            "Updated": "\/Date(1778662970522)\/"
+            "Version": "2.1.1",
+            "Updated": "\/Date(1780477417231)\/"
         },
         {
             "Info": "Held package",
@@ -403,8 +403,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "v2rayn",
-            "Version": "7.22.3",
-            "Updated": "\/Date(1779786194114)\/"
+            "Version": "7.22.5",
+            "Updated": "\/Date(1780477513157)\/"
         },
         {
             "Info": "",
