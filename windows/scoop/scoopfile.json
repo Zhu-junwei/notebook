@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1780463583000)\/",
+                "value": "\/Date(1780550033000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月3日 13:13:03"
+                "DateTime": "2026年6月4日 13:13:53"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1780448083000)\/",
+                "value": "\/Date(1780534471000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月3日 8:54:43"
+                "DateTime": "2026年6月4日 8:54:31"
             },
             "Manifests": 271
         }
@@ -270,8 +270,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "notepadplusplus",
-            "Version": "8.9.6.1",
-            "Updated": "\/Date(1779872439814)\/"
+            "Version": "8.9.6.2",
+            "Updated": "\/Date(1780563661464)\/"
         },
         {
             "Info": "",
