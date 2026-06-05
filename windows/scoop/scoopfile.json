@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1780469077000)\/",
+                "value": "\/Date(1780640066000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月3日 14:44:37"
+                "DateTime": "2026年6月5日 14:14:26"
             },
-            "Manifests": 1554
+            "Manifests": 1564
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1780466478000)\/",
+                "value": "\/Date(1780638675000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月3日 14:01:18"
+                "DateTime": "2026年6月5日 13:51:15"
             },
-            "Manifests": 2299
+            "Manifests": 2300
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1780550033000)\/",
+                "value": "\/Date(1780635086000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月4日 13:13:53"
+                "DateTime": "2026年6月5日 12:51:26"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1780534471000)\/",
+                "value": "\/Date(1780620591000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月4日 8:54:31"
+                "DateTime": "2026年6月5日 8:49:51"
             },
             "Manifests": 271
         }
@@ -67,8 +67,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.29",
-            "Updated": "\/Date(1779094855301)\/"
+            "Version": "2.8.30",
+            "Updated": "\/Date(1780650052425)\/"
         },
         {
             "Info": "",
@@ -165,8 +165,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "filezilla",
-            "Version": "3.70.5",
-            "Updated": "\/Date(1778144494248)\/"
+            "Version": "3.70.6",
+            "Updated": "\/Date(1780650073606)\/"
         },
         {
             "Info": "",
@@ -361,8 +361,8 @@
             "Info": "",
             "Source": "main",
             "Name": "sqlite",
-            "Version": "3.53.1",
-            "Updated": "\/Date(1778058057059)\/"
+            "Version": "3.53.2",
+            "Updated": "\/Date(1780650080174)\/"
         },
         {
             "Info": "",
