@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1781054675000)\/",
+                "value": "\/Date(1781080998000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月10日 9:24:35"
+                "DateTime": "2026年6月10日 16:43:18"
             },
             "Manifests": 2304
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1781019011000)\/",
+                "value": "\/Date(1781073181000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月9日 23:30:11"
+                "DateTime": "2026年6月10日 14:33:01"
             },
             "Manifests": 132
         },
@@ -372,11 +372,11 @@
             "Updated": "\/Date(1780477417231)\/"
         },
         {
-            "Info": "",
+            "Info": "Held package",
             "Source": "extras",
             "Name": "tailscale",
-            "Version": "1.96.3",
-            "Updated": "\/Date(1781058865286)\/"
+            "Version": "1.98.4",
+            "Updated": "\/Date(1781059559201)\/"
         },
         {
             "Info": "",
@@ -384,13 +384,6 @@
             "Name": "tesseract",
             "Version": "5.5.0.20241111",
             "Updated": "\/Date(1778414346956)\/"
-        },
-        {
-            "Info": "",
-            "Source": "dorado",
-            "Name": "todesk",
-            "Version": "nightly-20260422",
-            "Updated": "\/Date(1776867557506)\/"
         },
         {
             "Info": "",
