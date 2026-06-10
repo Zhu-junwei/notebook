@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1780983928000)\/",
+                "value": "\/Date(1781054649000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月9日 13:45:28"
+                "DateTime": "2026年6月10日 9:24:09"
             },
             "Manifests": 1568
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1780983900000)\/",
+                "value": "\/Date(1781054675000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月9日 13:45:00"
+                "DateTime": "2026年6月10日 9:24:35"
             },
-            "Manifests": 2301
+            "Manifests": 2304
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1780854196000)\/",
+                "value": "\/Date(1781019011000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月8日 1:43:16"
+                "DateTime": "2026年6月9日 23:30:11"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://gitee.com/scoop-bucket/dorado",
             "Updated": {
-                "value": "\/Date(1780965775000)\/",
+                "value": "\/Date(1781052526000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月9日 8:42:55"
+                "DateTime": "2026年6月10日 8:48:46"
             },
             "Manifests": 271
         }
@@ -109,8 +109,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cloudflared",
-            "Version": "2026.5.2",
-            "Updated": "\/Date(1779958842621)\/"
+            "Version": "2026.6.0",
+            "Updated": "\/Date(1781059118082)\/"
         },
         {
             "Info": "",
@@ -270,8 +270,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "notepadplusplus",
-            "Version": "8.9.6.2",
-            "Updated": "\/Date(1780563661464)\/"
+            "Version": "8.9.6.4",
+            "Updated": "\/Date(1781059136942)\/"
         },
         {
             "Info": "",
@@ -298,8 +298,8 @@
             "Info": "",
             "Source": "main",
             "Name": "openssl-light",
-            "Version": "4.0.0",
-            "Updated": "\/Date(1776416565179)\/"
+            "Version": "4.0.1",
+            "Updated": "\/Date(1781059159982)\/"
         },
         {
             "Info": "",
@@ -372,11 +372,11 @@
             "Updated": "\/Date(1780477417231)\/"
         },
         {
-            "Info": "Held package",
+            "Info": "",
             "Source": "extras",
             "Name": "tailscale",
             "Version": "1.96.3",
-            "Updated": "\/Date(1776244475554)\/"
+            "Updated": "\/Date(1781058865286)\/"
         },
         {
             "Info": "",
@@ -403,8 +403,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "v2rayn",
-            "Version": "7.22.5",
-            "Updated": "\/Date(1780477513157)\/"
+            "Version": "7.22.6",
+            "Updated": "\/Date(1781059232862)\/"
         },
         {
             "Info": "",
