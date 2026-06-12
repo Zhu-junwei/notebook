@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1781054649000)\/",
+                "value": "\/Date(1781250942000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月10日 9:24:09"
+                "DateTime": "2026年6月12日 15:55:42"
             },
-            "Manifests": 1568
+            "Manifests": 1571
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1781080998000)\/",
+                "value": "\/Date(1781243839000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月10日 16:43:18"
+                "DateTime": "2026年6月12日 13:57:19"
             },
-            "Manifests": 2304
+            "Manifests": 2306
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1781073181000)\/",
+                "value": "\/Date(1781205347000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月10日 14:33:01"
+                "DateTime": "2026年6月12日 3:15:47"
             },
             "Manifests": 132
         },
@@ -179,8 +179,8 @@
             "Info": "",
             "Source": "main",
             "Name": "gh",
-            "Version": "2.93.0",
-            "Updated": "\/Date(1779958890650)\/"
+            "Version": "2.94.0",
+            "Updated": "\/Date(1781168454815)\/"
         },
         {
             "Info": "",
