@@ -32,11 +32,11 @@
         },
         {
             "Name": "dorado",
-            "Source": "https://gitee.com/scoop-bucket/dorado",
+            "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1781052526000)\/",
+                "value": "\/Date(1781311891000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月10日 8:48:46"
+                "DateTime": "2026年6月13日 8:51:31"
             },
             "Manifests": 271
         }
