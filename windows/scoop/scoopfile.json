@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1781250942000)\/",
+                "value": "\/Date(1781329718000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月12日 15:55:42"
+                "DateTime": "2026年6月13日 13:48:38"
             },
             "Manifests": 1571
         },
@@ -14,11 +14,11 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1781243839000)\/",
+                "value": "\/Date(1781327293000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月12日 13:57:19"
+                "DateTime": "2026年6月13日 13:08:13"
             },
-            "Manifests": 2306
+            "Manifests": 2307
         },
         {
             "Name": "nonportable",
@@ -118,13 +118,6 @@
             "Name": "coreutils",
             "Version": "5.97.3",
             "Updated": "\/Date(1760265244894)\/"
-        },
-        {
-            "Info": "Deprecated package",
-            "Source": "main",
-            "Name": "cwrsync",
-            "Version": "6.4.8",
-            "Updated": "\/Date(1777719665358)\/"
         },
         {
             "Info": "",
@@ -344,11 +337,11 @@
             "Updated": "\/Date(1780477406957)\/"
         },
         {
-            "Info": "",
+            "Info": "Held package",
             "Source": "nonportable",
             "Name": "sandboxie-plus-np",
             "Version": "1.17.6",
-            "Updated": "\/Date(1779295254476)\/"
+            "Updated": "\/Date(1781255845589)\/"
         },
         {
             "Info": "",
