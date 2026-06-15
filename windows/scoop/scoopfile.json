@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1781416762000)\/",
+                "value": "\/Date(1781510781000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月14日 13:59:22"
+                "DateTime": "2026年6月15日 16:06:21"
             },
-            "Manifests": 1571
+            "Manifests": 1578
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1781416736000)\/",
+                "value": "\/Date(1781503720000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月14日 13:58:56"
+                "DateTime": "2026年6月15日 14:08:40"
             },
-            "Manifests": 2307
+            "Manifests": 2308
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1781205347000)\/",
+                "value": "\/Date(1781459615000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月12日 3:15:47"
+                "DateTime": "2026年6月15日 1:53:35"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1781398154000)\/",
+                "value": "\/Date(1781484683000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月14日 8:49:14"
+                "DateTime": "2026年6月15日 8:51:23"
             },
             "Manifests": 271
         }
@@ -221,8 +221,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "koodo-reader",
-            "Version": "2.3.6",
-            "Updated": "\/Date(1781427929348)\/"
+            "Version": "2.3.7",
+            "Updated": "\/Date(1781514102254)\/"
         },
         {
             "Info": "",
