@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1781510781000)\/",
+                "value": "\/Date(1781592475000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月15日 16:06:21"
+                "DateTime": "2026年6月16日 14:47:55"
             },
-            "Manifests": 1578
+            "Manifests": 1579
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1781503720000)\/",
+                "value": "\/Date(1781590379000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月15日 14:08:40"
+                "DateTime": "2026年6月16日 14:12:59"
             },
-            "Manifests": 2308
+            "Manifests": 2310
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1781459615000)\/",
+                "value": "\/Date(1781553468000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月15日 1:53:35"
+                "DateTime": "2026年6月16日 3:57:48"
             },
             "Manifests": 132
         },
@@ -34,11 +34,11 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1781484683000)\/",
+                "value": "\/Date(1781571380000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月15日 8:51:23"
+                "DateTime": "2026年6月16日 8:56:20"
             },
-            "Manifests": 271
+            "Manifests": 272
         }
     ],
     "apps": [
@@ -67,8 +67,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.33",
-            "Updated": "\/Date(1780736459993)\/"
+            "Version": "2.8.34",
+            "Updated": "\/Date(1781600467210)\/"
         },
         {
             "Info": "",
