@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1782117344000)\/",
+                "value": "\/Date(1782199517000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月22日 16:35:44"
+                "DateTime": "2026年6月23日 15:25:17"
             },
-            "Manifests": 1584
+            "Manifests": 1588
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1782108683000)\/",
+                "value": "\/Date(1782194043000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月22日 14:11:23"
+                "DateTime": "2026年6月23日 13:54:03"
             },
             "Manifests": 2315
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1782020690000)\/",
+                "value": "\/Date(1782157840000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月21日 13:44:50"
+                "DateTime": "2026年6月23日 3:50:40"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1782089392000)\/",
+                "value": "\/Date(1782175525000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月22日 8:49:52"
+                "DateTime": "2026年6月23日 8:45:25"
             },
             "Manifests": 272
         }
@@ -67,8 +67,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.34",
-            "Updated": "\/Date(1781600467210)\/"
+            "Version": "2.8.35",
+            "Updated": "\/Date(1782205277562)\/"
         },
         {
             "Info": "",
@@ -305,8 +305,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "potplayer",
-            "Version": "260401",
-            "Updated": "\/Date(1775034049849)\/"
+            "Version": "260622",
+            "Updated": "\/Date(1782205301033)\/"
         },
         {
             "Info": "",
@@ -333,8 +333,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "rustdesk",
-            "Version": "1.4.7",
-            "Updated": "\/Date(1780477406957)\/"
+            "Version": "1.4.8",
+            "Updated": "\/Date(1782205312300)\/"
         },
         {
             "Info": "Held package",
