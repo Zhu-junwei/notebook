@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1782798354000)\/",
+                "value": "\/Date(1782885296000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月30日 13:45:54"
+                "DateTime": "2026年7月1日 13:54:56"
             },
             "Manifests": 1593
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1782808505000)\/",
+                "value": "\/Date(1782885256000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月30日 16:35:05"
+                "DateTime": "2026年7月1日 13:54:16"
             },
-            "Manifests": 2323
+            "Manifests": 2324
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1782770326000)\/",
+                "value": "\/Date(1782881860000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月30日 5:58:46"
+                "DateTime": "2026年7月1日 12:57:40"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1782789369000)\/",
+                "value": "\/Date(1782866906000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年6月30日 11:16:09"
+                "DateTime": "2026年7月1日 8:48:26"
             },
             "Manifests": 272
         }
@@ -67,8 +67,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.35",
-            "Updated": "\/Date(1782205277562)\/"
+            "Version": "2.8.36",
+            "Updated": "\/Date(1782896476700)\/"
         },
         {
             "Info": "",
