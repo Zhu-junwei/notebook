@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1782885296000)\/",
+                "value": "\/Date(1782970894000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月1日 13:54:56"
+                "DateTime": "2026年7月2日 13:41:34"
             },
             "Manifests": 1593
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1782885256000)\/",
+                "value": "\/Date(1782973065000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月1日 13:54:16"
+                "DateTime": "2026年7月2日 14:17:45"
             },
             "Manifests": 2324
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1782881860000)\/",
+                "value": "\/Date(1782966881000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月1日 12:57:40"
+                "DateTime": "2026年7月2日 12:34:41"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1782866906000)\/",
+                "value": "\/Date(1782953109000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月1日 8:48:26"
+                "DateTime": "2026年7月2日 8:45:09"
             },
             "Manifests": 272
         }
@@ -284,8 +284,8 @@
             "Info": "",
             "Source": "main",
             "Name": "openlist",
-            "Version": "4.2.2",
-            "Updated": "\/Date(1779786110898)\/"
+            "Version": "4.2.3",
+            "Updated": "\/Date(1782982936833)\/"
         },
         {
             "Info": "",
