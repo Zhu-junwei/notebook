@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1782970894000)\/",
+                "value": "\/Date(1783057033000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月2日 13:41:34"
+                "DateTime": "2026年7月3日 13:37:13"
             },
-            "Manifests": 1593
+            "Manifests": 1603
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1782973065000)\/",
+                "value": "\/Date(1783057178000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月2日 14:17:45"
+                "DateTime": "2026年7月3日 13:39:38"
             },
             "Manifests": 2324
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1782966881000)\/",
+                "value": "\/Date(1783052004000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月2日 12:34:41"
+                "DateTime": "2026年7月3日 12:13:24"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1782953109000)\/",
+                "value": "\/Date(1783039053000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月2日 8:45:09"
+                "DateTime": "2026年7月3日 8:37:33"
             },
             "Manifests": 272
         }
@@ -172,8 +172,8 @@
             "Info": "",
             "Source": "main",
             "Name": "gh",
-            "Version": "2.95.0",
-            "Updated": "\/Date(1781859906229)\/"
+            "Version": "2.96.0",
+            "Updated": "\/Date(1783069235078)\/"
         },
         {
             "Info": "",
@@ -207,8 +207,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "jetbrains-toolbox",
-            "Version": "3.5.0.84344",
-            "Updated": "\/Date(1780477391556)\/"
+            "Version": "3.6.0.85549",
+            "Updated": "\/Date(1783069262955)\/"
         },
         {
             "Info": "",
@@ -298,8 +298,8 @@
             "Info": "",
             "Source": "main",
             "Name": "postgresql",
-            "Version": "18.4",
-            "Updated": "\/Date(1778835893952)\/"
+            "Version": "18.4-2",
+            "Updated": "\/Date(1783069485248)\/"
         },
         {
             "Info": "",
