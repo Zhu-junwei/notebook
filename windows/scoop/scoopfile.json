@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1783662259000)\/",
+                "value": "\/Date(1783760231000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月10日 13:44:19"
+                "DateTime": "2026年7月11日 16:57:11"
             },
             "Manifests": 1608
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1783575968000)\/",
+                "value": "\/Date(1783760223000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月9日 13:46:08"
+                "DateTime": "2026年7月11日 16:57:03"
             },
-            "Manifests": 2341
+            "Manifests": 2344
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1783620855000)\/",
+                "value": "\/Date(1783760199000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月10日 2:14:15"
+                "DateTime": "2026年7月11日 16:56:39"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1783557521000)\/",
+                "value": "\/Date(1783729873000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月9日 8:38:41"
+                "DateTime": "2026年7月11日 8:31:13"
             },
             "Manifests": 272
         }
@@ -109,8 +109,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cloudflared",
-            "Version": "2026.7.0",
-            "Updated": "\/Date(1783587656210)\/"
+            "Version": "2026.7.1",
+            "Updated": "\/Date(1783761338878)\/"
         },
         {
             "Info": "",
@@ -130,8 +130,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "draw.io",
-            "Version": "30.2.6",
-            "Updated": "\/Date(1782637270549)\/"
+            "Version": "30.3.6",
+            "Updated": "\/Date(1783761403191)\/"
         },
         {
             "Info": "",
@@ -389,8 +389,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "v2rayn",
-            "Version": "7.22.7",
-            "Updated": "\/Date(1781427976367)\/"
+            "Version": "7.23.3",
+            "Updated": "\/Date(1783761471530)\/"
         },
         {
             "Info": "",
@@ -410,8 +410,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "wireshark",
-            "Version": "4.6.6",
-            "Updated": "\/Date(1779354101502)\/"
+            "Version": "4.6.7",
+            "Updated": "\/Date(1783762238666)\/"
         }
     ]
 }
