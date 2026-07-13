@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1783834246000)\/",
+                "value": "\/Date(1783921661000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月12日 13:30:46"
+                "DateTime": "2026年7月13日 13:47:41"
             },
-            "Manifests": 1608
+            "Manifests": 1611
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1783834189000)\/",
+                "value": "\/Date(1783932482000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月12日 13:29:49"
+                "DateTime": "2026年7月13日 16:48:02"
             },
-            "Manifests": 2344
+            "Manifests": 2345
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1783760199000)\/",
+                "value": "\/Date(1783890624000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月11日 16:56:39"
+                "DateTime": "2026年7月13日 5:10:24"
             },
             "Manifests": 132
         },
@@ -67,8 +67,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.37",
-            "Updated": "\/Date(1783328578721)\/"
+            "Version": "2.8.38",
+            "Updated": "\/Date(1783933293059)\/"
         },
         {
             "Info": "",
@@ -193,8 +193,8 @@
             "Info": "",
             "Source": "main",
             "Name": "innounp",
-            "Version": "2.67.9",
-            "Updated": "\/Date(1777719667156)\/"
+            "Version": "2.67.10",
+            "Updated": "\/Date(1783933312126)\/"
         },
         {
             "Info": "",
@@ -347,8 +347,8 @@
             "Info": "",
             "Source": "main",
             "Name": "scrcpy",
-            "Version": "4.0",
-            "Updated": "\/Date(1778662956398)\/"
+            "Version": "4.1",
+            "Updated": "\/Date(1783933377793)\/"
         },
         {
             "Info": "",
@@ -389,8 +389,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "v2rayn",
-            "Version": "7.23.3",
-            "Updated": "\/Date(1783761471530)\/"
+            "Version": "7.23.4",
+            "Updated": "\/Date(1783933598484)\/"
         },
         {
             "Info": "",
