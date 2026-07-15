@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1784006125000)\/",
+                "value": "\/Date(1784092535000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月14日 13:15:25"
+                "DateTime": "2026年7月15日 13:15:35"
             },
             "Manifests": 1611
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1784006127000)\/",
+                "value": "\/Date(1784092560000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月14日 13:15:27"
+                "DateTime": "2026年7月15日 13:16:00"
             },
-            "Manifests": 2346
+            "Manifests": 2347
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1784000465000)\/",
+                "value": "\/Date(1784086851000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月14日 11:41:05"
+                "DateTime": "2026年7月15日 11:40:51"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1783988968000)\/",
+                "value": "\/Date(1784075246000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月14日 8:29:28"
+                "DateTime": "2026年7月15日 8:27:26"
             },
             "Manifests": 272
         }
@@ -130,8 +130,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "draw.io",
-            "Version": "30.3.6",
-            "Updated": "\/Date(1783761403191)\/"
+            "Version": "30.3.11",
+            "Updated": "\/Date(1784106130617)\/"
         },
         {
             "Info": "",
@@ -221,8 +221,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "koodo-reader",
-            "Version": "2.3.9",
-            "Updated": "\/Date(1783502060470)\/"
+            "Version": "2.4.1",
+            "Updated": "\/Date(1784106613944)\/"
         },
         {
             "Info": "",
