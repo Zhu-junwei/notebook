@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1784092535000)\/",
+                "value": "\/Date(1784182998000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月15日 13:15:35"
+                "DateTime": "2026年7月16日 14:23:18"
             },
             "Manifests": 1611
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1784092560000)\/",
+                "value": "\/Date(1784179435000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月15日 13:16:00"
+                "DateTime": "2026年7月16日 13:23:55"
             },
             "Manifests": 2347
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1784086851000)\/",
+                "value": "\/Date(1784183779000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月15日 11:40:51"
+                "DateTime": "2026年7月16日 14:36:19"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1784075246000)\/",
+                "value": "\/Date(1784161923000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月15日 8:27:26"
+                "DateTime": "2026年7月16日 8:32:03"
             },
             "Manifests": 272
         }
@@ -88,8 +88,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cacert",
-            "Version": "2026-05-14",
-            "Updated": "\/Date(1778749231365)\/"
+            "Version": "2026-07-16",
+            "Updated": "\/Date(1784192511453)\/"
         },
         {
             "Info": "Held package",
@@ -109,8 +109,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cloudflared",
-            "Version": "2026.7.1",
-            "Updated": "\/Date(1783761338878)\/"
+            "Version": "2026.7.2",
+            "Updated": "\/Date(1784193129050)\/"
         },
         {
             "Info": "",
@@ -207,8 +207,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "jetbrains-toolbox",
-            "Version": "3.6.1.85592",
-            "Updated": "\/Date(1783155660808)\/"
+            "Version": "3.6.2.85969",
+            "Updated": "\/Date(1784194478388)\/"
         },
         {
             "Info": "",
@@ -249,8 +249,8 @@
             "Info": "",
             "Source": "main",
             "Name": "nginx",
-            "Version": "1.31.2",
-            "Updated": "\/Date(1781859921276)\/"
+            "Version": "1.31.3",
+            "Updated": "\/Date(1784194498283)\/"
         },
         {
             "Info": "",
@@ -326,8 +326,8 @@
             "Info": "",
             "Source": "main",
             "Name": "ripgrep",
-            "Version": "15.1.0",
-            "Updated": "\/Date(1778128764294)\/"
+            "Version": "15.2.0",
+            "Updated": "\/Date(1784194513098)\/"
         },
         {
             "Info": "",
