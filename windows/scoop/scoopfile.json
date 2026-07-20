@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1784438992000)\/",
+                "value": "\/Date(1784525609000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月19日 13:29:52"
+                "DateTime": "2026年7月20日 13:33:29"
             },
-            "Manifests": 1611
+            "Manifests": 1612
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1784439001000)\/",
+                "value": "\/Date(1784525536000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月19日 13:30:01"
+                "DateTime": "2026年7月20日 13:32:16"
             },
             "Manifests": 2348
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1784449285000)\/",
+                "value": "\/Date(1784452095000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月19日 16:21:25"
+                "DateTime": "2026年7月19日 17:08:15"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1784421159000)\/",
+                "value": "\/Date(1784507723000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月19日 8:32:39"
+                "DateTime": "2026年7月20日 8:35:23"
             },
             "Manifests": 272
         }
@@ -67,8 +67,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.38",
-            "Updated": "\/Date(1783933293059)\/"
+            "Version": "2.8.39",
+            "Updated": "\/Date(1784538106652)\/"
         },
         {
             "Info": "",
