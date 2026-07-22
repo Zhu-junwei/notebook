@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1784525609000)\/",
+                "value": "\/Date(1784698104000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月20日 13:33:29"
+                "DateTime": "2026年7月22日 13:28:24"
             },
             "Manifests": 1612
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1784525536000)\/",
+                "value": "\/Date(1784701237000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月20日 13:32:16"
+                "DateTime": "2026年7月22日 14:20:37"
             },
-            "Manifests": 2348
+            "Manifests": 2350
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1784452095000)\/",
+                "value": "\/Date(1784644125000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月19日 17:08:15"
+                "DateTime": "2026年7月21日 22:28:45"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1784507723000)\/",
+                "value": "\/Date(1784680284000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月20日 8:35:23"
+                "DateTime": "2026年7月22日 8:31:24"
             },
             "Manifests": 272
         }
@@ -123,15 +123,15 @@
             "Info": "",
             "Source": "extras",
             "Name": "dbeaver",
-            "Version": "26.1.2",
-            "Updated": "\/Date(1783501401023)\/"
+            "Version": "26.1.3",
+            "Updated": "\/Date(1784710851803)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "draw.io",
-            "Version": "30.3.14",
-            "Updated": "\/Date(1784365377910)\/"
+            "Version": "30.4.1",
+            "Updated": "\/Date(1784710915178)\/"
         },
         {
             "Info": "",
