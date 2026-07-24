@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1784790970000)\/",
+                "value": "\/Date(1784870964000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月23日 15:16:10"
+                "DateTime": "2026年7月24日 13:29:24"
             },
-            "Manifests": 1612
+            "Manifests": 1614
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1784784640000)\/",
+                "value": "\/Date(1784870967000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月23日 13:30:40"
+                "DateTime": "2026年7月24日 13:29:27"
             },
-            "Manifests": 2350
+            "Manifests": 2351
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1784778597000)\/",
+                "value": "\/Date(1784802972000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月23日 11:49:57"
+                "DateTime": "2026年7月23日 18:36:12"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1784766875000)\/",
+                "value": "\/Date(1784853030000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月23日 8:34:35"
+                "DateTime": "2026年7月24日 8:30:30"
             },
             "Manifests": 272
         }
@@ -109,8 +109,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cloudflared",
-            "Version": "2026.7.2",
-            "Updated": "\/Date(1784193129050)\/"
+            "Version": "2026.7.3",
+            "Updated": "\/Date(1784883690521)\/"
         },
         {
             "Info": "",
@@ -291,8 +291,8 @@
             "Info": "",
             "Source": "main",
             "Name": "openlist",
-            "Version": "4.2.3",
-            "Updated": "\/Date(1782982936833)\/"
+            "Version": "4.2.4",
+            "Updated": "\/Date(1784883724617)\/"
         },
         {
             "Info": "",
@@ -319,8 +319,8 @@
             "Info": "",
             "Source": "main",
             "Name": "redis",
-            "Version": "8.8.0",
-            "Updated": "\/Date(1779786124850)\/"
+            "Version": "8.8.1",
+            "Updated": "\/Date(1784883746174)\/"
         },
         {
             "Info": "",
