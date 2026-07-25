@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1784870964000)\/",
+                "value": "\/Date(1784961474000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月24日 13:29:24"
+                "DateTime": "2026年7月25日 14:37:54"
             },
             "Manifests": 1614
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1784870967000)\/",
+                "value": "\/Date(1784957075000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月24日 13:29:27"
+                "DateTime": "2026年7月25日 13:24:35"
             },
             "Manifests": 2351
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1784802972000)\/",
+                "value": "\/Date(1784951052000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月23日 18:36:12"
+                "DateTime": "2026年7月25日 11:44:12"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1784853030000)\/",
+                "value": "\/Date(1784939684000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月24日 8:30:30"
+                "DateTime": "2026年7月25日 8:34:44"
             },
             "Manifests": 272
         }
@@ -130,8 +130,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "draw.io",
-            "Version": "30.4.1",
-            "Updated": "\/Date(1784710915178)\/"
+            "Version": "31.0.2",
+            "Updated": "\/Date(1784976360878)\/"
         },
         {
             "Info": "",
@@ -361,8 +361,8 @@
             "Info": "",
             "Source": "main",
             "Name": "sqlite",
-            "Version": "3.53.3",
-            "Updated": "\/Date(1782637329040)\/"
+            "Version": "3.53.4",
+            "Updated": "\/Date(1784976511317)\/"
         },
         {
             "Info": "",
@@ -382,8 +382,8 @@
             "Info": "",
             "Source": "main",
             "Name": "tesseract",
-            "Version": "5.5.0.20241111",
-            "Updated": "\/Date(1778414346956)\/"
+            "Version": "5.5.3.20260724",
+            "Updated": "\/Date(1784976555964)\/"
         },
         {
             "Info": "",
@@ -403,8 +403,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "ventoy",
-            "Version": "1.1.16",
-            "Updated": "\/Date(1782464470101)\/"
+            "Version": "1.1.17",
+            "Updated": "\/Date(1784976580827)\/"
         },
         {
             "Info": "",
