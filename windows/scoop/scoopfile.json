@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1785388855000)\/",
+                "value": "\/Date(1785475922000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月30日 13:20:55"
+                "DateTime": "2026年7月31日 13:32:02"
             },
-            "Manifests": 1617
+            "Manifests": 1618
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1785388863000)\/",
+                "value": "\/Date(1785475903000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月30日 13:21:03"
+                "DateTime": "2026年7月31日 13:31:43"
             },
             "Manifests": 2354
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1785346984000)\/",
+                "value": "\/Date(1785470194000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月30日 1:43:04"
+                "DateTime": "2026年7月31日 11:56:34"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1785371567000)\/",
+                "value": "\/Date(1785458551000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月30日 8:32:47"
+                "DateTime": "2026年7月31日 8:42:31"
             },
             "Manifests": 272
         }
@@ -67,8 +67,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.39",
-            "Updated": "\/Date(1784538106652)\/"
+            "Version": "2.8.40",
+            "Updated": "\/Date(1785488540988)\/"
         },
         {
             "Info": "",
@@ -130,8 +130,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "draw.io",
-            "Version": "31.0.2",
-            "Updated": "\/Date(1784976360878)\/"
+            "Version": "31.1.5",
+            "Updated": "\/Date(1785488664554)\/"
         },
         {
             "Info": "",
@@ -172,8 +172,8 @@
             "Info": "",
             "Source": "main",
             "Name": "gh",
-            "Version": "2.96.0",
-            "Updated": "\/Date(1783069235078)\/"
+            "Version": "2.97.0",
+            "Updated": "\/Date(1785488676191)\/"
         },
         {
             "Info": "",
@@ -214,8 +214,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "jetbrains-toolbox",
-            "Version": "3.6.2.85969",
-            "Updated": "\/Date(1784194478388)\/"
+            "Version": "3.6.3.86383",
+            "Updated": "\/Date(1785488896834)\/"
         },
         {
             "Info": "",
@@ -284,8 +284,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "Obsidian",
-            "Version": "1.12.7",
-            "Updated": "\/Date(1774342997419)\/"
+            "Version": "1.13.4",
+            "Updated": "\/Date(1785488981145)\/"
         },
         {
             "Info": "",
@@ -319,8 +319,8 @@
             "Info": "",
             "Source": "main",
             "Name": "redis",
-            "Version": "8.8.1",
-            "Updated": "\/Date(1784883746174)\/"
+            "Version": "8.10.0",
+            "Updated": "\/Date(1785488997251)\/"
         },
         {
             "Info": "",
@@ -396,8 +396,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "v2rayn",
-            "Version": "7.23.4",
-            "Updated": "\/Date(1783933598484)\/"
+            "Version": "7.24.4",
+            "Updated": "\/Date(1785489079632)\/"
         },
         {
             "Info": "",
