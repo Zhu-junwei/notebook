@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1785475922000)\/",
+                "value": "\/Date(1785562234000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月31日 13:32:02"
+                "DateTime": "2026年8月1日 13:30:34"
             },
             "Manifests": 1618
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1785475903000)\/",
+                "value": "\/Date(1785562204000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月31日 13:31:43"
+                "DateTime": "2026年8月1日 13:30:04"
             },
             "Manifests": 2354
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1785470194000)\/",
+                "value": "\/Date(1785508912000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月31日 11:56:34"
+                "DateTime": "2026年7月31日 22:41:52"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1785458551000)\/",
+                "value": "\/Date(1785544382000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月31日 8:42:31"
+                "DateTime": "2026年8月1日 8:33:02"
             },
             "Manifests": 272
         }
@@ -60,8 +60,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "another-redis-desktop-manager",
-            "Version": "1.7.1",
-            "Updated": "\/Date(1764435368201)\/"
+            "Version": "1.7.2",
+            "Updated": "\/Date(1785574862418)\/"
         },
         {
             "Info": "",
