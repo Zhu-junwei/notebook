@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1785648617000)\/",
+                "value": "\/Date(1785735167000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月2日 13:30:17"
+                "DateTime": "2026年8月3日 13:32:47"
             },
             "Manifests": 1618
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1785648589000)\/",
+                "value": "\/Date(1785744578000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月2日 13:29:49"
+                "DateTime": "2026年8月3日 16:09:38"
             },
             "Manifests": 2357
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1785630885000)\/",
+                "value": "\/Date(1785717243000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月2日 8:34:45"
+                "DateTime": "2026年8月3日 8:34:03"
             },
             "Manifests": 272
         }
@@ -123,8 +123,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "dbeaver",
-            "Version": "26.1.3",
-            "Updated": "\/Date(1784710851803)\/"
+            "Version": "26.1.4",
+            "Updated": "\/Date(1785747679221)\/"
         },
         {
             "Info": "",
