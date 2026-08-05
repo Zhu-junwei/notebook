@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1785735167000)\/",
+                "value": "\/Date(1785910463000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月3日 13:32:47"
+                "DateTime": "2026年8月5日 14:14:23"
             },
             "Manifests": 1618
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1785744578000)\/",
+                "value": "\/Date(1785919887000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月3日 16:09:38"
+                "DateTime": "2026年8月5日 16:51:27"
             },
             "Manifests": 2357
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1785508912000)\/",
+                "value": "\/Date(1785841158000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年7月31日 22:41:52"
+                "DateTime": "2026年8月4日 18:59:18"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1785717243000)\/",
+                "value": "\/Date(1785889971000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月3日 8:34:03"
+                "DateTime": "2026年8月5日 8:32:51"
             },
             "Manifests": 272
         }
@@ -53,8 +53,8 @@
             "Info": "",
             "Source": "main",
             "Name": "adb",
-            "Version": "37.0.0",
-            "Updated": "\/Date(1774794942242)\/"
+            "Version": "37.0.1",
+            "Updated": "\/Date(1785920506724)\/"
         },
         {
             "Info": "",
@@ -67,8 +67,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.40",
-            "Updated": "\/Date(1785488540988)\/"
+            "Version": "2.8.41",
+            "Updated": "\/Date(1785920562562)\/"
         },
         {
             "Info": "",
@@ -137,8 +137,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "escrcpy",
-            "Version": "2.11.1",
-            "Updated": "\/Date(1779268032831)\/"
+            "Version": "3.0.8",
+            "Updated": "\/Date(1785921113601)\/"
         },
         {
             "Info": "",
@@ -151,8 +151,8 @@
             "Info": "",
             "Source": "main",
             "Name": "ffmpeg",
-            "Version": "8.1.2",
-            "Updated": "\/Date(1782637318948)\/"
+            "Version": "9.0",
+            "Updated": "\/Date(1785921175087)\/"
         },
         {
             "Info": "",
@@ -214,8 +214,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "jetbrains-toolbox",
-            "Version": "3.6.3.86383",
-            "Updated": "\/Date(1785488896834)\/"
+            "Version": "3.6.4.86641",
+            "Updated": "\/Date(1785921256649)\/"
         },
         {
             "Info": "",
