@@ -4,21 +4,21 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1786091958000)\/",
+                "value": "\/Date(1786177909000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月7日 16:39:18"
+                "DateTime": "2026年8月8日 16:31:49"
             },
-            "Manifests": 1619
+            "Manifests": 1620
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1786092083000)\/",
+                "value": "\/Date(1786177893000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月7日 16:41:23"
+                "DateTime": "2026年8月8日 16:31:33"
             },
-            "Manifests": 2360
+            "Manifests": 2361
         },
         {
             "Name": "nonportable",
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1785889971000)\/",
+                "value": "\/Date(1786148205000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月5日 8:32:51"
+                "DateTime": "2026年8月8日 8:16:45"
             },
             "Manifests": 272
         }
@@ -130,8 +130,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "draw.io",
-            "Version": "31.1.5",
-            "Updated": "\/Date(1785488664554)\/"
+            "Version": "31.1.8",
+            "Updated": "\/Date(1786179720034)\/"
         },
         {
             "Info": "",
@@ -263,8 +263,8 @@
             "Info": "",
             "Source": "main",
             "Name": "nmap",
-            "Version": "7.99",
-            "Updated": "\/Date(1774795126978)\/"
+            "Version": "7.991",
+            "Updated": "\/Date(1786179743924)\/"
         },
         {
             "Info": "",
@@ -368,8 +368,8 @@
             "Info": "",
             "Source": "main",
             "Name": "syncthing",
-            "Version": "2.1.2",
-            "Updated": "\/Date(1783587668451)\/"
+            "Version": "2.1.3",
+            "Updated": "\/Date(1786179758603)\/"
         },
         {
             "Info": "Held package",
