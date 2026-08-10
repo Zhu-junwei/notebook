@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1786264348000)\/",
+                "value": "\/Date(1786352010000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月9日 16:32:28"
+                "DateTime": "2026年8月10日 16:53:30"
             },
-            "Manifests": 1624
+            "Manifests": 1625
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1786264327000)\/",
+                "value": "\/Date(1786352020000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月9日 16:32:07"
+                "DateTime": "2026年8月10日 16:53:40"
             },
             "Manifests": 2363
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1786090351000)\/",
+                "value": "\/Date(1786340982000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月7日 16:12:31"
+                "DateTime": "2026年8月10日 13:49:42"
             },
             "Manifests": 132
         },
@@ -34,11 +34,11 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1786234592000)\/",
+                "value": "\/Date(1786321059000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月9日 8:16:32"
+                "DateTime": "2026年8月10日 8:17:39"
             },
-            "Manifests": 272
+            "Manifests": 271
         }
     ],
     "apps": [
@@ -270,8 +270,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "notepadplusplus",
-            "Version": "8.9.6.4",
-            "Updated": "\/Date(1781059136942)\/"
+            "Version": "8.9.7",
+            "Updated": "\/Date(1786352521833)\/"
         },
         {
             "Info": "",
