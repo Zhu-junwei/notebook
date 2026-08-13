@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1786524410000)\/",
+                "value": "\/Date(1786610922000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月12日 16:46:50"
+                "DateTime": "2026年8月13日 16:48:42"
             },
-            "Manifests": 1627
+            "Manifests": 1628
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1786437505000)\/",
+                "value": "\/Date(1786611137000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月11日 16:38:25"
+                "DateTime": "2026年8月13日 16:52:17"
             },
             "Manifests": 2364
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1786482510000)\/",
+                "value": "\/Date(1786600329000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月12日 5:08:30"
+                "DateTime": "2026年8月13日 13:52:09"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1786494159000)\/",
+                "value": "\/Date(1786580529000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月12日 8:22:39"
+                "DateTime": "2026年8月13日 8:22:09"
             },
             "Manifests": 271
         }
@@ -88,8 +88,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cacert",
-            "Version": "2026-07-16",
-            "Updated": "\/Date(1784192511453)\/"
+            "Version": "2026-08-13",
+            "Updated": "\/Date(1786611634627)\/"
         },
         {
             "Info": "Held package",
@@ -151,8 +151,8 @@
             "Info": "",
             "Source": "main",
             "Name": "ffmpeg",
-            "Version": "9.0",
-            "Updated": "\/Date(1785921175087)\/"
+            "Version": "9.0.1",
+            "Updated": "\/Date(1786611670133)\/"
         },
         {
             "Info": "",
@@ -249,8 +249,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "nexttrace",
-            "Version": "1.7.1",
-            "Updated": "\/Date(1781686843937)\/"
+            "Version": "1.7.2",
+            "Updated": "\/Date(1786611686198)\/"
         },
         {
             "Info": "",
@@ -284,8 +284,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "Obsidian",
-            "Version": "1.13.6",
-            "Updated": "\/Date(1786438913641)\/"
+            "Version": "1.13.7",
+            "Updated": "\/Date(1786611751729)\/"
         },
         {
             "Info": "",
@@ -417,8 +417,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "wireshark",
-            "Version": "4.6.7",
-            "Updated": "\/Date(1783762238666)\/"
+            "Version": "4.6.8",
+            "Updated": "\/Date(1786611794991)\/"
         }
     ]
 }
