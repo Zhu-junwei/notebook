@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1786610922000)\/",
+                "value": "\/Date(1786697139000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月13日 16:48:42"
+                "DateTime": "2026年8月14日 16:45:39"
             },
             "Manifests": 1628
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1786611137000)\/",
+                "value": "\/Date(1786697128000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月13日 16:52:17"
+                "DateTime": "2026年8月14日 16:45:28"
             },
-            "Manifests": 2364
+            "Manifests": 2366
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1786600329000)\/",
+                "value": "\/Date(1786635124000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月13日 13:52:09"
+                "DateTime": "2026年8月13日 23:32:04"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1786580529000)\/",
+                "value": "\/Date(1786667196000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月13日 8:22:09"
+                "DateTime": "2026年8月14日 8:26:36"
             },
             "Manifests": 271
         }
@@ -67,8 +67,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.41",
-            "Updated": "\/Date(1785920562562)\/"
+            "Version": "2.8.42",
+            "Updated": "\/Date(1786698090480)\/"
         },
         {
             "Info": "",
@@ -109,8 +109,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cloudflared",
-            "Version": "2026.7.3",
-            "Updated": "\/Date(1784883690521)\/"
+            "Version": "2026.8.1",
+            "Updated": "\/Date(1786698175102)\/"
         },
         {
             "Info": "",
@@ -305,8 +305,8 @@
             "Info": "",
             "Source": "main",
             "Name": "postgresql",
-            "Version": "18.4-2",
-            "Updated": "\/Date(1783069485248)\/"
+            "Version": "18.6-1",
+            "Updated": "\/Date(1786698481735)\/"
         },
         {
             "Info": "",
