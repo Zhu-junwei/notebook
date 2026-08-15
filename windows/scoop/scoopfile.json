@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1786697139000)\/",
+                "value": "\/Date(1786782628000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月14日 16:45:39"
+                "DateTime": "2026年8月15日 16:30:28"
             },
             "Manifests": 1628
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1786667196000)\/",
+                "value": "\/Date(1786752827000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月14日 8:26:36"
+                "DateTime": "2026年8月15日 8:13:47"
             },
             "Manifests": 271
         }
@@ -109,8 +109,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cloudflared",
-            "Version": "2026.8.1",
-            "Updated": "\/Date(1786698175102)\/"
+            "Version": "2026.8.2",
+            "Updated": "\/Date(1786784484727)\/"
         },
         {
             "Info": "",
