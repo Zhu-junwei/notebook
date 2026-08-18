@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1786942809000)\/",
+                "value": "\/Date(1787043319000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月17日 13:00:09"
+                "DateTime": "2026年8月18日 16:55:19"
             },
             "Manifests": 1629
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1786950757000)\/",
+                "value": "\/Date(1787043419000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月17日 15:12:37"
+                "DateTime": "2026年8月18日 16:56:59"
             },
             "Manifests": 2368
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1786913000000)\/",
+                "value": "\/Date(1786985431000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月17日 4:43:20"
+                "DateTime": "2026年8月18日 0:50:31"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1786940218000)\/",
+                "value": "\/Date(1787014340000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月17日 12:16:58"
+                "DateTime": "2026年8月18日 8:52:20"
             },
             "Manifests": 271
         }
@@ -67,8 +67,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.42",
-            "Updated": "\/Date(1786698090480)\/"
+            "Version": "2.8.43",
+            "Updated": "\/Date(1787043665949)\/"
         },
         {
             "Info": "",
@@ -319,8 +319,8 @@
             "Info": "",
             "Source": "main",
             "Name": "redis",
-            "Version": "8.10.0",
-            "Updated": "\/Date(1785488997251)\/"
+            "Version": "8.10.1",
+            "Updated": "\/Date(1787043678556)\/"
         },
         {
             "Info": "",
