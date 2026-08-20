@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1787129780000)\/",
+                "value": "\/Date(1787216302000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月19日 16:56:20"
+                "DateTime": "2026年8月20日 16:58:22"
             },
-            "Manifests": 1630
+            "Manifests": 1631
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1787129784000)\/",
+                "value": "\/Date(1787216318000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月19日 16:56:24"
+                "DateTime": "2026年8月20日 16:58:38"
             },
-            "Manifests": 2368
+            "Manifests": 2369
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1787129401000)\/",
+                "value": "\/Date(1787172556000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月19日 16:50:01"
+                "DateTime": "2026年8月20日 4:49:16"
             },
             "Manifests": 132
         },
