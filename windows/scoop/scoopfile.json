@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1787216302000)\/",
+                "value": "\/Date(1787302493000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月20日 16:58:22"
+                "DateTime": "2026年8月21日 16:54:53"
             },
-            "Manifests": 1631
+            "Manifests": 1634
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1787216318000)\/",
+                "value": "\/Date(1787301174000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月20日 16:58:38"
+                "DateTime": "2026年8月21日 16:32:54"
             },
-            "Manifests": 2369
+            "Manifests": 2371
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1787172556000)\/",
+                "value": "\/Date(1787244959000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月20日 4:49:16"
+                "DateTime": "2026年8月21日 0:55:59"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1787100808000)\/",
+                "value": "\/Date(1787273684000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月19日 8:53:28"
+                "DateTime": "2026年8月21日 8:54:44"
             },
             "Manifests": 271
         }
@@ -130,8 +130,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "draw.io",
-            "Version": "31.1.8",
-            "Updated": "\/Date(1786179720034)\/"
+            "Version": "31.3.1",
+            "Updated": "\/Date(1787302908307)\/"
         },
         {
             "Info": "",
@@ -158,22 +158,22 @@
             "Info": "",
             "Source": "extras",
             "Name": "filezilla",
-            "Version": "3.70.6",
-            "Updated": "\/Date(1780650073606)\/"
+            "Version": "3.71.0",
+            "Updated": "\/Date(1787302922897)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "geekuninstaller",
-            "Version": "1.5.3.170",
-            "Updated": "\/Date(1764428999018)\/"
+            "Version": "1.5.4.180",
+            "Updated": "\/Date(1787302926594)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "gh",
-            "Version": "2.97.0",
-            "Updated": "\/Date(1785488676191)\/"
+            "Version": "2.98.0",
+            "Updated": "\/Date(1787302935019)\/"
         },
         {
             "Info": "",
@@ -193,8 +193,8 @@
             "Info": "",
             "Source": "main",
             "Name": "innounp",
-            "Version": "2.70.1",
-            "Updated": "\/Date(1784797247699)\/"
+            "Version": "2.71.0",
+            "Updated": "\/Date(1787302936516)\/"
         },
         {
             "Info": "",
@@ -214,8 +214,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "jetbrains-toolbox",
-            "Version": "3.7.0.87111",
-            "Updated": "\/Date(1787130098695)\/"
+            "Version": "3.7.2.87231",
+            "Updated": "\/Date(1787302970688)\/"
         },
         {
             "Info": "",
@@ -256,8 +256,8 @@
             "Info": "",
             "Source": "main",
             "Name": "nginx",
-            "Version": "1.31.3",
-            "Updated": "\/Date(1784194498283)\/"
+            "Version": "1.31.4",
+            "Updated": "\/Date(1787302979011)\/"
         },
         {
             "Info": "",
@@ -356,6 +356,13 @@
             "Name": "scrcpy",
             "Version": "4.1",
             "Updated": "\/Date(1783933377793)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "sing-box",
+            "Version": "1.13.19",
+            "Updated": "\/Date(1787286248138)\/"
         },
         {
             "Info": "",
