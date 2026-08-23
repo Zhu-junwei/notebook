@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1787387432000)\/",
+                "value": "\/Date(1787473821000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月22日 16:30:32"
+                "DateTime": "2026年8月23日 16:30:21"
             },
             "Manifests": 1635
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1787387414000)\/",
+                "value": "\/Date(1787473794000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月22日 16:30:14"
+                "DateTime": "2026年8月23日 16:29:54"
             },
             "Manifests": 2371
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1787363631000)\/",
+                "value": "\/Date(1787431450000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月22日 9:53:51"
+                "DateTime": "2026年8月23日 4:44:10"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1787357698000)\/",
+                "value": "\/Date(1787444063000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月22日 8:14:58"
+                "DateTime": "2026年8月23日 8:14:23"
             },
             "Manifests": 271
         }
@@ -130,8 +130,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "draw.io",
-            "Version": "31.3.1",
-            "Updated": "\/Date(1787302908307)\/"
+            "Version": "31.3.2",
+            "Updated": "\/Date(1787475683833)\/"
         },
         {
             "Info": "",
