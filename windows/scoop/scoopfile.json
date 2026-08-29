@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1787824903000)\/",
+                "value": "\/Date(1787916736000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月27日 18:01:43"
+                "DateTime": "2026年8月28日 19:32:16"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1787885592000)\/",
+                "value": "\/Date(1787962988000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月28日 10:53:12"
+                "DateTime": "2026年8月29日 8:23:08"
             },
             "Manifests": 271
         }
