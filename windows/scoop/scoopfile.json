@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1788078676000)\/",
+                "value": "\/Date(1788165552000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月30日 16:31:16"
+                "DateTime": "2026年8月31日 16:39:12"
             },
-            "Manifests": 1640
+            "Manifests": 1642
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1788078821000)\/",
+                "value": "\/Date(1788165573000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月30日 16:33:41"
+                "DateTime": "2026年8月31日 16:39:33"
             },
             "Manifests": 2374
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1788019587000)\/",
+                "value": "\/Date(1788117700000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月30日 0:06:27"
+                "DateTime": "2026年8月31日 3:21:40"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1788049704000)\/",
+                "value": "\/Date(1788136062000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年8月30日 8:28:24"
+                "DateTime": "2026年8月31日 8:27:42"
             },
             "Manifests": 271
         }
@@ -67,8 +67,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.44",
-            "Updated": "\/Date(1787648484058)\/"
+            "Version": "2.8.45",
+            "Updated": "\/Date(1788166923306)\/"
         },
         {
             "Info": "",
@@ -123,8 +123,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "dbeaver",
-            "Version": "26.1.5",
-            "Updated": "\/Date(1786957289092)\/"
+            "Version": "26.2.0",
+            "Updated": "\/Date(1788167108290)\/"
         },
         {
             "Info": "",
@@ -361,8 +361,8 @@
             "Info": "",
             "Source": "main",
             "Name": "sing-box",
-            "Version": "1.13.20",
-            "Updated": "\/Date(1788080461680)\/"
+            "Version": "1.14.0",
+            "Updated": "\/Date(1788167159466)\/"
         },
         {
             "Info": "",
