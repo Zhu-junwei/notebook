@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1788251879000)\/",
+                "value": "\/Date(1788338243000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月1日 16:37:59"
+                "DateTime": "2026年9月2日 16:37:23"
             },
-            "Manifests": 1642
+            "Manifests": 1641
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1788251907000)\/",
+                "value": "\/Date(1788338280000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月1日 16:38:27"
+                "DateTime": "2026年9月2日 16:38:00"
             },
-            "Manifests": 2374
+            "Manifests": 2377
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1788211916000)\/",
+                "value": "\/Date(1788302407000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月1日 5:31:56"
+                "DateTime": "2026年9月2日 6:40:07"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1788222567000)\/",
+                "value": "\/Date(1788308794000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月1日 8:29:27"
+                "DateTime": "2026年9月2日 8:26:34"
             },
             "Manifests": 271
         }
@@ -137,8 +137,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "escrcpy",
-            "Version": "3.0.8",
-            "Updated": "\/Date(1785921113601)\/"
+            "Version": "3.2.0",
+            "Updated": "\/Date(1788339748802)\/"
         },
         {
             "Info": "",
@@ -172,8 +172,8 @@
             "Info": "",
             "Source": "main",
             "Name": "gh",
-            "Version": "2.98.0",
-            "Updated": "\/Date(1787302935019)\/"
+            "Version": "2.99.0",
+            "Updated": "\/Date(1788339761089)\/"
         },
         {
             "Info": "",
@@ -291,8 +291,8 @@
             "Info": "",
             "Source": "main",
             "Name": "openlist",
-            "Version": "4.2.5",
-            "Updated": "\/Date(1786266051806)\/"
+            "Version": "4.2.6",
+            "Updated": "\/Date(1788339791760)\/"
         },
         {
             "Info": "",
@@ -305,8 +305,8 @@
             "Info": "",
             "Source": "main",
             "Name": "postgresql",
-            "Version": "18.6-2",
-            "Updated": "\/Date(1788253524557)\/"
+            "Version": "18.6-3",
+            "Updated": "\/Date(1788340044748)\/"
         },
         {
             "Info": "",
