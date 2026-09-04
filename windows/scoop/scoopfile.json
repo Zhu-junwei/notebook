@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1788424643000)\/",
+                "value": "\/Date(1788510996000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月3日 16:37:23"
+                "DateTime": "2026年9月4日 16:36:36"
             },
             "Manifests": 1641
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1788424689000)\/",
+                "value": "\/Date(1788511095000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月3日 16:38:09"
+                "DateTime": "2026年9月4日 16:38:15"
             },
             "Manifests": 2377
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1788377139000)\/",
+                "value": "\/Date(1788463209000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月3日 3:25:39"
+                "DateTime": "2026年9月4日 3:20:09"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1788395219000)\/",
+                "value": "\/Date(1788481475000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月3日 8:26:59"
+                "DateTime": "2026年9月4日 8:24:35"
             },
             "Manifests": 271
         }
@@ -46,8 +46,8 @@
             "Info": "",
             "Source": "main",
             "Name": "7zip",
-            "Version": "26.02",
-            "Updated": "\/Date(1782464457279)\/"
+            "Version": "26.03",
+            "Updated": "\/Date(1788512449588)\/"
         },
         {
             "Info": "",
@@ -172,8 +172,8 @@
             "Info": "",
             "Source": "main",
             "Name": "gh",
-            "Version": "2.99.0",
-            "Updated": "\/Date(1788339761089)\/"
+            "Version": "2.100.0",
+            "Updated": "\/Date(1788512464307)\/"
         },
         {
             "Info": "",
@@ -270,8 +270,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "notepadplusplus",
-            "Version": "8.9.7",
-            "Updated": "\/Date(1786352521833)\/"
+            "Version": "8.9.8",
+            "Updated": "\/Date(1788512475777)\/"
         },
         {
             "Info": "",
