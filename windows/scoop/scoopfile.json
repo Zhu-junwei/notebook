@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1788770504000)\/",
+                "value": "\/Date(1788899296000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月7日 16:41:44"
+                "DateTime": "2026年9月9日 4:28:16"
             },
-            "Manifests": 1641
+            "Manifests": 1642
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1788771292000)\/",
+                "value": "\/Date(1788899373000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月7日 16:54:52"
+                "DateTime": "2026年9月9日 4:29:33"
             },
-            "Manifests": 2380
+            "Manifests": 2383
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1788719098000)\/",
+                "value": "\/Date(1788907528000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月7日 2:24:58"
+                "DateTime": "2026年9月9日 6:45:28"
             },
             "Manifests": 132
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1788740819000)\/",
+                "value": "\/Date(1788827168000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月7日 8:26:59"
+                "DateTime": "2026年9月8日 8:26:08"
             },
             "Manifests": 271
         }
@@ -67,8 +67,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.45",
-            "Updated": "\/Date(1788166923306)\/"
+            "Version": "2.8.46",
+            "Updated": "\/Date(1788911776587)\/"
         },
         {
             "Info": "",
@@ -375,8 +375,8 @@
             "Info": "",
             "Source": "main",
             "Name": "syncthing",
-            "Version": "2.1.3",
-            "Updated": "\/Date(1786179758603)\/"
+            "Version": "2.1.5",
+            "Updated": "\/Date(1788911785517)\/"
         },
         {
             "Info": "Held package",
