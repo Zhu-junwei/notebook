@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1789375257000)\/",
+                "value": "\/Date(1789461499000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月14日 16:40:57"
+                "DateTime": "2026年9月15日 16:38:19"
             },
             "Manifests": 1649
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1789375341000)\/",
+                "value": "\/Date(1789461510000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月14日 16:42:21"
+                "DateTime": "2026年9月15日 16:38:30"
             },
             "Manifests": 2386
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1789241697000)\/",
+                "value": "\/Date(1789448543000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月13日 3:34:57"
+                "DateTime": "2026年9月15日 13:02:23"
             },
             "Manifests": 134
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1789345638000)\/",
+                "value": "\/Date(1789439845000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月14日 8:27:18"
+                "DateTime": "2026年9月15日 10:37:25"
             },
             "Manifests": 271
         }
@@ -214,8 +214,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "jetbrains-toolbox",
-            "Version": "3.7.2.87231",
-            "Updated": "\/Date(1787302970688)\/"
+            "Version": "3.8.0.87909",
+            "Updated": "\/Date(1789463280230)\/"
         },
         {
             "Info": "",
@@ -361,8 +361,8 @@
             "Info": "",
             "Source": "main",
             "Name": "sing-box",
-            "Version": "1.14.0",
-            "Updated": "\/Date(1788167159466)\/"
+            "Version": "1.14.1",
+            "Updated": "\/Date(1789463377922)\/"
         },
         {
             "Info": "",
