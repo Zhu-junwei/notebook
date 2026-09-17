@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1789461499000)\/",
+                "value": "\/Date(1789607013000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月15日 16:38:19"
+                "DateTime": "2026年9月17日 9:03:33"
             },
             "Manifests": 1649
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1789461510000)\/",
+                "value": "\/Date(1789607037000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月15日 16:38:30"
+                "DateTime": "2026年9月17日 9:03:57"
             },
-            "Manifests": 2386
+            "Manifests": 2388
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1789448543000)\/",
+                "value": "\/Date(1789587408000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月15日 13:02:23"
+                "DateTime": "2026年9月17日 3:36:48"
             },
             "Manifests": 134
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1789439845000)\/",
+                "value": "\/Date(1789604647000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月15日 10:37:25"
+                "DateTime": "2026年9月17日 8:24:07"
             },
             "Manifests": 271
         }
@@ -67,8 +67,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.46",
-            "Updated": "\/Date(1788911776587)\/"
+            "Version": "2.8.47",
+            "Updated": "\/Date(1789609753725)\/"
         },
         {
             "Info": "",
@@ -172,8 +172,8 @@
             "Info": "",
             "Source": "main",
             "Name": "gh",
-            "Version": "2.100.0",
-            "Updated": "\/Date(1788512464307)\/"
+            "Version": "2.101.0",
+            "Updated": "\/Date(1789609794973)\/"
         },
         {
             "Info": "",
@@ -256,8 +256,8 @@
             "Info": "",
             "Source": "main",
             "Name": "nginx",
-            "Version": "1.31.5",
-            "Updated": "\/Date(1788426087991)\/"
+            "Version": "1.31.6",
+            "Updated": "\/Date(1789609801930)\/"
         },
         {
             "Info": "",
