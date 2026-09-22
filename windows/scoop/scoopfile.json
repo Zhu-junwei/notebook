@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1789980878000)\/",
+                "value": "\/Date(1790066317000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月21日 16:54:38"
+                "DateTime": "2026年9月22日 16:38:37"
             },
             "Manifests": 1655
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1789980058000)\/",
+                "value": "\/Date(1790066508000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月21日 16:40:58"
+                "DateTime": "2026年9月22日 16:41:48"
             },
             "Manifests": 2389
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1789930510000)\/",
+                "value": "\/Date(1790053764000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月21日 2:55:10"
+                "DateTime": "2026年9月22日 13:09:24"
             },
             "Manifests": 134
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1789950513000)\/",
+                "value": "\/Date(1790036882000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月21日 8:28:33"
+                "DateTime": "2026年9月22日 8:28:02"
             },
             "Manifests": 271
         }
@@ -67,8 +67,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "apifox",
-            "Version": "2.8.47",
-            "Updated": "\/Date(1789609753725)\/"
+            "Version": "2.8.48",
+            "Updated": "\/Date(1790067658937)\/"
         },
         {
             "Info": "",
@@ -123,8 +123,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "dbeaver",
-            "Version": "26.2.0",
-            "Updated": "\/Date(1788167108290)\/"
+            "Version": "26.2.1",
+            "Updated": "\/Date(1790067966738)\/"
         },
         {
             "Info": "",
