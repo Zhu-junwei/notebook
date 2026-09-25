@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1790240275000)\/",
+                "value": "\/Date(1790325515000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月24日 16:57:55"
+                "DateTime": "2026年9月25日 16:38:35"
             },
-            "Manifests": 1656
+            "Manifests": 1658
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1790239287000)\/",
+                "value": "\/Date(1790325516000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月24日 16:41:27"
+                "DateTime": "2026年9月25日 16:38:36"
             },
-            "Manifests": 2389
+            "Manifests": 2393
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1790204428000)\/",
+                "value": "\/Date(1790320971000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月24日 7:00:28"
+                "DateTime": "2026年9月25日 15:22:51"
             },
             "Manifests": 134
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1790209556000)\/",
+                "value": "\/Date(1790296081000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月24日 8:25:56"
+                "DateTime": "2026年9月25日 8:28:01"
             },
             "Manifests": 271
         }
@@ -88,8 +88,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cacert",
-            "Version": "2026-08-13",
-            "Updated": "\/Date(1786611634627)\/"
+            "Version": "2026-09-25",
+            "Updated": "\/Date(1790326837256)\/"
         },
         {
             "Info": "Held package",
@@ -109,8 +109,8 @@
             "Info": "",
             "Source": "main",
             "Name": "cloudflared",
-            "Version": "2026.9.1",
-            "Updated": "\/Date(1789208347327)\/"
+            "Version": "2026.9.3",
+            "Updated": "\/Date(1790326867032)\/"
         },
         {
             "Info": "",
@@ -130,8 +130,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "draw.io",
-            "Version": "31.4.5",
-            "Updated": "\/Date(1790240598803)\/"
+            "Version": "31.5.2",
+            "Updated": "\/Date(1790326925518)\/"
         },
         {
             "Info": "",
@@ -270,8 +270,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "notepadplusplus",
-            "Version": "8.9.8",
-            "Updated": "\/Date(1788512475777)\/"
+            "Version": "8.9.8.1",
+            "Updated": "\/Date(1790326932594)\/"
         },
         {
             "Info": "",
@@ -361,8 +361,8 @@
             "Info": "",
             "Source": "main",
             "Name": "sing-box",
-            "Version": "1.14.1",
-            "Updated": "\/Date(1789463377922)\/"
+            "Version": "1.14.2",
+            "Updated": "\/Date(1790326956732)\/"
         },
         {
             "Info": "",
