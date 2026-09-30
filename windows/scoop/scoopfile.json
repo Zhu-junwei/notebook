@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1790671230000)\/",
+                "value": "\/Date(1790758466000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月29日 16:40:30"
+                "DateTime": "2026年9月30日 16:54:26"
             },
-            "Manifests": 1658
+            "Manifests": 1659
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1790671335000)\/",
+                "value": "\/Date(1790757774000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月29日 16:42:15"
+                "DateTime": "2026年9月30日 16:42:54"
             },
             "Manifests": 2396
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1790641552000)\/",
+                "value": "\/Date(1790705324000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月29日 8:25:52"
+                "DateTime": "2026年9月30日 2:08:44"
             },
             "Manifests": 134
         },
@@ -34,398 +34,398 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1790641655000)\/",
+                "value": "\/Date(1790728157000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月29日 8:27:35"
+                "DateTime": "2026年9月30日 8:29:17"
             },
             "Manifests": 271
         }
     ],
     "apps": [
         {
-            "Info": "",
-            "Source": "main",
             "Name": "7zip",
             "Version": "26.03",
-            "Updated": "\/Date(1788512449588)\/"
+            "Source": "main",
+            "Updated": "\/Date(1788512449588)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "adb",
             "Version": "37.0.1",
-            "Updated": "\/Date(1785920506724)\/"
+            "Source": "main",
+            "Updated": "\/Date(1785920506724)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "another-redis-desktop-manager",
             "Version": "1.7.4",
-            "Updated": "\/Date(1787130049607)\/"
-        },
-        {
-            "Info": "",
             "Source": "extras",
-            "Name": "apifox",
-            "Version": "2.8.48",
-            "Updated": "\/Date(1790067658937)\/"
+            "Updated": "\/Date(1787130049607)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
+            "Name": "apifox",
+            "Version": "2.8.49",
+            "Source": "extras",
+            "Updated": "\/Date(1790758864539)\/",
+            "Info": ""
+        },
+        {
             "Name": "aria2",
             "Version": "1.37.0-1",
-            "Updated": "\/Date(1760265068454)\/"
+            "Source": "main",
+            "Updated": "\/Date(1760265068454)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "bat2exe",
             "Version": "2.3",
-            "Updated": "\/Date(1768988135015)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1768988135015)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "cacert",
             "Version": "2026-09-25",
-            "Updated": "\/Date(1790326837256)\/"
+            "Source": "main",
+            "Updated": "\/Date(1790326837256)\/",
+            "Info": ""
         },
         {
-            "Info": "Held package",
-            "Source": "main",
             "Name": "caddy",
             "Version": "2.11.2",
-            "Updated": "\/Date(1776244468745)\/"
+            "Source": "main",
+            "Updated": "\/Date(1776244468745)\/",
+            "Info": "Held package"
         },
         {
-            "Info": "",
-            "Source": "dorado",
             "Name": "chatbox-ce",
             "Version": "0.10.4",
-            "Updated": "\/Date(1761120109960)\/"
+            "Source": "dorado",
+            "Updated": "\/Date(1761120109960)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "cloudflared",
             "Version": "2026.9.3",
-            "Updated": "\/Date(1790326867032)\/"
+            "Source": "main",
+            "Updated": "\/Date(1790326867032)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "coreutils",
             "Version": "5.97.3",
-            "Updated": "\/Date(1760265244894)\/"
+            "Source": "main",
+            "Updated": "\/Date(1760265244894)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "dbeaver",
             "Version": "26.2.1",
-            "Updated": "\/Date(1790067966738)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1790067966738)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "draw.io",
             "Version": "31.5.3",
-            "Updated": "\/Date(1790413249198)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1790413249198)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "escrcpy",
             "Version": "3.2.0",
-            "Updated": "\/Date(1788339748802)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1788339748802)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "exiftool",
             "Version": "13.59",
-            "Updated": "\/Date(1779958884870)\/"
+            "Source": "main",
+            "Updated": "\/Date(1779958884870)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "ffmpeg",
             "Version": "9.0.2",
-            "Updated": "\/Date(1789894888073)\/"
+            "Source": "main",
+            "Updated": "\/Date(1789894888073)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "filezilla",
             "Version": "3.71.1",
-            "Updated": "\/Date(1787907646534)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1787907646534)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "geekuninstaller",
             "Version": "1.5.5.185",
-            "Updated": "\/Date(1790154068004)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1790154068004)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "gh",
-            "Version": "2.101.0",
-            "Updated": "\/Date(1789609794973)\/"
+            "Version": "2.102.0",
+            "Source": "main",
+            "Updated": "\/Date(1790758873939)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "gnirehtet",
             "Version": "2.5.1",
-            "Updated": "\/Date(1764438847448)\/"
+            "Source": "main",
+            "Updated": "\/Date(1764438847448)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "grep",
             "Version": "3.11",
-            "Updated": "\/Date(1760265307785)\/"
+            "Source": "main",
+            "Updated": "\/Date(1760265307785)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "innounp",
             "Version": "2.71.1",
-            "Updated": "\/Date(1788080440503)\/"
-        },
-        {
-            "Info": "",
             "Source": "main",
-            "Name": "iperf3",
-            "Version": "3.21",
-            "Updated": "\/Date(1784341021997)\/"
+            "Updated": "\/Date(1788080440503)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
+            "Name": "iperf3",
+            "Version": "3.22",
+            "Source": "main",
+            "Updated": "\/Date(1790758876957)\/",
+            "Info": ""
+        },
+        {
             "Name": "jd-gui",
             "Version": "1.6.6",
-            "Updated": "\/Date(1764429029104)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1764429029104)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "jetbrains-toolbox",
             "Version": "3.8.1.88030",
-            "Updated": "\/Date(1789808468575)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1789808468575)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "jq",
             "Version": "1.8.2",
-            "Updated": "\/Date(1782032475181)\/"
+            "Source": "main",
+            "Updated": "\/Date(1782032475181)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "koodo-reader",
             "Version": "2.4.3",
-            "Updated": "\/Date(1785661311686)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1785661311686)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "netcat",
             "Version": "1.12",
-            "Updated": "\/Date(1760265387799)\/"
+            "Source": "main",
+            "Updated": "\/Date(1760265387799)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "dorado",
             "Name": "neteasemusic",
             "Version": "3.1.30.205130",
-            "Updated": "\/Date(1774083665006)\/"
+            "Source": "dorado",
+            "Updated": "\/Date(1774083665006)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "nexttrace",
             "Version": "1.7.3",
-            "Updated": "\/Date(1787821250796)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1787821250796)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "nginx",
             "Version": "1.31.6",
-            "Updated": "\/Date(1789609801930)\/"
+            "Source": "main",
+            "Updated": "\/Date(1789609801930)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "nmap",
             "Version": "7.991",
-            "Updated": "\/Date(1786179743924)\/"
+            "Source": "main",
+            "Updated": "\/Date(1786179743924)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "notepadplusplus",
             "Version": "8.9.8.1",
-            "Updated": "\/Date(1790326932594)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1790326932594)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "nssm",
             "Version": "2.24-103",
-            "Updated": "\/Date(1761203048443)\/"
+            "Source": "main",
+            "Updated": "\/Date(1761203048443)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "Obsidian",
             "Version": "1.13.7",
-            "Updated": "\/Date(1786611751729)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1786611751729)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "openlist",
             "Version": "4.2.6",
-            "Updated": "\/Date(1788339791760)\/"
+            "Source": "main",
+            "Updated": "\/Date(1788339791760)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "openssl-light",
             "Version": "4.0.2",
-            "Updated": "\/Date(1787734850091)\/"
+            "Source": "main",
+            "Updated": "\/Date(1787734850091)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "postgresql",
             "Version": "18.6-4",
-            "Updated": "\/Date(1789808659622)\/"
+            "Source": "main",
+            "Updated": "\/Date(1789808659622)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "potplayer",
             "Version": "260819",
-            "Updated": "\/Date(1787130135046)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1787130135046)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "redis",
             "Version": "8.10.2",
-            "Updated": "\/Date(1789808673284)\/"
+            "Source": "main",
+            "Updated": "\/Date(1789808673284)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "resource-hacker",
             "Version": "5.2.8",
-            "Updated": "\/Date(1761758969222)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1761758969222)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "ripgrep",
             "Version": "15.2.0",
-            "Updated": "\/Date(1784194513098)\/"
+            "Source": "main",
+            "Updated": "\/Date(1784194513098)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "rustdesk",
             "Version": "1.4.9",
-            "Updated": "\/Date(1783502107860)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1783502107860)\/",
+            "Info": ""
         },
         {
-            "Info": "Held package",
-            "Source": "nonportable",
             "Name": "sandboxie-plus-np",
             "Version": "1.17.6",
-            "Updated": "\/Date(1781255845589)\/"
+            "Source": "nonportable",
+            "Updated": "\/Date(1781255845589)\/",
+            "Info": "Held package"
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "scrcpy",
             "Version": "4.1",
-            "Updated": "\/Date(1783933377793)\/"
+            "Source": "main",
+            "Updated": "\/Date(1783933377793)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "sing-box",
             "Version": "1.14.2",
-            "Updated": "\/Date(1790326956732)\/"
+            "Source": "main",
+            "Updated": "\/Date(1790326956732)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "sqlite",
             "Version": "3.53.4",
-            "Updated": "\/Date(1784976511317)\/"
+            "Source": "main",
+            "Updated": "\/Date(1784976511317)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "syncthing",
             "Version": "2.1.5",
-            "Updated": "\/Date(1788911785517)\/"
+            "Source": "main",
+            "Updated": "\/Date(1788911785517)\/",
+            "Info": ""
         },
         {
-            "Info": "Held package",
-            "Source": "extras",
             "Name": "tailscale",
             "Version": "1.98.4",
-            "Updated": "\/Date(1781059559201)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1781059559201)\/",
+            "Info": "Held package"
         },
         {
-            "Info": "",
-            "Source": "main",
             "Name": "tesseract",
             "Version": "5.5.3.20260724",
-            "Updated": "\/Date(1784976555964)\/"
+            "Source": "main",
+            "Updated": "\/Date(1784976555964)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "treesize-free",
             "Version": "4.8.1",
-            "Updated": "\/Date(1764825974578)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1764825974578)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "v2rayn",
             "Version": "7.24.9",
-            "Updated": "\/Date(1788253606741)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1788253606741)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "ventoy",
             "Version": "1.1.17",
-            "Updated": "\/Date(1784976580827)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1784976580827)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "vncviewer",
             "Version": "7.15.1",
-            "Updated": "\/Date(1764438242945)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1764438242945)\/",
+            "Info": ""
         },
         {
-            "Info": "",
-            "Source": "extras",
             "Name": "wireshark",
             "Version": "4.6.9",
-            "Updated": "\/Date(1790240651386)\/"
+            "Source": "extras",
+            "Updated": "\/Date(1790240651386)\/",
+            "Info": ""
         }
     ]
 }
