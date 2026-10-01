@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1790758466000)\/",
+                "value": "\/Date(1790844184000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月30日 16:54:26"
+                "DateTime": "2026年10月1日 16:43:04"
             },
-            "Manifests": 1659
+            "Manifests": 1660
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1790757774000)\/",
+                "value": "\/Date(1790844194000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月30日 16:42:54"
+                "DateTime": "2026年10月1日 16:43:14"
             },
-            "Manifests": 2396
+            "Manifests": 2402
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1790705324000)\/",
+                "value": "\/Date(1790840894000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月30日 2:08:44"
+                "DateTime": "2026年10月1日 15:48:14"
             },
             "Manifests": 134
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1790728157000)\/",
+                "value": "\/Date(1790814718000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年9月30日 8:29:17"
+                "DateTime": "2026年10月1日 8:31:58"
             },
             "Manifests": 271
         }
@@ -296,9 +296,9 @@
         },
         {
             "Name": "openssl-light",
-            "Version": "4.0.2",
+            "Version": "4.0.3",
             "Source": "main",
-            "Updated": "\/Date(1787734850091)\/",
+            "Updated": "\/Date(1790845556490)\/",
             "Info": ""
         },
         {
@@ -401,9 +401,9 @@
         },
         {
             "Name": "v2rayn",
-            "Version": "7.24.9",
+            "Version": "7.25.4",
             "Source": "extras",
-            "Updated": "\/Date(1788253606741)\/",
+            "Updated": "\/Date(1790845804535)\/",
             "Info": ""
         },
         {
