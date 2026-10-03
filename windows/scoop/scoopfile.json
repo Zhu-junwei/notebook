@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1790930416000)\/",
+                "value": "\/Date(1791016611000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月2日 16:40:16"
+                "DateTime": "2026年10月3日 16:36:51"
             },
-            "Manifests": 1662
+            "Manifests": 1663
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1790931424000)\/",
+                "value": "\/Date(1791002313000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月2日 16:57:04"
+                "DateTime": "2026年10月3日 12:38:33"
             },
             "Manifests": 2404
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1790900848000)\/",
+                "value": "\/Date(1790987091000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月2日 8:27:28"
+                "DateTime": "2026年10月3日 8:24:51"
             },
             "Manifests": 271
         }
@@ -303,9 +303,9 @@
         },
         {
             "Name": "postgresql",
-            "Version": "18.6-4",
+            "Version": "18.6-5",
             "Source": "main",
-            "Updated": "\/Date(1789808659622)\/",
+            "Updated": "\/Date(1791018358293)\/",
             "Info": ""
         },
         {
@@ -338,9 +338,9 @@
         },
         {
             "Name": "rustdesk",
-            "Version": "1.4.9",
+            "Version": "1.5.0",
             "Source": "extras",
-            "Updated": "\/Date(1783502107860)\/",
+            "Updated": "\/Date(1791018367733)\/",
             "Info": ""
         },
         {
