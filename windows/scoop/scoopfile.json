@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1791190345000)\/",
+                "value": "\/Date(1791362561000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月5日 16:52:25"
+                "DateTime": "2026年10月7日 16:42:41"
             },
-            "Manifests": 1664
+            "Manifests": 1669
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1791190304000)\/",
+                "value": "\/Date(1791362576000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月5日 16:51:44"
+                "DateTime": "2026年10月7日 16:42:56"
             },
-            "Manifests": 2405
+            "Manifests": 2406
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1791034288000)\/",
+                "value": "\/Date(1791311370000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月3日 21:31:28"
+                "DateTime": "2026年10月7日 2:29:30"
             },
             "Manifests": 134
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1791160154000)\/",
+                "value": "\/Date(1791332909000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月5日 8:29:14"
+                "DateTime": "2026年10月7日 8:28:29"
             },
             "Manifests": 271
         }
@@ -44,9 +44,9 @@
     "apps": [
         {
             "Name": "7zip",
-            "Version": "26.03",
+            "Version": "26.04",
             "Source": "main",
-            "Updated": "\/Date(1788512449588)\/",
+            "Updated": "\/Date(1791277249406)\/",
             "Info": ""
         },
         {
@@ -107,9 +107,9 @@
         },
         {
             "Name": "cloudflared",
-            "Version": "2026.9.3",
+            "Version": "2026.10.0",
             "Source": "main",
-            "Updated": "\/Date(1790326867032)\/",
+            "Updated": "\/Date(1791277268099)\/",
             "Info": ""
         },
         {
@@ -282,9 +282,9 @@
         },
         {
             "Name": "Obsidian",
-            "Version": "1.13.7",
+            "Version": "1.14.4",
             "Source": "extras",
-            "Updated": "\/Date(1786611751729)\/",
+            "Updated": "\/Date(1791277321335)\/",
             "Info": ""
         },
         {
@@ -352,9 +352,9 @@
         },
         {
             "Name": "scrcpy",
-            "Version": "4.1",
+            "Version": "5.0",
             "Source": "main",
-            "Updated": "\/Date(1783933377793)\/",
+            "Updated": "\/Date(1791277333312)\/",
             "Info": ""
         },
         {
@@ -373,9 +373,9 @@
         },
         {
             "Name": "syncthing",
-            "Version": "2.1.5",
+            "Version": "2.1.6",
             "Source": "main",
-            "Updated": "\/Date(1788911785517)\/",
+            "Updated": "\/Date(1791277339838)\/",
             "Info": ""
         },
         {
