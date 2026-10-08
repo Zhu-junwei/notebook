@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1791362561000)\/",
+                "value": "\/Date(1791448994000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月7日 16:42:41"
+                "DateTime": "2026年10月8日 16:43:14"
             },
             "Manifests": 1669
         },
@@ -14,9 +14,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1791362576000)\/",
+                "value": "\/Date(1791449003000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月7日 16:42:56"
+                "DateTime": "2026年10月8日 16:43:23"
             },
             "Manifests": 2406
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1791311370000)\/",
+                "value": "\/Date(1791440316000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月7日 2:29:30"
+                "DateTime": "2026年10月8日 14:18:36"
             },
             "Manifests": 134
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1791332909000)\/",
+                "value": "\/Date(1791419187000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月7日 8:28:29"
+                "DateTime": "2026年10月8日 8:26:27"
             },
             "Manifests": 271
         }
@@ -128,9 +128,9 @@
         },
         {
             "Name": "draw.io",
-            "Version": "31.7.0",
+            "Version": "32.3.0",
             "Source": "extras",
-            "Updated": "\/Date(1790932210101)\/",
+            "Updated": "\/Date(1791450128677)\/",
             "Info": ""
         },
         {
@@ -352,9 +352,9 @@
         },
         {
             "Name": "scrcpy",
-            "Version": "5.0",
+            "Version": "5.0.1",
             "Source": "main",
-            "Updated": "\/Date(1791277333312)\/",
+            "Updated": "\/Date(1791450152601)\/",
             "Info": ""
         },
         {
