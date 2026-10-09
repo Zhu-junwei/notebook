@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1791448994000)\/",
+                "value": "\/Date(1791535377000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月8日 16:43:14"
+                "DateTime": "2026年10月9日 16:42:57"
             },
             "Manifests": 1669
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1791449003000)\/",
+                "value": "\/Date(1791535388000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月8日 16:43:23"
+                "DateTime": "2026年10月9日 16:43:08"
             },
-            "Manifests": 2406
+            "Manifests": 2419
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1791440316000)\/",
+                "value": "\/Date(1791534057000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月8日 14:18:36"
+                "DateTime": "2026年10月9日 16:20:57"
             },
             "Manifests": 134
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1791419187000)\/",
+                "value": "\/Date(1791505838000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月8日 8:26:27"
+                "DateTime": "2026年10月9日 8:30:38"
             },
             "Manifests": 271
         }
@@ -128,9 +128,9 @@
         },
         {
             "Name": "draw.io",
-            "Version": "32.3.0",
+            "Version": "32.4.1",
             "Source": "extras",
-            "Updated": "\/Date(1791450128677)\/",
+            "Updated": "\/Date(1791536495317)\/",
             "Info": ""
         },
         {
@@ -359,9 +359,9 @@
         },
         {
             "Name": "sing-box",
-            "Version": "1.14.2",
+            "Version": "1.14.3",
             "Source": "main",
-            "Updated": "\/Date(1790326956732)\/",
+            "Updated": "\/Date(1791536518909)\/",
             "Info": ""
         },
         {
@@ -408,9 +408,9 @@
         },
         {
             "Name": "ventoy",
-            "Version": "1.1.17",
+            "Version": "1.1.18",
             "Source": "extras",
-            "Updated": "\/Date(1784976580827)\/",
+            "Updated": "\/Date(1791536529625)\/",
             "Info": ""
         },
         {
