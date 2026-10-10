@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1791535377000)\/",
+                "value": "\/Date(1791621424000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月9日 16:42:57"
+                "DateTime": "2026年10月10日 16:37:04"
             },
-            "Manifests": 1669
+            "Manifests": 1671
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1791535388000)\/",
+                "value": "\/Date(1791621522000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月9日 16:43:08"
+                "DateTime": "2026年10月10日 16:38:42"
             },
             "Manifests": 2419
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1791534057000)\/",
+                "value": "\/Date(1791559388000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月9日 16:20:57"
+                "DateTime": "2026年10月9日 23:23:08"
             },
             "Manifests": 134
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1791505838000)\/",
+                "value": "\/Date(1791592055000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月9日 8:30:38"
+                "DateTime": "2026年10月10日 8:27:35"
             },
             "Manifests": 271
         }
@@ -65,9 +65,9 @@
         },
         {
             "Name": "apifox",
-            "Version": "2.8.49",
+            "Version": "2.8.50",
             "Source": "extras",
-            "Updated": "\/Date(1790758864539)\/",
+            "Updated": "\/Date(1791623024763)\/",
             "Info": ""
         },
         {
@@ -135,9 +135,9 @@
         },
         {
             "Name": "escrcpy",
-            "Version": "3.2.0",
+            "Version": "3.3.1",
             "Source": "extras",
-            "Updated": "\/Date(1788339748802)\/",
+            "Updated": "\/Date(1791623355720)\/",
             "Info": ""
         },
         {
@@ -366,9 +366,9 @@
         },
         {
             "Name": "sqlite",
-            "Version": "3.53.4",
+            "Version": "3.54.0",
             "Source": "main",
-            "Updated": "\/Date(1784976511317)\/",
+            "Updated": "\/Date(1791623433128)\/",
             "Info": ""
         },
         {
