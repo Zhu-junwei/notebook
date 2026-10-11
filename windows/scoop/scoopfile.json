@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1791621424000)\/",
+                "value": "\/Date(1791707922000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月10日 16:37:04"
+                "DateTime": "2026年10月11日 16:38:42"
             },
             "Manifests": 1671
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1791621522000)\/",
+                "value": "\/Date(1791707926000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月10日 16:38:42"
+                "DateTime": "2026年10月11日 16:38:46"
             },
-            "Manifests": 2419
+            "Manifests": 2420
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1791559388000)\/",
+                "value": "\/Date(1791663014000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月9日 23:23:08"
+                "DateTime": "2026年10月11日 4:10:14"
             },
             "Manifests": 134
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1791592055000)\/",
+                "value": "\/Date(1791678654000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月10日 8:27:35"
+                "DateTime": "2026年10月11日 8:30:54"
             },
             "Manifests": 271
         }
@@ -247,9 +247,9 @@
         },
         {
             "Name": "nexttrace",
-            "Version": "1.7.3",
+            "Version": "1.7.4",
             "Source": "extras",
-            "Updated": "\/Date(1787821250796)\/",
+            "Updated": "\/Date(1791709268204)\/",
             "Info": ""
         },
         {
