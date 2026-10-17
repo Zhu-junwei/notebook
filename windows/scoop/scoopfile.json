@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1791967114000)\/",
+                "value": "\/Date(1792220414000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月14日 16:38:34"
+                "DateTime": "2026年10月17日 15:00:14"
             },
-            "Manifests": 1681
+            "Manifests": 1690
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1791967144000)\/",
+                "value": "\/Date(1792215304000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月14日 16:39:04"
+                "DateTime": "2026年10月17日 13:35:04"
             },
             "Manifests": 2425
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1791919388000)\/",
+                "value": "\/Date(1792179433000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月14日 3:23:08"
+                "DateTime": "2026年10月17日 3:37:13"
             },
             "Manifests": 134
         },
@@ -34,11 +34,11 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1791937597000)\/",
+                "value": "\/Date(1792204036000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月14日 8:26:37"
+                "DateTime": "2026年10月17日 10:27:16"
             },
-            "Manifests": 271
+            "Manifests": 272
         }
     ],
     "apps": [
@@ -107,9 +107,9 @@
         },
         {
             "Name": "cloudflared",
-            "Version": "2026.10.0",
+            "Version": "2026.10.1",
             "Source": "main",
-            "Updated": "\/Date(1791277268099)\/",
+            "Updated": "\/Date(1792223736840)\/",
             "Info": ""
         },
         {
@@ -163,9 +163,9 @@
         },
         {
             "Name": "geekuninstaller",
-            "Version": "1.5.5.185",
+            "Version": "1.6.0.200",
             "Source": "extras",
-            "Updated": "\/Date(1790154068004)\/",
+            "Updated": "\/Date(1792223745987)\/",
             "Info": ""
         },
         {
@@ -191,9 +191,9 @@
         },
         {
             "Name": "innounp",
-            "Version": "2.71.1",
+            "Version": "2.71.2",
             "Source": "main",
-            "Updated": "\/Date(1788080440503)\/",
+            "Updated": "\/Date(1792223748210)\/",
             "Info": ""
         },
         {
@@ -226,9 +226,9 @@
         },
         {
             "Name": "koodo-reader",
-            "Version": "2.4.3",
+            "Version": "2.4.6",
             "Source": "extras",
-            "Updated": "\/Date(1785661311686)\/",
+            "Updated": "\/Date(1792223809695)\/",
             "Info": ""
         },
         {
@@ -254,16 +254,16 @@
         },
         {
             "Name": "nginx",
-            "Version": "1.31.6",
+            "Version": "1.31.7",
             "Source": "main",
-            "Updated": "\/Date(1789609801930)\/",
+            "Updated": "\/Date(1792223905333)\/",
             "Info": ""
         },
         {
             "Name": "nmap",
-            "Version": "7.991",
+            "Version": "7.992",
             "Source": "main",
-            "Updated": "\/Date(1786179743924)\/",
+            "Updated": "\/Date(1792223923675)\/",
             "Info": ""
         },
         {
@@ -289,9 +289,9 @@
         },
         {
             "Name": "openlist",
-            "Version": "4.2.6",
+            "Version": "4.2.7",
             "Source": "main",
-            "Updated": "\/Date(1788339791760)\/",
+            "Updated": "\/Date(1792223940273)\/",
             "Info": ""
         },
         {
@@ -366,9 +366,9 @@
         },
         {
             "Name": "sqlite",
-            "Version": "3.54.0",
+            "Version": "3.54.1",
             "Source": "main",
-            "Updated": "\/Date(1791623433128)\/",
+            "Updated": "\/Date(1792223945879)\/",
             "Info": ""
         },
         {
