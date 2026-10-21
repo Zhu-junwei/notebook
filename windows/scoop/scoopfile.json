@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1792308881000)\/",
+                "value": "\/Date(1792557278000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月18日 15:34:41"
+                "DateTime": "2026年10月21日 12:34:38"
             },
-            "Manifests": 1692
+            "Manifests": 1694
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1792298078000)\/",
+                "value": "\/Date(1792567996000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月18日 12:34:38"
+                "DateTime": "2026年10月21日 15:33:16"
             },
-            "Manifests": 2426
+            "Manifests": 2435
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1792276027000)\/",
+                "value": "\/Date(1792558871000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月18日 6:27:07"
+                "DateTime": "2026年10月21日 13:01:11"
             },
             "Manifests": 134
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1792283263000)\/",
+                "value": "\/Date(1792542165000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月18日 8:27:43"
+                "DateTime": "2026年10月21日 8:22:45"
             },
             "Manifests": 272
         }
@@ -86,9 +86,9 @@
         },
         {
             "Name": "cacert",
-            "Version": "2026-09-25",
+            "Version": "2026-10-20",
             "Source": "main",
-            "Updated": "\/Date(1790326837256)\/",
+            "Updated": "\/Date(1792570384994)\/",
             "Info": ""
         },
         {
@@ -107,9 +107,9 @@
         },
         {
             "Name": "cloudflared",
-            "Version": "2026.10.1",
+            "Version": "2026.10.2",
             "Source": "main",
-            "Updated": "\/Date(1792223736840)\/",
+            "Updated": "\/Date(1792570443376)\/",
             "Info": ""
         },
         {
@@ -121,16 +121,16 @@
         },
         {
             "Name": "dbeaver",
-            "Version": "26.2.2",
+            "Version": "26.2.3",
             "Source": "extras",
-            "Updated": "\/Date(1791190942179)\/",
+            "Updated": "\/Date(1792570561631)\/",
             "Info": ""
         },
         {
             "Name": "draw.io",
-            "Version": "32.4.1",
+            "Version": "32.5.5",
             "Source": "extras",
-            "Updated": "\/Date(1791536495317)\/",
+            "Updated": "\/Date(1792570716575)\/",
             "Info": ""
         },
         {
@@ -342,13 +342,6 @@
             "Source": "extras",
             "Updated": "\/Date(1791018367733)\/",
             "Info": ""
-        },
-        {
-            "Name": "sandboxie-plus-np",
-            "Version": "1.17.6",
-            "Source": "nonportable",
-            "Updated": "\/Date(1781255845589)\/",
-            "Info": "Held package"
         },
         {
             "Name": "scrcpy",
