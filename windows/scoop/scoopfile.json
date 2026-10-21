@@ -170,9 +170,9 @@
         },
         {
             "Name": "gh",
-            "Version": "2.102.0",
+            "Version": "2.102.1",
             "Source": "main",
-            "Updated": "\/Date(1790758873939)\/",
+            "Updated": "\/Date(1792573226318)\/",
             "Info": ""
         },
         {
@@ -212,9 +212,9 @@
         },
         {
             "Name": "jetbrains-toolbox",
-            "Version": "3.8.1.88030",
+            "Version": "3.9.0.88839",
             "Source": "extras",
-            "Updated": "\/Date(1789808468575)\/",
+            "Updated": "\/Date(1792573282911)\/",
             "Info": ""
         },
         {
