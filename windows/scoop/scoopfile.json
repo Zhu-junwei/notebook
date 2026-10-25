@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1792557278000)\/",
+                "value": "\/Date(1792918501000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月21日 12:34:38"
+                "DateTime": "2026年10月25日 16:55:01"
             },
-            "Manifests": 1694
+            "Manifests": 1700
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1792567996000)\/",
+                "value": "\/Date(1792917304000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月21日 15:33:16"
+                "DateTime": "2026年10月25日 16:35:04"
             },
-            "Manifests": 2435
+            "Manifests": 2447
         },
         {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1792558871000)\/",
+                "value": "\/Date(1792775095000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月21日 13:01:11"
+                "DateTime": "2026年10月24日 1:04:55"
             },
             "Manifests": 134
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1792542165000)\/",
+                "value": "\/Date(1792887923000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月21日 8:22:45"
+                "DateTime": "2026年10月25日 8:25:23"
             },
             "Manifests": 272
         }
@@ -44,9 +44,9 @@
     "apps": [
         {
             "Name": "7zip",
-            "Version": "26.04",
+            "Version": "26.05",
             "Source": "main",
-            "Updated": "\/Date(1791277249406)\/",
+            "Updated": "\/Date(1792906314100)\/",
             "Info": ""
         },
         {
@@ -65,9 +65,9 @@
         },
         {
             "Name": "apifox",
-            "Version": "2.8.51",
+            "Version": "2.8.52",
             "Source": "extras",
-            "Updated": "\/Date(1792309005876)\/",
+            "Updated": "\/Date(1792906461521)\/",
             "Info": ""
         },
         {
@@ -107,9 +107,9 @@
         },
         {
             "Name": "cloudflared",
-            "Version": "2026.10.2",
+            "Version": "2026.10.3",
             "Source": "main",
-            "Updated": "\/Date(1792570443376)\/",
+            "Updated": "\/Date(1792918829824)\/",
             "Info": ""
         },
         {
@@ -128,9 +128,9 @@
         },
         {
             "Name": "draw.io",
-            "Version": "32.5.5",
+            "Version": "32.6.1",
             "Source": "extras",
-            "Updated": "\/Date(1792570716575)\/",
+            "Updated": "\/Date(1792918929107)\/",
             "Info": ""
         },
         {
@@ -170,9 +170,9 @@
         },
         {
             "Name": "gh",
-            "Version": "2.102.1",
+            "Version": "2.103.2",
             "Source": "main",
-            "Updated": "\/Date(1792573226318)\/",
+            "Updated": "\/Date(1792918941973)\/",
             "Info": ""
         },
         {
@@ -254,9 +254,9 @@
         },
         {
             "Name": "nginx",
-            "Version": "1.31.7",
+            "Version": "1.31.8",
             "Source": "main",
-            "Updated": "\/Date(1792223905333)\/",
+            "Updated": "\/Date(1792918948468)\/",
             "Info": ""
         },
         {
@@ -282,23 +282,23 @@
         },
         {
             "Name": "Obsidian",
-            "Version": "1.14.4",
+            "Version": "1.14.5",
             "Source": "extras",
-            "Updated": "\/Date(1791277321335)\/",
+            "Updated": "\/Date(1792919214664)\/",
             "Info": ""
         },
         {
             "Name": "openlist",
-            "Version": "4.2.7",
+            "Version": "4.2.9",
             "Source": "main",
-            "Updated": "\/Date(1792223940273)\/",
+            "Updated": "\/Date(1792919260926)\/",
             "Info": ""
         },
         {
             "Name": "openssl-light",
-            "Version": "4.0.3",
+            "Version": "4.1.0",
             "Source": "main",
-            "Updated": "\/Date(1790845556490)\/",
+            "Updated": "\/Date(1792919274289)\/",
             "Info": ""
         },
         {
@@ -310,9 +310,9 @@
         },
         {
             "Name": "potplayer",
-            "Version": "260819",
+            "Version": "261021",
             "Source": "extras",
-            "Updated": "\/Date(1787130135046)\/",
+            "Updated": "\/Date(1792919321403)\/",
             "Info": ""
         },
         {
@@ -352,9 +352,9 @@
         },
         {
             "Name": "sing-box",
-            "Version": "1.14.3",
+            "Version": "1.14.4",
             "Source": "main",
-            "Updated": "\/Date(1791536518909)\/",
+            "Updated": "\/Date(1792919349332)\/",
             "Info": ""
         },
         {
@@ -366,9 +366,9 @@
         },
         {
             "Name": "syncthing",
-            "Version": "2.1.6",
+            "Version": "2.1.7",
             "Source": "main",
-            "Updated": "\/Date(1791277339838)\/",
+            "Updated": "\/Date(1792919366895)\/",
             "Info": ""
         },
         {
