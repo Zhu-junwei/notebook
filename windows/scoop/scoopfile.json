@@ -4,19 +4,19 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1792918501000)\/",
+                "value": "\/Date(1793091439000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月25日 16:55:01"
+                "DateTime": "2026年10月27日 16:57:19"
             },
-            "Manifests": 1700
+            "Manifests": 1702
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1793004590000)\/",
+                "value": "\/Date(1793090468000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月26日 16:49:50"
+                "DateTime": "2026年10月27日 16:41:08"
             },
             "Manifests": 2448
         },
@@ -24,9 +24,9 @@
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
-                "value": "\/Date(1792934080000)\/",
+                "value": "\/Date(1793078203000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月25日 21:14:40"
+                "DateTime": "2026年10月27日 13:16:43"
             },
             "Manifests": 134
         },
@@ -34,9 +34,9 @@
             "Name": "dorado",
             "Source": "https://github.com/chawyehsu/dorado",
             "Updated": {
-                "value": "\/Date(1792974278000)\/",
+                "value": "\/Date(1793060612000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2026年10月26日 8:24:38"
+                "DateTime": "2026年10月27日 8:23:32"
             },
             "Manifests": 272
         }
@@ -107,9 +107,9 @@
         },
         {
             "Name": "cloudflared",
-            "Version": "2026.10.3",
+            "Version": "2026.10.4",
             "Source": "main",
-            "Updated": "\/Date(1792918829824)\/",
+            "Updated": "\/Date(1793091671999)\/",
             "Info": ""
         },
         {
@@ -170,9 +170,9 @@
         },
         {
             "Name": "gh",
-            "Version": "2.103.2",
+            "Version": "2.103.3",
             "Source": "main",
-            "Updated": "\/Date(1792918941973)\/",
+            "Updated": "\/Date(1793091703984)\/",
             "Info": ""
         },
         {
@@ -247,9 +247,9 @@
         },
         {
             "Name": "nexttrace",
-            "Version": "1.7.4",
+            "Version": "1.7.5",
             "Source": "extras",
-            "Updated": "\/Date(1791709268204)\/",
+            "Updated": "\/Date(1793091725333)\/",
             "Info": ""
         },
         {
@@ -261,9 +261,9 @@
         },
         {
             "Name": "nmap",
-            "Version": "7.992",
+            "Version": "7.993",
             "Source": "main",
-            "Updated": "\/Date(1792223923675)\/",
+            "Updated": "\/Date(1793091830260)\/",
             "Info": ""
         },
         {
@@ -317,9 +317,9 @@
         },
         {
             "Name": "redis",
-            "Version": "8.10.2",
+            "Version": "8.10.3",
             "Source": "main",
-            "Updated": "\/Date(1789808673284)\/",
+            "Updated": "\/Date(1793091869659)\/",
             "Info": ""
         },
         {
